@@ -10,7 +10,7 @@ git clone https://github.com/LSUTigerRacing/Electronics.git
 
 cd FSAE_ELECTRONICS
 
-right click on FSAE_ELECTRONICS in git bash terminal to open file location and find KiCAD project
+Highlight and right click on FSAE_ELECTRONICS in git bash terminal to open file location and find KiCAD project
 
 ------------------------
 
