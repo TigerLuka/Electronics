@@ -6,7 +6,7 @@ Create a token in github so you can pull the repository in git bash
 
 INSIDE GIT BASH TERMINAL
 
-git clone https://github.com/JacobParent7/FSAE_ELECTRONICS.git
+git clone https://github.com/LSUTigerRacing/Electronics.git
 
 cd FSAE_ELECTRONICS
 
