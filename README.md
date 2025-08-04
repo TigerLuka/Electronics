@@ -8,7 +8,7 @@ INSIDE GIT BASH TERMINAL
 
 git clone https://github.com/LSUTigerRacing/Electronics.git
 
-cd FSAE_ELECTRONICS
+cd Electronics
 
 Highlight and right click on FSAE_ELECTRONICS in git bash terminal to open file location and find KiCAD project
 
@@ -20,7 +20,7 @@ MAKE ALL EDITS TO LOCAL COPY HERE
 
 OPEN GIT BASH TERMINAL WHEN FINISHED
 
-cd FSAE_ELECTRONICS/
+cd Electronics
 
 git checkout -b "Branch Name"
 
