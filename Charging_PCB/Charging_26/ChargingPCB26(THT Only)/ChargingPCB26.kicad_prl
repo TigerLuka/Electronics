@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Charging_PCB.kicad_prl",
+    "filename": "ChargingPCB6.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
