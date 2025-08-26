@@ -4853,10 +4853,6 @@
 		(uuid "45c46015-0d14-4ac1-a8a1-1cc739d2b23f")
 	)
 	(no_connect
-		(at 270.51 123.19)
-		(uuid "89699594-7361-460d-bcc2-372cd6e8943c")
-	)
-	(no_connect
 		(at 262.89 254)
 		(uuid "8fd0a68a-6849-4bfd-9623-632acc5af529")
 	)
@@ -8102,7 +8098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "2k"
 			(at 71.12 80.0099 0)
 			(effects
 				(font
@@ -12544,7 +12540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "2k"
 			(at 292.1 80.0099 0)
 			(effects
 				(font
