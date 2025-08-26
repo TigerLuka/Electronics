@@ -1,11 +1,17 @@
-LTspice 24.0.12 for Windows
-Circuit: * C:\Users\parth\OneDrive\Desktop\BSPD_Sim.asc
-Start Time: Tue Apr 22 22:20:28 2025
+LTspice 24.1.6 for Windows
+Circuit: C:\Users\Luka\Documents\GitHub\Electronics\BSPD\SIMS\BSPD\BSPD_Sim.net
+Start Time: Sun Aug 24 10:51:22 2025
 solver = Normal
-Maximum thread count: 12
+Maximum thread count: 16
 tnom = 27
 temp = 27
-method = modified trap
+method = trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.318 seconds.
+Total elapsed time: 0.443 seconds.
+
+Files loaded:
+C:\Users\Luka\Documents\GitHub\Electronics\BSPD\SIMS\BSPD\BSPD_Sim.net
+C:\Users\Luka\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\Luka\AppData\Local\LTspice\lib\sub\LTC.lib
+C:\Users\Luka\AppData\Local\LTspice\lib\sub\NE555.sub
 
