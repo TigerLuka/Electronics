@@ -4415,20 +4415,29 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "https://tinyurl.com/2dm8rjkq"
+	(text "BMS Pulls Low When Ready (High when Fault)"
 		(exclude_from_sim no)
-		(at 39.624 23.876 0)
+		(at 220.218 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(href "https://tinyurl.com/2dm8rjkq")
 		)
-		(uuid "14303755-9680-466f-937c-abbcfb98ec16")
+		(uuid "077fe425-fdbd-431b-8e91-ef772c5fd3e0")
+	)
+	(text "IMD Fault Pulls Low"
+		(exclude_from_sim no)
+		(at 415.036 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e237e2ab-1a15-42fd-bf80-9ec6c0875491")
 	)
 	(text_box "IMD_ChargingShutdown"
 		(exclude_from_sim no)
-		(at 257.81 36.83 0)
+		(at 262.89 45.72 0)
 		(size 166.37 121.92)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4445,6 +4454,26 @@
 			(justify left top)
 		)
 		(uuid "52a66872-ad88-46c2-b87d-b84b157b0bdc")
+	)
+	(text_box "https://tinyurl.com/24l6t9ao"
+		(exclude_from_sim no)
+		(at 16.51 13.97 0)
+		(size 43.18 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "57069f8a-a73b-4eb5-8f66-a7f19de079c0")
 	)
 	(text_box "Pulse Generator Button BMS\n"
 		(exclude_from_sim no)
@@ -4506,26 +4535,6 @@
 		)
 		(uuid "758ebf3a-312c-46fd-9e80-81f5ef70df95")
 	)
-	(text_box "Falstad (4/19/25) - Had to add SR latch for IMD and BMS signals"
-		(exclude_from_sim no)
-		(at 17.78 17.78 0)
-		(size 73.66 15.24)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "799d566f-0558-4bc1-9bce-db6c17570b5f")
-	)
 	(text_box "5v Regulator, max input 35v"
 		(exclude_from_sim no)
 		(at 151.13 210.82 0)
@@ -4568,7 +4577,7 @@
 	)
 	(text_box "BMS_ChargingShutdown"
 		(exclude_from_sim no)
-		(at 29.21 41.91 0)
+		(at 27.94 46.99 0)
 		(size 200.66 119.38)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4743,22 +4752,10 @@
 		(uuid "6cfaa82b-592c-43ff-85ec-9e6dcb6067c8")
 	)
 	(junction
-		(at 407.67 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ae05166-1d46-4669-84de-f518f87645df")
-	)
-	(junction
 		(at 337.82 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8241a2ef-3600-43f3-bb06-394f19af016a")
-	)
-	(junction
-		(at 213.36 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8402ecda-0542-4107-9b6c-ff548d1fd98e")
 	)
 	(junction
 		(at 214.63 213.36)
@@ -4899,16 +4896,6 @@
 			(type default)
 		)
 		(uuid "02d8cd2e-5275-44c1-93da-36e82839a138")
-	)
-	(wire
-		(pts
-			(xy 403.86 116.84) (xy 407.67 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05216677-56de-4f47-833d-8a724da36d94")
 	)
 	(wire
 		(pts
@@ -5112,23 +5099,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 129.54) (xy 198.12 130.81)
+			(xy 198.12 116.84) (xy 198.12 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2241bee2-1058-4d42-89ad-99a345e65a77")
-	)
-	(wire
-		(pts
-			(xy 396.24 121.92) (xy 396.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d988ec-269d-46f1-85cf-4a3d6f90e343")
 	)
 	(wire
 		(pts
@@ -5232,16 +5209,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 101.6) (xy 396.24 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30447033-e9f6-43fe-92f6-28eb7bb1f860")
-	)
-	(wire
-		(pts
 			(xy 273.05 129.54) (xy 273.05 134.62)
 		)
 		(stroke
@@ -5249,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "342f762e-6fd3-40e7-b8bb-fed1def86504")
-	)
-	(wire
-		(pts
-			(xy 396.24 130.81) (xy 396.24 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347c5307-0a84-435f-b298-00b96ab1f146")
 	)
 	(wire
 		(pts
@@ -5279,16 +5236,6 @@
 			(type default)
 		)
 		(uuid "3811904b-bcbe-4cbd-ba16-ba73a1e54646")
-	)
-	(wire
-		(pts
-			(xy 226.06 114.3) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ac8ff6-a5a0-47c8-8108-8bc255c1d982")
 	)
 	(wire
 		(pts
@@ -5409,16 +5356,6 @@
 			(type default)
 		)
 		(uuid "52c2f234-604a-45f8-97a0-29763a31ac03")
-	)
-	(wire
-		(pts
-			(xy 213.36 113.03) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54098484-a4fa-4209-9273-f80bc958c11e")
 	)
 	(wire
 		(pts
@@ -5572,16 +5509,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 116.84) (xy 407.67 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0b6169-7e74-494b-be61-83a737f41a8f")
-	)
-	(wire
-		(pts
 			(xy 68.58 96.52) (xy 78.74 96.52)
 		)
 		(stroke
@@ -5702,13 +5629,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 57.15) (xy 199.39 96.52)
+			(xy 396.24 116.84) (xy 411.48 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8aab3206-77f9-46ae-a868-12a52a26cbf1")
+		(uuid "87d890b2-e4ab-41ad-8962-fc0b2dde1347")
 	)
 	(wire
 		(pts
@@ -5789,26 +5716,6 @@
 			(type default)
 		)
 		(uuid "95c556d3-a153-43e5-82af-576759979afe")
-	)
-	(wire
-		(pts
-			(xy 407.67 116.84) (xy 411.48 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e489e6-878f-4bab-85cf-57e03a4e4f96")
-	)
-	(wire
-		(pts
-			(xy 198.12 101.6) (xy 198.12 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ba6320-84d9-4ab3-8010-6782e085a0d4")
 	)
 	(wire
 		(pts
@@ -5972,6 +5879,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 101.6) (xy 396.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2616eef-12d9-494b-9a46-c2a107d588e6")
+	)
+	(wire
+		(pts
 			(xy 83.82 203.2) (xy 83.82 198.12)
 		)
 		(stroke
@@ -6072,7 +5989,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 119.38) (xy 198.12 121.92)
+			(xy 198.12 101.6) (xy 198.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6109,6 +6026,16 @@
 			(type default)
 		)
 		(uuid "d098c533-b730-4e3f-a334-bc60bf7c1f7b")
+	)
+	(wire
+		(pts
+			(xy 199.39 87.63) (xy 199.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d303caf3-05e2-4938-b4cd-860d9cbf90b6")
 	)
 	(wire
 		(pts
@@ -6282,6 +6209,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 114.3) (xy 396.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b865d5-d1cb-4461-ae30-acbaeb050818")
+	)
+	(wire
+		(pts
 			(xy 74.93 262.89) (xy 74.93 260.35)
 		)
 		(stroke
@@ -6309,16 +6246,6 @@
 			(type default)
 		)
 		(uuid "eba28015-1b28-4979-9a82-c0cda5a1b2bb")
-	)
-	(wire
-		(pts
-			(xy 205.74 114.3) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec697945-06bc-4a02-b738-aeb528d9c128")
 	)
 	(wire
 		(pts
@@ -6541,12 +6468,12 @@
 		(uuid "eaed10b0-a1df-464a-b455-5dd46ae580a4")
 	)
 	(label "BMS_CSO"
-		(at 226.06 114.3 180)
+		(at 199.39 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fa9a9416-25a4-4eb2-b5d6-21daf5858be8")
 	)
@@ -6806,72 +6733,6 @@
 			(project "ChargingPCB6"
 				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
 					(reference "C106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 396.24 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0677650e-a26e-488f-9dbd-c1eb240db76b")
-		(property "Reference" "#PWR016"
-			(at 396.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.24 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 396.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 396.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c63d82ac-a595-4a18-8234-09bc77039fca")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7334,130 +7195,6 @@
 			(project "ChargingPCB6"
 				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 398.78 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11cda6ba-b5d2-429b-aa79-091a4f8fe174")
-		(property "Reference" "Q4"
-			(at 401.32 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 401.32 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
-			(at 393.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipu60r2k1ce-ds-en.pdf?fileId=5546d46249be182c0149c7e409461eac"
-			(at 398.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 398.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 398.78 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 398.78 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 398.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C3278986"
-			(at 398.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "  IPU60R2K1CEAKMA1"
-			(at 398.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "  IPU60R2K1CEAKMA1-ND"
-			(at 398.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8050f801-b1f8-49e8-93bc-25f9f135f6f9")
-		)
-		(pin "2"
-			(uuid "f8b496c1-3f52-41f7-b345-d2151c03fbdd")
-		)
-		(pin "3"
-			(uuid "f3769355-77d1-4b7c-92a1-1cf8f124cd89")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8828,6 +8565,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 396.24 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c89f145-50b4-4eb7-9a38-12e3730e550d")
+		(property "Reference" "R5"
+			(at 398.78 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 398.78 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 397.256 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
+			(at 396.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 396.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MFR-25FBF52-1K"
+			(at 396.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1.00KXBK-ND"
+			(at 396.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd8ca693-7f7c-4ab4-b660-dd005cf64931")
+		)
+		(pin "1"
+			(uuid "3a26466a-b9fb-4667-ac18-8eab40cf28cf")
+		)
+		(instances
+			(project "ChargingPCB26"
+				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 57.15 270.51 0)
 		(unit 1)
@@ -9085,94 +8910,6 @@
 			(project "ChargingPCB6"
 				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 407.67 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45f1a414-d5b9-4b49-9a25-d33102696624")
-		(property "Reference" "R5"
-			(at 410.21 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 410.21 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 408.686 122.174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
-			(at 407.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 407.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MFR-25FTF52-2K2"
-			(at 407.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-MFR-25FTF52-2K2CT-ND"
-			(at 407.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e93bcc1-a903-444d-905c-573c9a421146")
-		)
-		(pin "1"
-			(uuid "b7a0e247-4bde-42ac-b91f-c113bf4d287e")
-		)
-		(instances
-			(project ""
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9478,72 +9215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 213.36 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59048ccc-0d3f-4815-8ee3-c8bfbd484dc7")
-		(property "Reference" "#PWR0102"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 213.36 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "732027e7-e847-43f6-b80b-21401d5c7c3d")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 161.29 287.02 0)
@@ -9611,7 +9282,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 198.12 125.73 0)
+		(at 198.12 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9620,7 +9291,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fe0f8a0-e005-4f06-b54c-d486a3682d7b")
 		(property "Reference" "R6"
-			(at 200.66 124.4599 0)
+			(at 200.66 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,8 +9299,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 200.66 126.9999 0)
+		(property "Value" "10k"
+			(at 200.66 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9309,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 199.136 125.984 90)
+			(at 199.136 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9318,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
-			(at 198.12 125.73 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9327,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 198.12 125.73 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9336,7 @@
 			)
 		)
 		(property "MPN" "MFR-25FBF52-1K"
-			(at 198.12 125.73 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +9345,7 @@
 			)
 		)
 		(property "Digikey" "1.00KXBK-ND"
-			(at 198.12 125.73 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,94 +9498,6 @@
 			(project "ChargingPCB6"
 				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
 					(reference "SW102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 396.24 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "656cd004-a64d-4bba-b554-d55f46b24852")
-		(property "Reference" "R7"
-			(at 398.78 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 398.78 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 397.256 127.254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
-			(at 396.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 396.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MFR-25FBF52-1K"
-			(at 396.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1.00KXBK-ND"
-			(at 396.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ad685a73-e6ef-42dc-b24c-92be5474e562")
-		)
-		(pin "1"
-			(uuid "175e93cf-2894-40d3-9256-a005b48a607c")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12456,72 +12039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 407.67 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1030c1e-2756-4168-b943-898ccdc5d026")
-		(property "Reference" "#PWR017"
-			(at 407.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 407.67 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 407.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 407.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 407.67 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7889653-d6c4-45d9-a7d1-8dc351c06fac")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 289.56 78.74 0)
 		(unit 1)
@@ -12618,130 +12135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 200.66 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b491e9e7-4426-4a50-944a-10d6117e5fc1")
-		(property "Reference" "Q3"
-			(at 202.692 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 202.692 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
-			(at 195.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipu60r2k1ce-ds-en.pdf?fileId=5546d46249be182c0149c7e409461eac"
-			(at 200.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 200.66 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 200.66 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 200.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C3278986"
-			(at 200.66 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "  IPU60R2K1CEAKMA1"
-			(at 200.66 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "  IPU60R2K1CEAKMA1-ND"
-			(at 200.66 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1562251-fd4e-46b5-9dec-ed67fb763437")
-		)
-		(pin "2"
-			(uuid "71c3d16e-fa6b-4f85-bcdb-c79c793e9af9")
-		)
-		(pin "3"
-			(uuid "7654c73e-9707-460d-9954-4eb07da6ef1c")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 138.43 287.02 0)
@@ -12802,71 +12195,6 @@
 			(project "ChargingPCB6"
 				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 199.39 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba622989-dbb7-4efd-9b1c-4ed7a8c194f4")
-		(property "Reference" "#PWR0105"
-			(at 199.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 199.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73ae30ab-afa6-491d-aee6-9d867dc26385")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -13137,7 +12465,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 130.81 0)
+		(at 198.12 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13146,7 +12474,7 @@
 		(fields_autoplaced yes)
 		(uuid "c59bc8e7-cdfe-41a5-986c-f7878b3b7a76")
 		(property "Reference" "#PWR015"
-			(at 198.12 137.16 0)
+			(at 198.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +12483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 135.89 0)
+			(at 198.12 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +12491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 130.81 0)
+			(at 198.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +12500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 130.81 0)
+			(at 198.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +12509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 130.81 0)
+			(at 198.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13809,103 +13137,6 @@
 				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
 					(reference "U5")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 213.36 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d91503d8-292b-487f-bb84-1c0e9123e08d")
-		(property "Reference" "R101"
-			(at 210.82 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 210.82 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 212.344 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" ""
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MFR-25FTF52-2K2"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-MFR-25FTF52-2K2CT-ND"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a31e428-f1de-4ed0-95e3-a5b644167ab9")
-		)
-		(pin "2"
-			(uuid "67ada8de-95f4-421c-821f-8d94b9a8bc93")
-		)
-		(instances
-			(project "ChargingPCB6"
-				(path "/2e059994-eff3-41f5-9c41-8f44aae05df7"
-					(reference "R101")
-					(unit 1)
 				)
 			)
 		)
