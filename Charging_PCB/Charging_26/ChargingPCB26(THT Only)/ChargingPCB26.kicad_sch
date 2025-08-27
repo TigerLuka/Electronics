@@ -4455,26 +4455,6 @@
 		)
 		(uuid "52a66872-ad88-46c2-b87d-b84b157b0bdc")
 	)
-	(text_box "https://tinyurl.com/24l6t9ao"
-		(exclude_from_sim no)
-		(at 16.51 13.97 0)
-		(size 43.18 20.32)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "57069f8a-a73b-4eb5-8f66-a7f19de079c0")
-	)
 	(text_box "Pulse Generator Button BMS\n"
 		(exclude_from_sim no)
 		(at 27.94 232.41 0)
@@ -4554,6 +4534,26 @@
 			(justify left top)
 		)
 		(uuid "83cf6ffa-fba1-4af4-89f3-669599155e18")
+	)
+	(text_box "https://tinyurl.com/2c3k9xbg"
+		(exclude_from_sim no)
+		(at 29.21 15.24 0)
+		(size 52.07 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8450e6ff-b1b2-4d79-a990-3622c3c7f095")
 	)
 	(text_box "12V_Regulator, SR Latch input, Quad NAND Power"
 		(exclude_from_sim no)
