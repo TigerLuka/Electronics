@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G7L-2A-X-L
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g7l_x.pdf
+$ENDCMP
+#
+$CMP GLV+
+D FSAE: Grounded Low Voltage
+K power-flag
+$ENDCMP
+#
+$CMP GLV-
+D FSAE: Grounded Low Voltage
+K power-flag
+$ENDCMP
+#
+$CMP LM331
+F http://www.ti.com/lit/ds/symlink/lm231.pdf
+$ENDCMP
+#
+#End Doc Library
