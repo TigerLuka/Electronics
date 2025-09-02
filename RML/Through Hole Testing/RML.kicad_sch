@@ -4354,6 +4354,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -6485,6 +6503,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AA=="
 		)
 	)
@@ -6758,6 +6794,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A103K15X7RF5TAA/145987"
+			(at 382.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "A103K15X7RF5TAA"
+			(at 382.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1699cf97-17d2-4745-abad-0803fd9fbed5")
 		)
@@ -6925,6 +6977,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT4K70/1741152"
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF12JT4K70"
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c9752ed-310f-4949-a817-8546b1861358")
 		)
@@ -7020,6 +7088,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/onsemi/2N7000/244278"
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "2N7000"
 			(at 238.76 86.36 0)
 			(effects
 				(font
@@ -7394,6 +7478,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX1SJ15K/2381430"
+			(at 97.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "ROX1SJ15K"
+			(at 97.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ac2d0c7-120b-4826-982e-eb8f7a7fb718")
 		)
@@ -7629,6 +7729,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CPF1100K00FKEE6/2713070"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CPF1100K00FKEE6"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93e0582c-d02d-4488-9d05-62173d0f31db")
 		)
@@ -7856,6 +7972,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" ""
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" ""
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project ""
 				(path "/3ca2658d-b0d3-478f-88c8-e8564dea016d"
@@ -7944,6 +8076,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT4K70/1741152"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF12JT4K70"
 			(at 69.85 29.21 0)
 			(effects
 				(font
@@ -8045,6 +8193,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" ""
+			(at 171.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" ""
+			(at 171.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "RML"
 				(path "/3ca2658d-b0d3-478f-88c8-e8564dea016d"
@@ -8135,6 +8299,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF14JT10K0"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -8302,6 +8482,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH617A-1/4075067"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "SFH617A-1"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17146633-cf6e-4e88-b9d8-223dc7f78fb8")
 		)
@@ -8403,6 +8599,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 287.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/onsemi/2N7000/244278"
+			(at 287.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "2N7000"
 			(at 287.02 86.36 0)
 			(effects
 				(font
@@ -8514,6 +8726,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT4K70/1741152"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF12JT4K70"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "505f1468-81f2-4a54-87ab-c380a16222f6")
 		)
@@ -8608,6 +8836,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT4K70/1741152"
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF12JT4K70"
 			(at 59.69 29.21 0)
 			(effects
 				(font
@@ -8784,6 +9028,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA/818165"
+			(at 46.99 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "K105K20X7RF5TH5"
+			(at 46.99 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25426d16-cdef-4a0a-85cc-7fbd454d75ca")
 		)
@@ -8878,6 +9138,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/SN74AHC02N/375964"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "SN74AHC02N"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -8997,6 +9273,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A103K15X7RF5TAA/145987"
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "A103K15X7RF5TAA"
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d2fab3f-0b66-4b81-b8b7-f061ae4f3254")
 		)
@@ -9084,6 +9376,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 171.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" ""
+			(at 171.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" ""
 			(at 171.45 158.75 0)
 			(effects
 				(font
@@ -9247,6 +9555,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "Connector Not Needed"
+			(at 327.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "Connector Not Needed"
+			(at 327.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df87af2d-8dff-4589-829c-023da8a2c5b0")
 		)
@@ -9336,6 +9660,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "Connector Not Needed"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "Connector Not Needed"
 			(at 39.37 71.12 0)
 			(effects
 				(font
@@ -9446,6 +9786,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "K104K10X7RF5UH5"
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95fce73a-8191-4b78-acac-d4f5353bb3f2")
 		)
@@ -9540,6 +9896,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 100.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT4K70/1741152"
+			(at 100.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF12JT4K70"
 			(at 100.33 29.21 0)
 			(effects
 				(font
@@ -9643,6 +10015,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 353.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/FG14X7R1H334KNT06/5802753"
+			(at 353.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "FG14X7R1H334KNT06"
 			(at 353.06 52.07 0)
 			(effects
 				(font
@@ -9820,6 +10208,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/FK14X5R0J226MR020/2815215"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "FK14X5R0J226MR020"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9c8f28a-d34b-4700-90c6-97e08b002bc6")
 		)
@@ -9907,6 +10311,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 151.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" ""
+			(at 151.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" ""
 			(at 151.13 167.64 0)
 			(effects
 				(font
@@ -10077,6 +10497,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/LM555CN-NOPB/6575"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "LM555CN/NOPB"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "f05d419a-1cda-4c26-8f75-1177edbb4bc5")
 		)
@@ -10190,6 +10626,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "Connector Not Needed"
+			(at 242.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "Connector Not Needed"
+			(at 242.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d87de4ba-536f-4ccd-b392-9c25583446fb")
 		)
@@ -10283,6 +10735,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CPF1100K00FKEE6/2713070"
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CPF1100K00FKEE6"
 			(at 107.95 170.18 0)
 			(effects
 				(font
@@ -10391,6 +10859,22 @@
 				)
 			)
 		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/recom-power/RI-1205S/2256371"
+			(at 367.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "RI-1205S"
+			(at 367.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c71b15a-0717-4305-bd20-bcf2f4384439")
 		)
@@ -10488,6 +10972,22 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through Hole Digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT4K70/1741152"
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Through hole Manufacturing Part Number" "CF12JT4K70"
 			(at 80.01 29.21 0)
 			(effects
 				(font
