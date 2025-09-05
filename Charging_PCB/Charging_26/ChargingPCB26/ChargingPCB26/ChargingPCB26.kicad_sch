@@ -14981,10 +14981,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33ceab52-7046-4682-8dcc-0341b324ece5")
 		(property "Reference" "Q105"
-			(at 152.4 271.7799 0)
+			(at 152.146 274.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +14992,7 @@
 			)
 		)
 		(property "Value" "Q_NPN_BEC"
-			(at 152.4 274.3199 0)
+			(at 152.146 277.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
