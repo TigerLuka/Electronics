@@ -9540,24 +9540,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 156.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 156.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e77a47be-17bf-4687-9918-d791e3e1bff3")
 		)
@@ -10203,24 +10185,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/HEF4043BT,653/4764782?gclsrc=aw.ds&gad_source=1&gad_campaignid=21245525508&gbraid=0AAAAADrbLlhPZDJF9NQhnUKetePQ9kdr_&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkvqJnlqoENrlg7K_bYiYHsT6xNdn9auF0j7z6guO6y0aAe9K6zRQQaAq3bEALw_wcB"
-			(at 449.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "HEF4043BT,653"
-			(at 449.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "db5b9671-398c-4320-a6e9-2588f6dce05e")
 		)
@@ -10448,24 +10412,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/liteon/LTV-816S/385831"
-			(at 46.99 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LTV-816S"
-			(at 46.99 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -10926,24 +10872,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/onsemi/BC33740BU/975531?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwQZRdQglR7hmP83kBiqGR7Hw6KdvfoqV0rpiRxPhkbqQOixlwjidhoCf_MQAvD_BwE"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "BC33740BU"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0ccc8b59-4af1-44ae-91ad-671de62d5b9c")
 		)
@@ -11132,24 +11060,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/liteon/LTV-816S/385831"
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LTV-816S"
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -11353,24 +11263,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/finder-relays-inc/34.51.7.060.0010/10056072?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgbc0Ugpp8pQ2VlXgizGlsvQ&gclid=CjwKCAjwq9rFBhAIEiwAGVAZP6n7VyABM2n_1kAETmKIx99MCn27t8UIZ6KZdGS98M_eFOvJ7IYyNBoCvgoQAvD_BwE"
-			(at 191.77 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "34.51.7.060.0010"
-			(at 191.77 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "A1"
 			(uuid "311e0b3b-e4e5-4796-9ab3-1c048f0578ad")
 		)
@@ -11486,24 +11378,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 200.66 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11759,24 +11633,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/liteon/LTV-816S/385831"
-			(at 346.71 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LTV-816S"
-			(at 346.71 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "00d1f272-e9df-44d8-990a-f5d68e7241b8")
 		)
@@ -11898,24 +11754,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/HEF4043BT,653/4764782?gclsrc=aw.ds&gad_source=1&gad_campaignid=21245525508&gbraid=0AAAAADrbLlhPZDJF9NQhnUKetePQ9kdr_&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkvqJnlqoENrlg7K_bYiYHsT6xNdn9auF0j7z6guO6y0aAe9K6zRQQaAq3bEALw_wcB"
-			(at 125.73 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "HEF4043BT,653"
-			(at 125.73 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -12120,24 +11958,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/renesas-electronics-corporation/N0604N-S19-AY/4091294?gclsrc=aw.ds&gad_source=1&gad_campaignid=20914884231&gbraid=0AAAAADrbLljm1ZmR2cQ34Ai8j6n3e9kqO&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPxUFuE1ZfMuLqlMYn_sIV6vC5Mje2SCL4aNfhgbh_f3C6pngdj-2shoCKeEQAvD_BwE"
-			(at 364.49 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "N0604N-S19-AY"
-			(at 364.49 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12521,24 +12341,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 149.86 300.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 149.86 300.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "84862f33-34c5-4e35-ba28-496f0fdc185f")
 		)
@@ -12630,24 +12432,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 295.91 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 295.91 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12759,24 +12543,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 199.39 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 199.39 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12895,24 +12661,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051RS11000/4490012"
-			(at 139.7 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "151051RS11000"
-			(at 139.7 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13093,24 +12841,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 234.95 353.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 234.95 353.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "588537ba-1680-46d1-8f2b-3db72c25d10b")
 		)
@@ -13229,24 +12959,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 55.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 55.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cd130a06-f185-4e0e-9d0e-28896d73edc4")
 		)
@@ -13337,24 +13049,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 320.04 317.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 320.04 317.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13474,24 +13168,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT2K00/1741107"
-			(at 139.7 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF12JT2K00"
-			(at 139.7 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13746,24 +13422,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stmicroelectronics/1N5819/1037326"
-			(at 172.72 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "1N5819"
-			(at 172.72 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6c740720-0e6d-44c0-b466-15b0291860f0")
 		)
@@ -13949,24 +13607,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 157.48 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 157.48 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e623cf91-8378-48b2-81d3-ab5466235504")
 		)
@@ -14081,24 +13721,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 92.71 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 92.71 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14218,24 +13840,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 74.93 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 74.93 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14424,24 +14028,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ad530b18-dfea-4988-8753-5d5fa9ca6cb1")
 		)
@@ -14536,24 +14122,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/infineon-technologies/IRFZ34NPBF/811724?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPyKz6gKqtEIASPvBiSOGw5pGZOb5nQB5hthDVQp1s27HLPu8BDtKoxoCN5kQAvD_BwE"
-			(at 85.09 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "IRFZ34NPBF"
-			(at 85.09 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14668,24 +14236,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 367.03 261.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 367.03 261.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14864,24 +14414,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 227.33 273.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 227.33 273.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "553687b7-f440-4a63-a892-446f54a0bcfa")
 		)
@@ -15000,24 +14532,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3FS-1000/3487234?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhqrGxqQK7jcV9uzsGO6vDNt&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkV4xnnvSl0HumHblWTfdI9TFko9xMtRJ8Og80pW_JOsHGY1-45AecaAiJLEALw_wcB"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "B3FS-1000"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "18d00a7b-0062-4b10-a9cd-c3bd739f5dea")
 		)
@@ -15125,24 +14639,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 264.16 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 264.16 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15392,24 +14888,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A103K15X7RF5TAA/145987"
-			(at 212.09 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "A103K15X7RF5TAA"
-			(at 212.09 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a9a50b5c-2dab-4512-8bb3-39a8138a7cda")
 		)
@@ -15570,24 +15048,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A103K15X7RF5TAA/145987"
-			(at 270.51 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "A103K15X7RF5TAA"
-			(at 270.51 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15838,24 +15298,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 38.1 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 38.1 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16242,24 +15684,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV1T00DCKR/4437953"
-			(at 289.56 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "SN74LV1T00DCKR"
-			(at 289.56 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "119221c2-f5de-4907-897b-57dbbeaa31a1")
 		)
@@ -16386,24 +15810,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16589,24 +15995,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/tdk-corporation/FK20X5R0J476MN000/2815373"
-			(at 386.08 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "FK20X5R0J476MN000"
-			(at 386.08 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "08ca1d3e-aa8f-4473-ad56-5a56cb9b03f7")
 		)
@@ -16725,24 +16113,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "757ccc55-c621-44ba-964f-cac68f6f2a7a")
 		)
@@ -16857,24 +16227,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 439.42 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 439.42 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16996,24 +16348,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 57.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 57.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2c674e3e-78ea-415a-aeba-550848db53d4")
 		)
@@ -17128,24 +16462,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/HEF4043BT,653/4764782?gclsrc=aw.ds&gad_source=1&gad_campaignid=21245525508&gbraid=0AAAAADrbLlhPZDJF9NQhnUKetePQ9kdr_&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkvqJnlqoENrlg7K_bYiYHsT6xNdn9auF0j7z6guO6y0aAe9K6zRQQaAq3bEALw_wcB"
-			(at 267.97 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "HEF4043BT,653"
-			(at 267.97 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -17350,24 +16666,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/renesas-electronics-corporation/N0604N-S19-AY/4091294?gclsrc=aw.ds&gad_source=1&gad_campaignid=20914884231&gbraid=0AAAAADrbLljm1ZmR2cQ34Ai8j6n3e9kqO&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPxUFuE1ZfMuLqlMYn_sIV6vC5Mje2SCL4aNfhgbh_f3C6pngdj-2shoCKeEQAvD_BwE"
-			(at 182.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "N0604N-S19-AY"
-			(at 182.88 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "16f47c95-146a-480a-872f-3fc9c8e1ac05")
 		)
@@ -17556,24 +16854,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/onsemi/BC33740BU/975531?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwQZRdQglR7hmP83kBiqGR7Hw6KdvfoqV0rpiRxPhkbqQOixlwjidhoCf_MQAvD_BwE"
-			(at 227.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "BC33740BU"
-			(at 227.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "44243f3d-ac8e-4f06-9e89-a9bae0fa8fc0")
 		)
@@ -17737,24 +17017,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/renesas-electronics-corporation/N0604N-S19-AY/4091294?gclsrc=aw.ds&gad_source=1&gad_campaignid=20914884231&gbraid=0AAAAADrbLljm1ZmR2cQ34Ai8j6n3e9kqO&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPxUFuE1ZfMuLqlMYn_sIV6vC5Mje2SCL4aNfhgbh_f3C6pngdj-2shoCKeEQAvD_BwE"
-			(at 181.61 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "N0604N-S19-AY"
-			(at 181.61 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17946,24 +17208,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3FS-1000/3487234?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhqrGxqQK7jcV9uzsGO6vDNt&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkV4xnnvSl0HumHblWTfdI9TFko9xMtRJ8Og80pW_JOsHGY1-45AecaAiJLEALw_wcB"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "B3FS-1000"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "131f0d05-5eca-4e11-b413-56f4338ae529")
 		)
@@ -18149,24 +17393,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT2K00/1741107"
-			(at 139.7 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF12JT2K00"
-			(at 139.7 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b720aefb-8b2b-4ea0-bf7f-1a31c2353f4e")
 		)
@@ -18229,24 +17455,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 209.55 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Key" ""
-			(at 209.55 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" ""
 			(at 209.55 351.79 0)
 			(effects
 				(font
@@ -18374,24 +17582,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 130.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 130.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "772aa5d6-2a89-44a1-95fc-9f1357af576f")
 		)
@@ -18492,24 +17682,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT510R/1741459"
-			(at 100.33 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT510R"
-			(at 100.33 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18759,24 +17931,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 91.44 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 91.44 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "58f9be71-6dbd-446f-9d82-596fe887259e")
 		)
@@ -18891,24 +18045,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV1T00DCKR/4437953"
-			(at 88.9 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "SN74LV1T00DCKR"
-			(at 88.9 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19116,24 +18252,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/finder-relays-inc/34.51.7.060.0010/10056072?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgbc0Ugpp8pQ2VlXgizGlsvQ&gclid=CjwKCAjwq9rFBhAIEiwAGVAZP6n7VyABM2n_1kAETmKIx99MCn27t8UIZ6KZdGS98M_eFOvJ7IYyNBoCvgoQAvD_BwE"
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "34.51.7.060.0010"
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "A1"
 			(uuid "da63c3fb-3763-4670-93ca-e211e04bd719")
 		)
@@ -19323,24 +18441,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV1T00DCKR/4437953"
-			(at 87.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "SN74LV1T00DCKR"
-			(at 87.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6e9068d7-5070-40a1-96b0-0678efd50201")
 		)
@@ -19469,24 +18569,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 210.82 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 210.82 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e5fa1103-3b26-4fa3-b6d1-050bc803cee6")
 		)
@@ -19604,24 +18686,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 36.83 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 36.83 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19808,24 +18872,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051RS11000/4490012"
-			(at 139.7 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "151051RS11000"
-			(at 139.7 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "610d8258-8f4b-4a6a-82f1-57fd55229592")
 		)
@@ -19943,24 +18989,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 44.45 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 44.45 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4002822e-76a6-48de-b8c1-6a9c95e47183")
 		)
@@ -20021,24 +19049,6 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Diode, SMA"
-			(at 205.74 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770971?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZP4-zG1qbqwgITcgk093bAIlVsVp3By1J5y7-YnEka_9OcHOfmY8AYBoCu34QAvD_BwE"
-			(at 205.74 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "1N5819RL"
 			(at 205.74 360.68 0)
 			(effects
 				(font
@@ -20140,24 +19150,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 326.39 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 326.39 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9afbe9ac-00ab-4183-afd9-f94625042598")
 		)
@@ -20250,24 +19242,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K105K20X7RF5TH5/2820552"
-			(at 259.08 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K105K20X7RF5TH5"
-			(at 259.08 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20415,24 +19389,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/kyocera-avx/009296001202906/5161720"
-			(at 321.31 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "009296001202906"
-			(at 321.31 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
@@ -20536,24 +19492,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 67.31 300.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 67.31 300.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20673,24 +19611,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 191.77 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 191.77 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7be3944f-0360-4d0e-b20b-9d8583605fba")
 		)
@@ -20785,24 +19705,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/infineon-technologies/IRFZ34NPBF/811724?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPyKz6gKqtEIASPvBiSOGw5pGZOb5nQB5hthDVQp1s27HLPu8BDtKoxoCN5kQAvD_BwE"
-			(at 167.64 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "IRFZ34NPBF"
-			(at 167.64 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -20967,24 +19869,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/texas-instruments/LM555CMX-NOPB/334887"
-			(at 295.91 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LM555CMX/NOPB"
-			(at 295.91 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -21175,24 +20059,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT270R/1741652"
-			(at 234.95 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT270R"
-			(at 234.95 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c7eeea9c-63d5-4b87-af25-b4712930609e")
 		)
@@ -21308,24 +20174,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV1T00DCKR/4437953"
-			(at 320.04 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "SN74LV1T00DCKR"
-			(at 320.04 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21520,24 +20368,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A103K15X7RF5TAA/145987"
-			(at 64.77 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "A103K15X7RF5TAA"
-			(at 64.77 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "486b6abe-b9f3-417f-97e2-2f21c86d896b")
 		)
@@ -21696,24 +20526,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT15K0/1741048"
-			(at 309.88 303.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF12JT15K0"
-			(at 309.88 303.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ca1d3b7d-d3e9-4980-81f8-330144acd922")
 		)
@@ -21806,24 +20618,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/infineon-technologies/IRFZ34NPBF/811724?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPyKz6gKqtEIASPvBiSOGw5pGZOb5nQB5hthDVQp1s27HLPu8BDtKoxoCN5kQAvD_BwE"
-			(at 232.41 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "IRFZ34NPBF"
-			(at 232.41 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -22015,24 +20809,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "08bf3af9-02d8-487c-b2e1-ec22c6b320a1")
 		)
@@ -22150,24 +20926,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/onsemi/BC33740BU/975531?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwQZRdQglR7hmP83kBiqGR7Hw6KdvfoqV0rpiRxPhkbqQOixlwjidhoCf_MQAvD_BwE"
-			(at 54.61 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "BC33740BU"
-			(at 54.61 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22291,24 +21049,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/liteon/LTV-816S/385831"
-			(at 46.99 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LTV-816S"
-			(at 46.99 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -22503,24 +21243,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/liteon/LTV-816S/385831"
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LTV-816S"
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "dbd69e14-1811-4246-aa01-be5c40a25e95")
 		)
@@ -22620,24 +21342,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/tdk-corporation/FK14X5R0J226MR020/2815215"
-			(at 320.04 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "FK14X5R0J226MR020"
-			(at 320.04 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22754,24 +21458,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV1T00DCKR/4437953"
-			(at 88.9 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "SN74LV1T00DCKR"
-			(at 88.9 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22894,24 +21580,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 386.08 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 386.08 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b59157ff-e665-48c9-974f-4b051a739174")
 		)
@@ -23005,24 +21673,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 270.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 270.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23140,24 +21790,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/HEF4043BT,653/4764782?gclsrc=aw.ds&gad_source=1&gad_campaignid=21245525508&gbraid=0AAAAADrbLlhPZDJF9NQhnUKetePQ9kdr_&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkvqJnlqoENrlg7K_bYiYHsT6xNdn9auF0j7z6guO6y0aAe9K6zRQQaAq3bEALw_wcB"
-			(at 125.73 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "HEF4043BT,653"
-			(at 125.73 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -23321,24 +21953,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 38.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 38.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "90522e73-7202-4533-b2c2-fbbee587134f")
 		)
@@ -23458,24 +22072,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stmicroelectronics/1N5819/1037326"
-			(at 171.45 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "1N5819"
-			(at 171.45 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cc006d8b-40d7-4d97-aa1c-3a5449bfc7cc")
 		)
@@ -23536,24 +22132,6 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Diode, SMA"
-			(at 205.74 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770971?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZP4-zG1qbqwgITcgk093bAIlVsVp3By1J5y7-YnEka_9OcHOfmY8AYBoCu34QAvD_BwE"
-			(at 205.74 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "1N5819RL"
 			(at 205.74 370.84 0)
 			(effects
 				(font
@@ -23703,24 +22281,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/kyocera-avx/009296001202906/5161720"
-			(at 295.91 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "009296001202906"
-			(at 295.91 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -24034,24 +22594,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051RS11000/4490012"
-			(at 138.43 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "151051RS11000"
-			(at 138.43 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f5f69fbd-19bc-431a-96fb-afdf406b1268")
 		)
@@ -24230,24 +22772,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641964-1/297691?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhjC8G-D0xP--1NhDFdLTOss&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnueVy9Ncka1kSPdgkunqlGADfSzFoTuWnz_b3k8iWZPX9VTZrne0MaAmGhEALw_wcB"
-			(at 264.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "641964-1"
-			(at 264.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cfe20142-6f9d-4abd-bebb-6776bc19cbf4")
 		)
@@ -24342,24 +22866,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/infineon-technologies/IRFZ34NPBF/811724?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPyKz6gKqtEIASPvBiSOGw5pGZOb5nQB5hthDVQp1s27HLPu8BDtKoxoCN5kQAvD_BwE"
-			(at 154.94 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "IRFZ34NPBF"
-			(at 154.94 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -24522,24 +23028,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 339.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 339.09 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24723,24 +23211,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A103K15X7RF5TAA/145987"
-			(at 138.43 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "A103K15X7RF5TAA"
-			(at 138.43 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4ebde31d-feb8-490e-b646-6e0bc31ac757")
 		)
@@ -24858,24 +23328,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/onsemi/BC33740BU/975531?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwQZRdQglR7hmP83kBiqGR7Hw6KdvfoqV0rpiRxPhkbqQOixlwjidhoCf_MQAvD_BwE"
-			(at 201.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "BC33740BU"
-			(at 201.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25000,24 +23452,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/onsemi/BC33740BU/975531?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwQZRdQglR7hmP83kBiqGR7Hw6KdvfoqV0rpiRxPhkbqQOixlwjidhoCf_MQAvD_BwE"
-			(at 128.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "BC33740BU"
-			(at 128.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bf66160a-08f9-4c5e-aeb8-ef14ae74a0be")
 		)
@@ -25138,24 +23572,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 118.11 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 118.11 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "475dbdf1-5a90-42b4-a4a2-f14ae23a1ff4")
 		)
@@ -25270,24 +23686,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 396.24 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 396.24 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25537,24 +23935,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 92.71 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K104K10X7RF5UH5"
-			(at 92.71 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8cc55c12-042c-459c-8a4e-26f6fa73533c")
 		)
@@ -25741,24 +24121,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 229.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 229.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "28345877-8de5-4f62-baef-05f4098c4d10")
 		)
@@ -25859,24 +24221,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT510R/1741459"
-			(at 17.78 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT510R"
-			(at 17.78 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26065,24 +24409,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "35060480-567c-41ea-b57e-92a4d9b85163")
 		)
@@ -26207,24 +24533,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/finder-relays-inc/34.51.7.060.0010/10056072?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgbc0Ugpp8pQ2VlXgizGlsvQ&gclid=CjwKCAjwq9rFBhAIEiwAGVAZP6n7VyABM2n_1kAETmKIx99MCn27t8UIZ6KZdGS98M_eFOvJ7IYyNBoCvgoQAvD_BwE"
-			(at 190.5 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "34.51.7.060.0010"
-			(at 190.5 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -26352,24 +24660,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF12JT2K00/1741107"
-			(at 138.43 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF12JT2K00"
-			(at 138.43 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4cf67d60-caa6-432d-a801-0ff1a1f9b835")
 		)
@@ -26484,24 +24774,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K105K20X7RF5TH5/2820552"
-			(at 374.65 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "K105K20X7RF5TH5"
-			(at 374.65 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26621,24 +24893,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 146.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 146.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26785,24 +25039,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/kyocera-avx/009296001202906/5161720"
-			(at 321.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "009296001202906"
-			(at 321.31 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
@@ -26914,24 +25150,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stmicroelectronics/1N5819/1037326"
-			(at 166.37 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "1N5819"
-			(at 166.37 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27317,24 +25535,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 54.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 54.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4fdf9c83-d867-4cc6-a66d-f13f4216572b")
 		)
@@ -27653,24 +25853,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3FS-1000/3487234?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhqrGxqQK7jcV9uzsGO6vDNt&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkV4xnnvSl0HumHblWTfdI9TFko9xMtRJ8Og80pW_JOsHGY1-45AecaAiJLEALw_wcB"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "B3FS-1000"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21bfac8a-f562-4f8f-aee4-f69eab29198d")
 		)
@@ -27788,24 +25970,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27927,24 +26091,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 219.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 219.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "da83734b-3e8e-4d88-9987-feba91850d15")
 		)
@@ -28037,24 +26183,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265"
-			(at 354.33 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT10K0"
-			(at 354.33 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28176,24 +26304,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT100K/1741564"
-			(at 34.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF18JT100K"
-			(at 34.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "305dc667-3cc5-4eeb-9b1c-241074f7abf7")
 		)
@@ -28288,24 +26398,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/infineon-technologies/IRFZ34NPBF/811724?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPyKz6gKqtEIASPvBiSOGw5pGZOb5nQB5hthDVQp1s27HLPu8BDtKoxoCN5kQAvD_BwE"
-			(at 72.39 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "IRFZ34NPBF"
-			(at 72.39 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -28404,24 +26496,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/renesas-electronics-corporation/N0604N-S19-AY/4091294?gclsrc=aw.ds&gad_source=1&gad_campaignid=20914884231&gbraid=0AAAAADrbLljm1ZmR2cQ34Ai8j6n3e9kqO&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPxUFuE1ZfMuLqlMYn_sIV6vC5Mje2SCL4aNfhgbh_f3C6pngdj-2shoCKeEQAvD_BwE"
-			(at 180.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "N0604N-S19-AY"
-			(at 180.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28546,24 +26620,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/onsemi/BC33740BU/975531?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlg3AIpQqdbR0jvMdXQpsrUvo&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwQZRdQglR7hmP83kBiqGR7Hw6KdvfoqV0rpiRxPhkbqQOixlwjidhoCf_MQAvD_BwE"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "BC33740BU"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0e2adee0-0472-4b23-b9bd-eee364cfa4ce")
 		)
@@ -28643,24 +26699,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/kyocera-avx/009296001202906/5161720"
-			(at 295.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "009296001202906"
-			(at 295.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -28795,24 +26833,6 @@
 				(hide yes)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/recom-power/RD-0505D/2256316?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgbc0Ugpp8pQ2VlXgizGlsvQ&gclid=CjwKCAjwq9rFBhAIEiwAGVAZPwg962LS23GAZF_fI9mFkFAcBneVIKUpeXWXj-DN3-ZObGvcagJHsxoCDDQQAvD_BwE"
-			(at 354.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "RD-0505D"
-			(at 354.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8535a14e-1be9-4dba-a602-d634076f9f52")
 		)
@@ -28938,24 +26958,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314"
-			(at 204.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "CF14JT1K00"
-			(at 204.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "45d22139-d7e7-4bda-ba98-3aa39c3ee371")
 		)
@@ -29074,24 +27076,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/liteon/LTV-816S/385831"
-			(at 191.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "LTV-816S"
-			(at 191.77 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -29346,24 +27330,6 @@
 				)
 			)
 		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/tdk-corporation/FG14X7R1H334KNT06/5802753"
-			(at 364.49 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "FG14X7R1H334KNT06"
-			(at 364.49 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "492eec4e-4221-4ff4-a0d6-41a7ae647037")
 		)
@@ -29479,24 +27445,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Through Hole Key" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/HEF4043BT,653/4764782?gclsrc=aw.ds&gad_source=1&gad_campaignid=21245525508&gbraid=0AAAAADrbLlhPZDJF9NQhnUKetePQ9kdr_&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkvqJnlqoENrlg7K_bYiYHsT6xNdn9auF0j7z6guO6y0aAe9K6zRQQaAq3bEALw_wcB"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Through Hole Manufacturer" "HEF4043BT,653"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
