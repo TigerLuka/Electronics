@@ -54,6 +54,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -1.5 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ee73096-375e-489c-a61e-97e9a364c498")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bbdc69dc-50a5-40af-b6f0-aa660f4420e2")
+	)
 	(fp_rect
 		(start -2.1 -1.125)
 		(end 2.1 1.125)
@@ -64,6 +84,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "58169211-ab9d-4c5a-9bdb-3a9d88663ae6")
+	)
+	(fp_rect
+		(start -1.75 -0.75)
+		(end 1.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a8294082-1dc7-4300-8fe0-f6779feb997a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.5 -5 0)
@@ -92,4 +123,15 @@
 		(uuid "0a33eb6d-4b25-4ac9-8bf1-c343731a4af6")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.4 1.1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
