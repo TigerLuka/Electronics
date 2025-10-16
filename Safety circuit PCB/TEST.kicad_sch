@@ -3254,7 +3254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 257.81 48.2599 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 255.27 46.99 0)
 			(effects
 				(font
@@ -3290,7 +3290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 255.27 46.99 0)
 			(effects
 				(font
@@ -3335,7 +3335,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 255.27 46.99 0)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_SD-43045-001_08_MOL"
+		(property "Footprint" "SC:CONN_SD-43045-001_08_MOL"
 			(at 33.274 105.156 0)
 			(effects
 				(font
@@ -4308,7 +4308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 143.51 48.2599 0)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -4389,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 218.44 48.2599 0)
 			(effects
 				(font
@@ -4486,7 +4486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -4549,7 +4549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 64.77 48.2599 0)
 			(effects
 				(font
@@ -5029,7 +5029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -5047,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -5092,7 +5092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -6484,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 24.13 48.2599 0)
 			(effects
 				(font
@@ -6502,7 +6502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -6520,7 +6520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -6565,7 +6565,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -6886,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_SD-43045-001_08_MOL"
+		(property "Footprint" "SC:CONN_SD-43045-001_08_MOL"
 			(at 33.274 139.446 0)
 			(effects
 				(font
@@ -9062,7 +9062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 184.15 48.2599 0)
 			(effects
 				(font
@@ -9080,7 +9080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 181.61 46.99 0)
 			(effects
 				(font
@@ -9098,7 +9098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 181.61 46.99 0)
 			(effects
 				(font
@@ -9143,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 181.61 46.99 0)
 			(effects
 				(font
@@ -9221,7 +9221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 102.87 48.2599 0)
 			(effects
 				(font
@@ -9239,7 +9239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -9257,7 +9257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -9302,7 +9302,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "CRCW08051K00FKEA"
+		(property "MFR Part #" "CRCW0805100KJNEA"
 			(at 100.33 46.99 0)
 			(effects
 				(font
