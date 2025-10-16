@@ -65,7 +65,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -227,7 +226,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 		(layer "F.Cu")
 		(uuid "17ca6bc7-0d19-42f4-b01c-630d3fda1dcc")
-		(at 217.5 66.65)
+		(at 134 52.5)
 		(descr "wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP2"
@@ -383,7 +382,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 		(layer "F.Cu")
 		(uuid "1c0c3a4f-05d8-43f6-a37d-e595fb7771da")
-		(at 217.5 83)
+		(at 187.5 50)
 		(descr "wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP5"
@@ -539,7 +538,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 		(layer "F.Cu")
 		(uuid "3c99923c-4535-4572-9266-8550efb9d88e")
-		(at 217.5 77.55)
+		(at 201 100.5)
 		(descr "wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP4"
@@ -1185,7 +1184,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 		(layer "F.Cu")
 		(uuid "eb232b42-0b3e-4b1c-8e10-7ad1ca1f468c")
-		(at 217.5 72.1)
+		(at 120 100)
 		(descr "wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP3"
@@ -1450,22 +1449,6 @@
 		(uuid "2314013c-b130-41ad-8e36-fc2041b5a28e")
 	)
 	(segment
-		(start 130.22 67.09)
-		(end 120.2 77.11)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "37369b22-a953-4a0a-88fb-406775630173")
-	)
-	(segment
-		(start 191.18 67.09)
-		(end 201.2 77.11)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "392041b8-bf1e-4a0a-a4c2-c11de2d38923")
-	)
-	(segment
 		(start 151.5 48.5)
 		(end 146.5 48.5)
 		(width 0.2)
@@ -1474,28 +1457,12 @@
 		(uuid "3fa5c92a-743b-4a77-a86b-3262b10273d9")
 	)
 	(segment
-		(start 201.2 77.11)
-		(end 201.2 99)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "7ad00fac-758b-4580-a2af-2252f538496e")
-	)
-	(segment
 		(start 146.5 49.5)
 		(end 146.46 49.54)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "8b493fda-4563-48b8-a501-16019f499862")
-	)
-	(segment
-		(start 120.2 77.11)
-		(end 120.2 99)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "974b1ada-cbe1-47b7-8748-00aa40110d53")
 	)
 	(segment
 		(start 146.5 48.5)
@@ -1512,6 +1479,38 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "bbabf53d-0868-4518-970c-ad39a508640c")
+	)
+	(segment
+		(start 130.22 67.09)
+		(end 120.2 77.11)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "37369b22-a953-4a0a-88fb-406775630173")
+	)
+	(segment
+		(start 120.2 77.11)
+		(end 120.2 99)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "974b1ada-cbe1-47b7-8748-00aa40110d53")
+	)
+	(segment
+		(start 191.18 67.09)
+		(end 201.2 77.11)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "392041b8-bf1e-4a0a-a4c2-c11de2d38923")
+	)
+	(segment
+		(start 201.2 77.11)
+		(end 201.2 99)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "7ad00fac-758b-4580-a2af-2252f538496e")
 	)
 	(zone
 		(net 0)

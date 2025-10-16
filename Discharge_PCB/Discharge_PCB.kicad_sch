@@ -112,6 +112,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:Relay_SPST-NC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -731,33 +904,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 87.63) (xy 176.53 92.71)
+			(xy 152.4 95.25) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "119cb6dc-522a-4805-9e0c-1c6d00aafbf5")
+		(uuid "04b8c4f9-b677-49de-a57e-942ac87af90e")
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 161.29 95.25)
+			(xy 152.4 87.63) (xy 193.04 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c3c057b-bde5-44c9-bcc5-ff6c28a259e7")
+		(uuid "1183df89-dd1e-45e2-a414-0f19c632865b")
 	)
 	(wire
 		(pts
-			(xy 152.4 87.63) (xy 176.53 87.63)
+			(xy 193.04 87.63) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35253dbc-0e54-4ba3-ac94-181d9e1523e8")
+		(uuid "30755ceb-e3cb-428c-8a9f-18f2e4bcb222")
 	)
 	(wire
 		(pts
@@ -768,6 +941,16 @@
 			(type default)
 		)
 		(uuid "3abfcd07-1c73-42d2-8a63-bf1264fb217a")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4895cf3-7065-404c-ace9-753ca6304c97")
 	)
 	(wire
 		(pts
@@ -961,6 +1144,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50476008-a07b-43b9-af97-25f6047d528b")
+		(property "Reference" "R1"
+			(at 161.036 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 161.036 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.544 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/HSA503K0J/5587244?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogDMABANYDyAFgLb4gC6pADgC5QQAVQB2AS35NMAWULZ8AVwBOhEAF91pGFRAAJAMoBBJHG7qgA"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aecb1442-60a6-4647-bec7-2d4c71f44c2e")
+		)
+		(pin "2"
+			(uuid "abc67a87-bb3f-411b-9821-a8f06c302245")
+		)
+		(instances
+			(project ""
+				(path "/2e316d8b-a221-419f-b549-d02adc4cca38"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:Relay_SPST-NC")
 		(at 144.78 92.71 270)
 		(unit 1)
@@ -1037,7 +1287,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 176.53 92.71 180)
+		(at 193.04 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1045,7 +1295,7 @@
 		(dnp no)
 		(uuid "c115dcc3-6e4c-4505-a993-72a664485d64")
 		(property "Reference" "TP5"
-			(at 180.848 96.012 90)
+			(at 197.358 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1303,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 178.816 96.266 90)
+			(at 195.326 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1311,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 171.45 92.71 0)
+			(at 187.96 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 92.71 0)
+			(at 187.96 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1329,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 176.53 92.71 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1479,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 161.29 95.25 270)
+		(at 171.45 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1237,7 +1487,7 @@
 		(dnp no)
 		(uuid "dd31752d-47ad-438a-9142-52ea0854d471")
 		(property "Reference" "TP4"
-			(at 164.592 90.932 90)
+			(at 174.752 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1495,7 @@
 			)
 		)
 		(property "Value" "HV_Out"
-			(at 164.846 92.964 90)
+			(at 175.006 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1503,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 161.29 100.33 0)
+			(at 171.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 100.33 0)
+			(at 171.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1521,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 161.29 95.25 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
