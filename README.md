@@ -1,3 +1,7 @@
+
+When making a new PCB board, please import corresponding PCB board constraints
+from "Board Templates/JLC" if the board is to be manufactured by JLC.
+
 Download git
 
 Create a token in github so you can pull the repository in git bash
