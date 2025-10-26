@@ -1,4 +1,4 @@
-26646932986296297
+26648696876091763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97124,6 +97124,13 @@ CRCW0805
 0
 2
 2
+SC
+DT1312PAB016
+DT13-12PA-B016-4
+Connector
+0
+12
+12
 SC
 HL-PSC-1608U52GC-G4
 
