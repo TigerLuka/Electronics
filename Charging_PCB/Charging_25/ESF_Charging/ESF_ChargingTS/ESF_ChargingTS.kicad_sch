@@ -2203,6 +2203,17 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 88.9) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "0c21922b-fdda-4a61-88d4-3968d625901a")
+	)
+	(wire
+		(pts
 			(xy 269.24 78.74) (xy 269.24 76.2)
 		)
 		(stroke
@@ -2279,28 +2290,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 78.74) (xy 243.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "265d1dad-6cc6-424a-a946-1a2c9287cb0b")
-	)
-	(wire
-		(pts
-			(xy 212.09 76.2) (xy 228.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "28542aeb-255b-48de-a827-44636fdc2437")
-	)
-	(wire
-		(pts
 			(xy 33.02 106.68) (xy 33.02 99.06)
 		)
 		(stroke
@@ -2362,6 +2351,17 @@
 			(color 0 255 255 1)
 		)
 		(uuid "3cff164d-ba50-41fa-badb-e2930d633091")
+	)
+	(wire
+		(pts
+			(xy 256.54 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "42d80d3d-761b-4fca-b6c8-916c42c4d22d")
 	)
 	(wire
 		(pts
@@ -2452,17 +2452,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 76.2) (xy 204.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "4fd1eb95-ac17-4784-be72-e1481591c322")
-	)
-	(wire
-		(pts
 			(xy 36.83 106.68) (xy 36.83 101.6)
 		)
 		(stroke
@@ -2524,6 +2513,17 @@
 			(color 0 255 0 1)
 		)
 		(uuid "74eea32e-6b8e-4dae-9062-d0f06b41eea4")
+	)
+	(wire
+		(pts
+			(xy 204.47 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "782697ef-1789-400d-b9c9-90a50fe91794")
 	)
 	(wire
 		(pts
@@ -2707,6 +2707,17 @@
 			(color 0 255 255 1)
 		)
 		(uuid "bffc7d26-aec2-44ca-9df0-995c7673cfed")
+	)
+	(wire
+		(pts
+			(xy 243.84 78.74) (xy 248.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "c55d55f3-9b7a-43f8-abb3-e1a4d0ddfef1")
 	)
 	(wire
 		(pts
@@ -3707,7 +3718,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 208.28 76.2 90)
+		(at 252.73 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3715,7 +3726,7 @@
 		(dnp no)
 		(uuid "a5b17e9d-ae80-47f7-bfcf-19d7c9bff9fd")
 		(property "Reference" "F1"
-			(at 208.28 69.85 90)
+			(at 252.73 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3735,7 @@
 			)
 		)
 		(property "Value" "200A Fuse"
-			(at 208.28 73.152 90)
+			(at 253.238 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 77.978 90)
+			(at 252.73 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 76.2 0)
+			(at 252.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3761,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 208.28 76.2 0)
+			(at 252.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
