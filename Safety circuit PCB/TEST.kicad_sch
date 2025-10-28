@@ -2390,7 +2390,7 @@
 	(text_box "CONNECTORS"
 		(exclude_from_sim no)
 		(at 15.875 67.31 0)
-		(size 64.135 68.58)
+		(size 64.135 107.315)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2597,6 +2597,54 @@
 		(color 0 0 0 0)
 		(uuid "f4eb9ade-454b-4516-8ef2-6fc2ac4577c7")
 	)
+	(no_connect
+		(at 43.18 157.48)
+		(uuid "15d3c26d-2e3a-4ada-970d-367030e791b1")
+	)
+	(no_connect
+		(at 43.18 149.86)
+		(uuid "24cb8d63-49e5-41c9-aaaa-835753a0002c")
+	)
+	(no_connect
+		(at 20.32 154.94)
+		(uuid "293914ab-5805-4810-88d0-232da712dc4f")
+	)
+	(no_connect
+		(at 43.18 147.32)
+		(uuid "39289f3f-cce8-4a0e-842c-8f28290f71fa")
+	)
+	(no_connect
+		(at 33.02 113.03)
+		(uuid "400ce309-5dde-42e8-9ac5-3f59adec8bea")
+	)
+	(no_connect
+		(at 43.18 160.02)
+		(uuid "6d4b98a2-2870-4bb4-a990-311d0b994a51")
+	)
+	(no_connect
+		(at 20.32 149.86)
+		(uuid "78ceda70-ad21-460e-89de-b1e2dbe39073")
+	)
+	(no_connect
+		(at 43.18 152.4)
+		(uuid "9626216b-a215-4cfb-8bfa-df9b45fd2a0c")
+	)
+	(no_connect
+		(at 43.18 154.94)
+		(uuid "9dcad990-8059-47c8-9bba-1e43e004f031")
+	)
+	(no_connect
+		(at 20.32 152.4)
+		(uuid "9fa5da4f-6644-4d24-9eb0-4e1abf95f6a7")
+	)
+	(no_connect
+		(at 33.02 83.82)
+		(uuid "b4affa95-347c-432d-9552-ea3e3886a876")
+	)
+	(no_connect
+		(at 20.32 157.48)
+		(uuid "c28dc79b-a4b2-47e0-bd54-2aa586e93bd4")
+	)
 	(wire
 		(pts
 			(xy 26.67 43.18) (xy 21.59 43.18)
@@ -2636,16 +2684,6 @@
 			(type default)
 		)
 		(uuid "0827e0e0-1249-4a97-a57b-85b2fafaf258")
-	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 45.72 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0982b9ce-2cd7-426f-8a77-66c8a3659d9f")
 	)
 	(wire
 		(pts
@@ -2959,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 160.02) (xy 20.32 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72664b18-dbcf-4f18-9bc9-601e8bae60b0")
+	)
+	(wire
+		(pts
 			(xy 41.91 21.59) (xy 34.29 21.59)
 		)
 		(stroke
@@ -2966,16 +3014,6 @@
 			(type default)
 		)
 		(uuid "75243174-b84b-4873-8314-225909132bf1")
-	)
-	(wire
-		(pts
-			(xy 33.02 113.03) (xy 41.91 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75817552-25ec-4a78-9618-1e29d95c2699")
 	)
 	(wire
 		(pts
@@ -2996,6 +3034,16 @@
 			(type default)
 		)
 		(uuid "7b0d5e04-ed55-48a7-8842-2631f8d44abd")
+	)
+	(wire
+		(pts
+			(xy 20.32 144.78) (xy 20.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebcf40d-1ef3-4874-8943-96670826be4b")
 	)
 	(wire
 		(pts
@@ -3478,7 +3526,7 @@
 		(uuid "400f87c6-ff57-4c75-af94-a871a7fe0912")
 	)
 	(label "INPUT"
-		(at 41.91 113.03 0)
+		(at 20.32 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3488,12 +3536,12 @@
 		(uuid "5b3ca0d6-6ed5-4aa6-b7eb-ef33d0234b61")
 	)
 	(label "OUTPUT"
-		(at 45.72 83.82 0)
+		(at 20.32 163.83 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6c9ab471-11ae-4d8b-9020-64682b724f1e")
 	)
@@ -3631,15 +3679,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 255.27 46.99 0)
 			(effects
@@ -3658,25 +3697,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 255.27 46.99 0)
 			(effects
 				(font
@@ -3704,6 +3725,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 255.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 255.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 255.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 255.27 46.99 0)
 			(effects
 				(font
@@ -3800,15 +3848,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 34.29 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 34.29 25.4 90)
 			(effects
@@ -3819,24 +3858,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 34.29 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 34.29 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 34.29 25.4 90)
 			(effects
 				(font
@@ -3873,6 +3894,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 34.29 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 34.29 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 34.29 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 34.29 25.4 90)
 			(effects
 				(font
@@ -4365,33 +4413,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450801_sd.pdf?inline"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/MOLEX-430450801/C5765943"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C5765943"
-			(at 33.02 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "430450801"
 			(at 33.02 96.52 0)
 			(effects
@@ -4412,6 +4433,33 @@
 		)
 		(property "Symbol Source" "https://www.molex.com/en-us/products/part-detail/0430450801"
 			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450801_sd.pdf?inline"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/MOLEX-430450801/C5765943"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C5765943"
+			(at 33.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,15 +4573,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 194.31 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 194.31 25.4 90)
 			(effects
@@ -4544,24 +4583,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 194.31 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 194.31 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 194.31 25.4 90)
 			(effects
 				(font
@@ -4598,6 +4619,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 194.31 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 194.31 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 194.31 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 194.31 25.4 90)
 			(effects
 				(font
@@ -4685,15 +4733,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 140.97 46.99 0)
 			(effects
@@ -4712,25 +4751,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -4758,6 +4779,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -4845,15 +4893,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 215.9 46.99 0)
 			(effects
@@ -4872,25 +4911,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -4918,6 +4939,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -5017,33 +5065,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 191.77 43.18 0)
 			(effects
@@ -5063,6 +5084,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -5162,15 +5210,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 74.93 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 74.93 25.4 90)
 			(effects
@@ -5181,24 +5220,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 74.93 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 74.93 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 74.93 25.4 90)
 			(effects
 				(font
@@ -5235,6 +5256,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 74.93 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 74.93 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 74.93 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 74.93 25.4 90)
 			(effects
 				(font
@@ -5388,15 +5436,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 62.23 46.99 0)
 			(effects
@@ -5415,25 +5454,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -5461,6 +5482,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -5548,15 +5596,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 194.31 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 194.31 35.56 0)
 			(effects
@@ -5575,25 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 194.31 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 194.31 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 194.31 35.56 0)
 			(effects
 				(font
@@ -5621,6 +5642,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 194.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 194.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 194.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 194.31 35.56 0)
 			(effects
 				(font
@@ -5786,33 +5834,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 151.13 43.18 0)
 			(effects
@@ -5832,6 +5853,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -6186,15 +6234,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 228.6 35.56 0)
 			(effects
@@ -6213,25 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -6259,6 +6280,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -6424,33 +6472,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 265.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 265.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 265.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 265.43 43.18 0)
 			(effects
@@ -6470,6 +6491,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 265.43 43.18 0)
 			(effects
 				(font
@@ -6635,15 +6683,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 267.97 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 267.97 25.4 90)
 			(effects
@@ -6654,24 +6693,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 267.97 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 267.97 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 267.97 25.4 90)
 			(effects
 				(font
@@ -6708,6 +6729,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 267.97 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 267.97 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 267.97 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 267.97 25.4 90)
 			(effects
 				(font
@@ -6861,15 +6909,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 21.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 21.59 46.99 0)
 			(effects
@@ -6888,25 +6927,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 21.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 21.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -6934,6 +6955,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -7096,15 +7144,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 228.6 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 228.6 25.4 90)
 			(effects
@@ -7115,24 +7154,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 228.6 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 228.6 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 228.6 25.4 90)
 			(effects
 				(font
@@ -7169,6 +7190,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 228.6 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 228.6 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 228.6 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 228.6 25.4 90)
 			(effects
 				(font
@@ -7265,33 +7313,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450801_sd.pdf?inline"
-			(at 33.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/MOLEX-430450801/C5765943"
-			(at 33.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C5765943"
-			(at 33.02 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "430450801"
 			(at 33.02 130.81 0)
 			(effects
@@ -7312,6 +7333,33 @@
 		)
 		(property "Symbol Source" "https://www.molex.com/en-us/products/part-detail/0430450801"
 			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450801_sd.pdf?inline"
+			(at 33.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/MOLEX-430450801/C5765943"
+			(at 33.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C5765943"
+			(at 33.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,15 +7464,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 113.03 35.56 0)
 			(effects
@@ -7443,25 +7482,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 113.03 35.56 0)
 			(effects
 				(font
@@ -7489,6 +7510,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 113.03 35.56 0)
 			(effects
 				(font
@@ -7588,33 +7636,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 226.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 226.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 226.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 226.06 43.18 0)
 			(effects
@@ -7634,6 +7655,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -7736,33 +7784,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 110.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 110.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 110.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 110.49 43.18 0)
 			(effects
@@ -7782,6 +7803,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 110.49 43.18 0)
 			(effects
 				(font
@@ -7884,33 +7932,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 72.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 72.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 72.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 72.39 43.18 0)
 			(effects
@@ -7930,6 +7951,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 72.39 43.18 0)
 			(effects
 				(font
@@ -8086,15 +8134,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 267.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 267.97 35.56 0)
 			(effects
@@ -8113,25 +8152,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 267.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 267.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 267.97 35.56 0)
 			(effects
 				(font
@@ -8159,6 +8180,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 267.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 267.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 267.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 267.97 35.56 0)
 			(effects
 				(font
@@ -8246,15 +8294,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 74.93 35.56 0)
 			(effects
@@ -8273,25 +8312,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 74.93 35.56 0)
 			(effects
 				(font
@@ -8319,6 +8340,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 74.93 35.56 0)
 			(effects
 				(font
@@ -8418,33 +8466,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
-			(at 31.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
-			(at 31.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL#" "C81445"
-			(at 31.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "2N7002K-T1-GE3"
 			(at 31.75 43.18 0)
 			(effects
@@ -8464,6 +8485,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176217846321152"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-2N7002K_T1GE3/C81445"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C81445"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -8629,15 +8677,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 113.03 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 113.03 25.4 90)
 			(effects
@@ -8648,24 +8687,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 113.03 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 113.03 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 113.03 25.4 90)
 			(effects
 				(font
@@ -8702,6 +8723,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 113.03 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 113.03 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 113.03 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 113.03 25.4 90)
 			(effects
 				(font
@@ -8921,15 +8969,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" "R"
 			(at 34.29 35.56 0)
 			(effects
@@ -8939,25 +8978,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 34.29 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 34.29 35.56 0)
 			(effects
 				(font
@@ -8994,6 +9015,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 34.29 35.56 0)
 			(effects
 				(font
@@ -9109,7 +9157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DT1312PAB016"
+		(property "Footprint" "SC:DT1312PAB016"
 			(at 39.37 242.24 0)
 			(effects
 				(font
@@ -9119,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773962-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=DT13-12PA-B016&DocFormat=pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8602784638431875072"
 			(at 39.37 342.24 0)
 			(effects
 				(font
@@ -9148,43 +9196,57 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "571-DT13-12PA-B016"
-			(at 39.37 642.24 0)
+		(property "Drawing" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=DT13-12PX-B016&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=DT13-12PA-B016"
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-DEUTSCH/DT13-12PA-B016?qs=vkMqrgFpRaiA6MCeYpv2Ag%3D%3D"
-			(at 39.37 742.24 0)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8602784638431875072"
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 39.37 842.24 0)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/TEConnectivity-DT13_12PAB016/C17266705"
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DT13-12PA-B016"
-			(at 39.37 942.24 0)
+		(property "JLC Part #" "C17266705"
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "DT13-12PA-B016"
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9363,15 +9425,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 153.67 35.56 0)
 			(effects
@@ -9390,25 +9443,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW08051K00FKEA"
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -9436,6 +9471,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -9589,15 +9651,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 181.61 46.99 0)
 			(effects
@@ -9616,25 +9669,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 181.61 46.99 0)
 			(effects
 				(font
@@ -9662,6 +9697,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 181.61 46.99 0)
 			(effects
 				(font
@@ -9748,15 +9810,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" " C844939"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 100.33 46.99 0)
 			(effects
@@ -9775,25 +9828,7 @@
 				(hide yes)
 			)
 		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -9821,6 +9856,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" " C844939"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -9917,15 +9979,6 @@
 				(hide yes)
 			)
 		)
-		(property "JCL#" "C22371297"
-			(at 153.67 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 153.67 25.4 90)
 			(effects
@@ -9936,24 +9989,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 153.67 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
-			(at 153.67 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCL Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
 			(at 153.67 25.4 90)
 			(effects
 				(font
@@ -9990,6 +10025,33 @@
 			)
 		)
 		(property "MFR Link" ""
+			(at 153.67 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590916697501356032"
+			(at 153.67 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23857065-PSC_1608U50GCG4/C22371298"
+			(at 153.67 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part #" "C22371297"
 			(at 153.67 25.4 90)
 			(effects
 				(font
