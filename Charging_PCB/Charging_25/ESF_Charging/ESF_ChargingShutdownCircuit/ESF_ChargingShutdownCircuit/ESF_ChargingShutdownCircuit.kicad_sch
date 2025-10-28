@@ -3626,293 +3626,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_GSD"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS_GSD"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, gate/source/drain"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_GSD_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -4646,12 +4359,6 @@
 		(uuid "0faaf65f-613f-4933-866d-5f9543edd230")
 	)
 	(junction
-		(at 179.07 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1264a8d7-b5e4-40e6-b96b-0ab228bad142")
-	)
-	(junction
 		(at 130.81 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4662,6 +4369,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2add5de9-92b1-471d-86d5-52c469b68da0")
+	)
+	(junction
+		(at 350.52 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5745b441-dac0-4516-a356-a434edcd0a80")
 	)
 	(junction
 		(at 288.29 238.76)
@@ -4680,12 +4393,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78f293d8-aa09-4fe4-9d8b-664e6f40a5cd")
-	)
-	(junction
-		(at 308.61 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f535c49-8e43-4f1a-8fd8-ca5b3bab3b97")
 	)
 	(junction
 		(at 295.91 189.23)
@@ -4718,28 +4425,22 @@
 		(uuid "c09c19b2-f171-4bd6-ab84-0c2fdd8923aa")
 	)
 	(junction
-		(at 322.58 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c180f864-bb0d-4da5-818b-fbbc9df30042")
-	)
-	(junction
 		(at 90.17 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3d37715-5b69-48f5-9715-cb889685d02d")
 	)
 	(junction
-		(at 195.58 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6da51e0-e51e-4aab-b48c-ae4df1be27f5")
-	)
-	(junction
 		(at 335.28 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea79b994-9e28-40db-b4a3-04191b7d5fb5")
+	)
+	(junction
+		(at 220.98 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f12c34-d8a8-4aaa-af14-f5d251961b0f")
 	)
 	(junction
 		(at 260.35 95.25)
@@ -4810,6 +4511,17 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 80.01) (xy 292.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "0145060f-c475-4a2a-b9de-1336d0e678b8")
+	)
+	(wire
+		(pts
 			(xy 142.24 184.15) (xy 142.24 189.23)
 		)
 		(stroke
@@ -4848,6 +4560,16 @@
 			(type default)
 		)
 		(uuid "05d68535-bc2e-41f1-a571-70ff0b9c5536")
+	)
+	(wire
+		(pts
+			(xy 215.9 198.12) (xy 215.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c33b7b-c45e-4f09-b031-d1b5e29ed126")
 	)
 	(wire
 		(pts
@@ -4891,16 +4613,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 195.58) (xy 195.58 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7b43e8-4d36-4809-ae83-4d8f7c8c4fdd")
-	)
-	(wire
-		(pts
 			(xy 335.28 210.82) (xy 335.28 220.98)
 		)
 		(stroke
@@ -4908,6 +4620,16 @@
 			(type default)
 		)
 		(uuid "0e90fc17-c508-473b-b63a-d54502a58c19")
+	)
+	(wire
+		(pts
+			(xy 220.98 198.12) (xy 215.9 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb6dc3f-c501-4816-a85e-7228f513e0da")
 	)
 	(wire
 		(pts
@@ -4929,6 +4651,16 @@
 			(color 0 132 0 1)
 		)
 		(uuid "14c10641-97c6-432e-b196-98ac9549db8c")
+	)
+	(wire
+		(pts
+			(xy 307.34 82.55) (xy 313.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159e4123-1141-4d50-b43e-80912c223a31")
 	)
 	(wire
 		(pts
@@ -4973,13 +4705,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 182.88) (xy 201.93 182.88)
+			(xy 220.98 179.07) (xy 220.98 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d9db3a7-b50d-4825-9191-c1ba8b3b200b")
+		(uuid "1c74b642-5708-4251-9e0c-a914147bcfe2")
 	)
 	(wire
 		(pts
@@ -4991,6 +4723,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "20292194-a1a4-4cd0-b105-9960c585d136")
+	)
+	(wire
+		(pts
+			(xy 220.98 198.12) (xy 220.98 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218c0f8c-ea55-4e9f-8abb-2c0a8780e012")
 	)
 	(wire
 		(pts
@@ -5045,16 +4787,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 165.1) (xy 308.61 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29dfec7b-58ce-4e85-9537-e552d786098e")
-	)
-	(wire
-		(pts
 			(xy 276.86 208.28) (xy 283.21 208.28)
 		)
 		(stroke
@@ -5086,6 +4818,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 82.55) (xy 332.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f48082-bb4c-40da-b7d8-688ab8a32b6c")
+	)
+	(wire
+		(pts
 			(xy 288.29 238.76) (xy 307.34 238.76)
 		)
 		(stroke
@@ -5093,27 +4835,6 @@
 			(type default)
 		)
 		(uuid "316cd5c2-5238-47bc-9e85-9f7e8339614e")
-	)
-	(wire
-		(pts
-			(xy 275.59 80.01) (xy 292.1 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "329f7ec6-88ff-4f5a-bbac-84551742065b")
-	)
-	(wire
-		(pts
-			(xy 219.71 210.82) (xy 219.71 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3315d6d1-ecbe-4aee-a318-eeef3d7aee8d")
 	)
 	(wire
 		(pts
@@ -5137,16 +4858,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 185.42) (xy 195.58 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b829e31-a48a-4f18-b3b0-ed3f778f81d8")
-	)
-	(wire
-		(pts
 			(xy 165.1 95.25) (xy 186.69 95.25)
 		)
 		(stroke
@@ -5158,26 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 176.53) (xy 350.52 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3935df-8e20-4f5c-aeee-22f00fe7657f")
-	)
-	(wire
-		(pts
-			(xy 179.07 175.26) (xy 179.07 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3df86af8-5cc0-41b5-9bea-32ce621d4617")
-	)
-	(wire
-		(pts
 			(xy 332.74 114.3) (xy 332.74 110.49)
 		)
 		(stroke
@@ -5186,16 +4877,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "41156922-2568-4964-86f4-4f99ff03938a")
-	)
-	(wire
-		(pts
-			(xy 179.07 166.37) (xy 179.07 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42333b38-3c59-43e3-aaff-e140aedd3a16")
 	)
 	(wire
 		(pts
@@ -5219,13 +4900,13 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 184.15) (xy 322.58 181.61)
+			(xy 350.52 223.52) (xy 358.14 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "459021e5-40bd-448d-a70e-2e9722b2125f")
+		(uuid "47dbb26d-3e29-4344-9d15-0eb5ce8562d0")
 	)
 	(wire
 		(pts
@@ -5247,6 +4928,16 @@
 			(color 0 255 255 1)
 		)
 		(uuid "48ac6a6f-f587-4134-b06d-b38fd15cb8b0")
+	)
+	(wire
+		(pts
+			(xy 350.52 210.82) (xy 350.52 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490c80d4-397e-4937-a1c9-e0d82ec02404")
 	)
 	(wire
 		(pts
@@ -5319,6 +5010,16 @@
 			(color 0 255 0 1)
 		)
 		(uuid "4f25d0a3-48ae-4fe9-8272-0d2e7c21bbaf")
+	)
+	(wire
+		(pts
+			(xy 220.98 193.04) (xy 220.98 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502196eb-6fe7-4b8b-bff0-747d1387d3fe")
 	)
 	(wire
 		(pts
@@ -5468,23 +5169,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 176.53) (xy 179.07 176.53)
+			(xy 350.52 223.52) (xy 350.52 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ddd72b-c976-41d0-92e6-3ca716710b60")
-	)
-	(wire
-		(pts
-			(xy 350.52 210.82) (xy 350.52 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e1d954-1358-4456-b23b-f6cf426a1d6c")
+		(uuid "77223ac3-a4f2-49a3-91fe-fd7256b90b3e")
 	)
 	(wire
 		(pts
@@ -5623,13 +5314,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 176.53) (xy 187.96 176.53)
+			(xy 215.9 177.8) (xy 198.12 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e42123d-4feb-4056-b7af-648b352d4bd8")
+		(uuid "8b7639a0-ce71-4e3d-b086-6713507ea59e")
 	)
 	(wire
 		(pts
@@ -5676,26 +5367,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 157.48) (xy 322.58 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc78290-8f12-406d-aea3-26d5c013ec18")
-	)
-	(wire
-		(pts
-			(xy 322.58 171.45) (xy 342.9 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e08e49c-2914-44f7-8611-780d19037877")
-	)
-	(wire
-		(pts
 			(xy 288.29 69.85) (xy 292.1 69.85)
 		)
 		(stroke
@@ -5707,26 +5378,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 170.18) (xy 322.58 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a153230b-6c6b-49c9-b7d0-dd377b67e3bc")
-	)
-	(wire
-		(pts
-			(xy 350.52 161.29) (xy 350.52 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b49646-5400-4e00-a3df-a3426febe2bb")
-	)
-	(wire
-		(pts
 			(xy 219.71 97.79) (xy 223.52 97.79)
 		)
 		(stroke
@@ -5735,16 +5386,6 @@
 			(color 0 255 0 1)
 		)
 		(uuid "a519484e-69ce-4c18-8426-458f505b1f5f")
-	)
-	(wire
-		(pts
-			(xy 308.61 166.37) (xy 308.61 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5337d50-7e29-4024-9bd4-fc78d380b9f0")
 	)
 	(wire
 		(pts
@@ -5787,16 +5428,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "a6918b42-98f9-4db2-9cc1-4f452bc3e040")
-	)
-	(wire
-		(pts
-			(xy 322.58 173.99) (xy 322.58 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ef4a55-4d42-49e3-bf61-02c1eb0237b7")
 	)
 	(wire
 		(pts
@@ -5864,16 +5495,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 165.1) (xy 314.96 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b492340d-f254-4187-b5f4-93e22be08b58")
-	)
-	(wire
-		(pts
 			(xy 57.15 139.7) (xy 76.2 139.7)
 		)
 		(stroke
@@ -5902,17 +5523,6 @@
 			(type default)
 		)
 		(uuid "b863482f-aa1f-4822-b6dc-1d5fc20289c9")
-	)
-	(wire
-		(pts
-			(xy 332.74 82.55) (xy 307.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "b8cf0a58-4921-4c70-9bd7-c24552aec046")
 	)
 	(wire
 		(pts
@@ -5956,6 +5566,26 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 181.61) (xy 350.52 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8628b2-70be-40bc-8e91-5835fa3a7e9c")
+	)
+	(wire
+		(pts
+			(xy 350.52 198.12) (xy 350.52 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9443fd-068f-4387-b6f0-81c7dd9c8799")
+	)
+	(wire
+		(pts
 			(xy 246.38 123.19) (xy 243.84 123.19)
 		)
 		(stroke
@@ -5964,16 +5594,6 @@
 			(color 255 0 255 1)
 		)
 		(uuid "bef78c43-0e42-4722-89df-07778b60216a")
-	)
-	(wire
-		(pts
-			(xy 195.58 181.61) (xy 195.58 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e20464-a1cf-43ef-87d3-b607f72449d9")
 	)
 	(wire
 		(pts
@@ -6100,6 +5720,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 210.82) (xy 219.71 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37db925-e8bb-4a6b-858a-07fbc8db6640")
+	)
+	(wire
+		(pts
 			(xy 124.46 208.28) (xy 124.46 205.74)
 		)
 		(stroke
@@ -6142,16 +5772,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 182.88) (xy 201.93 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7caadc7-1c66-4798-9b7b-a3a193f8e461")
-	)
-	(wire
-		(pts
 			(xy 123.19 130.81) (xy 139.7 130.81)
 		)
 		(stroke
@@ -6160,16 +5780,6 @@
 			(color 0 255 255 1)
 		)
 		(uuid "da2ab34c-d08d-42e8-9fc3-dada42104a95")
-	)
-	(wire
-		(pts
-			(xy 220.98 166.37) (xy 220.98 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8d981d-c951-469e-b346-49db9cbb1f4a")
 	)
 	(wire
 		(pts
@@ -6190,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "de8f7a68-3a7c-463e-9aee-f50163a09267")
+	)
+	(wire
+		(pts
+			(xy 219.71 223.52) (xy 219.71 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e099be4f-7c62-4790-a983-1191bdf62c71")
 	)
 	(wire
 		(pts
@@ -6221,16 +5841,6 @@
 			(type default)
 		)
 		(uuid "e33e2f73-8550-4da0-b49a-f39aa3878514")
-	)
-	(wire
-		(pts
-			(xy 220.98 181.61) (xy 220.98 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3679416-9273-4a86-b440-12c582bbcf60")
 	)
 	(wire
 		(pts
@@ -6287,16 +5897,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 176.53) (xy 213.36 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd24529-5563-42bd-bd9a-fc034f3bb9c3")
-	)
-	(wire
-		(pts
 			(xy 115.57 208.28) (xy 124.46 208.28)
 		)
 		(stroke
@@ -6304,16 +5904,6 @@
 			(type default)
 		)
 		(uuid "eeeff0a8-2f90-4733-b396-f3216ecae8e1")
-	)
-	(wire
-		(pts
-			(xy 195.58 166.37) (xy 195.58 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef852d76-4db9-4ead-95d0-02985a90df74")
 	)
 	(wire
 		(pts
@@ -6397,16 +5987,6 @@
 			(type default)
 		)
 		(uuid "f9424806-d767-427c-b6d4-f521061ee83e")
-	)
-	(wire
-		(pts
-			(xy 308.61 175.26) (xy 308.61 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9734840-1bfb-4c3a-9467-6e04e7ae0618")
 	)
 	(wire
 		(pts
@@ -6549,7 +6129,7 @@
 		)
 		(uuid "25db2f3c-dc58-48d7-9f63-805a09b48738")
 	)
-	(label "2.36 mm Thick"
+	(label "22AWG"
 		(at 82.55 254 0)
 		(effects
 			(font
@@ -6590,13 +6170,13 @@
 		)
 		(uuid "3a102198-ee18-458f-9dee-bc84988e0283")
 	)
-	(label "IMD_Fault"
-		(at 287.02 165.1 180)
+	(label "IMD_OKHs"
+		(at 358.14 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "53c3b534-21be-4577-9c32-7c6c3fda0d44")
 	)
@@ -6761,7 +6341,7 @@
 		)
 		(uuid "d192d30d-f48d-4ea6-8649-e2c6d1859948")
 	)
-	(label "2.36 mm Thick"
+	(label "22AWG"
 		(at 186.69 251.46 0)
 		(effects
 			(font
@@ -6772,7 +6352,7 @@
 		(uuid "e984a016-fdd4-4d11-8acc-f4317eb4b257")
 	)
 	(label "BMS_ChargeSafety"
-		(at 166.37 176.53 180)
+		(at 198.12 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6792,7 +6372,7 @@
 		)
 		(uuid "f609818c-6131-404c-af0d-062b4a3408ed")
 	)
-	(label "2.36 mm Thick"
+	(label "22AWG"
 		(at 300.99 248.92 0)
 		(effects
 			(font
@@ -6823,71 +6403,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa0e7afb-a039-425d-96a6-b92b37295099")
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 350.52 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a8663f7-71a2-4482-b3c2-c59191ae5ebb")
-		(property "Reference" "#PWR0112"
-			(at 350.52 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 353.314 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 350.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e295f7ce-d350-4680-96a2-c3868486ed75")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "74xGxx:74AHC1G00")
@@ -6970,153 +6485,6 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 218.44 176.53 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "119c8160-b5df-457b-9004-5ebf4b362c61")
-		(property "Reference" "Q103"
-			(at 224.282 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS_GSD"
-			(at 224.282 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:SOT-523_Custom(C96676)"
-			(at 223.52 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586202943637377024"
-			(at 218.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 218.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C96676"
-			(at 227.838 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8b5496ff-4e37-4240-b83f-14b0d75bcd36")
-		)
-		(pin "1"
-			(uuid "3c0c51ec-7ef1-43c5-a5bd-9b5c1a2ec8dc")
-		)
-		(pin "2"
-			(uuid "dfea8522-2a42-4630-bb69-7137670ea41e")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "Q103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13a91858-6267-495b-b099-59e1a8907cc8")
-		(property "Reference" "#PWR021"
-			(at 195.58 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9296b15-de5a-43b2-95d5-ab98204a7ce1")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7254,15 +6622,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 322.58 157.48 0)
+		(at 350.52 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1bb88ffd-3b30-41f8-9f0c-84d4b122d383")
-		(property "Reference" "#PWR0132"
-			(at 322.58 161.29 0)
+		(uuid "1e96bf83-7a12-4df8-8fd0-4ce818d9e99e")
+		(property "Reference" "#PWR02"
+			(at 350.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +6639,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 322.58 153.67 0)
+			(at 350.52 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +6647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 157.48 0)
+			(at 350.52 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 157.48 0)
+			(at 350.52 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +6665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 322.58 157.48 0)
+			(at 350.52 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,12 +6674,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "602f4328-cbeb-4899-b992-eedf8392855c")
+			(uuid "ba7780f9-2ca2-45b2-b998-dc69a0a28b2b")
 		)
 		(instances
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR0132")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7624,148 +6992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 195.58 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34f9b72b-9ac7-4300-aba0-4e82dd4f8c18")
-		(property "Reference" "R8"
-			(at 188.214 187.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 188.214 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.596 189.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 195.58 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C17590"
-			(at 189.738 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35478fb8-0319-4602-a187-019212406a94")
-		)
-		(pin "2"
-			(uuid "031ada13-ba6d-4e52-9547-d8abda4471c1")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 308.61 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3865b62e-314f-4abc-863e-ead05788bdb8")
-		(property "Reference" "#PWR0111"
-			(at 308.61 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d3a2d4a-8f06-4511-9f85-953016e66cb6")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:G2RL-1")
 		(at 299.72 102.87 270)
 		(unit 1)
@@ -7914,72 +7140,6 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 350.52 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cf7112f-e8c7-487a-818f-246320a5dbbe")
-		(property "Reference" "#PWR032"
-			(at 350.52 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58a31904-ac3a-45c2-8042-99caf4ed07b8")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8334,7 +7494,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 220.98 166.37 0)
+		(at 220.98 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8342,7 +7502,7 @@
 		(dnp no)
 		(uuid "5ae962ea-ddb5-4a70-a337-3a98f4f536be")
 		(property "Reference" "#PWR0109"
-			(at 220.98 170.18 0)
+			(at 220.98 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +7511,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 220.98 162.56 0)
+			(at 220.98 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +7519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 166.37 0)
+			(at 220.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +7528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 166.37 0)
+			(at 220.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +7537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 220.98 166.37 0)
+			(at 220.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,6 +8097,149 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 350.52 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ece0de2-6c34-42af-bd78-85f4ba38d365")
+		(property "Reference" "#PWR01"
+			(at 350.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "795e9b2a-046b-42de-aeaa-f535a5df015b")
+		)
+		(instances
+			(project "ESF_ChargingShutdownCircuit"
+				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 350.52 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71560807-e948-415f-b9b0-09806572c2f9")
+		(property "Reference" "R3"
+			(at 353.06 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 353.06 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 351.536 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 350.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17590"
+			(at 355.6 196.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5417218d-5442-4711-83e2-785c4e292528")
+		)
+		(pin "2"
+			(uuid "20bfbcc6-659e-469f-af0a-66bc3f12ab49")
+		)
+		(instances
+			(project "ESF_ChargingShutdownCircuit"
+				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:ElCon_Charger")
 		(at 149.86 116.84 0)
 		(unit 1)
@@ -9087,6 +8390,83 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8028ca14-9b23-4a19-841a-4ded0d64ebc1")
+		(property "Reference" "R1"
+			(at 222.25 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 220.726 219.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 219.71 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17590"
+			(at 224.79 221.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4c1e7c6-232b-4ec5-b9a5-3b79498d8ab3")
+		)
+		(pin "2"
+			(uuid "3b7687ef-3969-4943-8202-a30e152c58a8")
+		)
+		(instances
+			(project "ESF_ChargingShutdownCircuit"
+				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9314,87 +8694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 320.04 165.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "884818db-bfdb-42f2-8c79-863708bae979")
-		(property "Reference" "Q110"
-			(at 326.136 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS_GSD"
-			(at 325.628 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:SOT-523_Custom(C96676)"
-			(at 325.12 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586202943637377024"
-			(at 320.04 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 320.04 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C96676"
-			(at 316.23 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e279ef2f-38b9-4c6a-99e0-10c8712b63aa")
-		)
-		(pin "1"
-			(uuid "3dcffb99-293f-44b1-a515-da713f2c3e58")
-		)
-		(pin "2"
-			(uuid "ab8afff2-ddae-4a7c-ba05-52e7edbc9011")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "Q110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 335.28 220.98 0)
 		(unit 1)
@@ -9461,16 +8760,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 195.58 166.37 0)
+		(lib_id "Device:Fuse")
+		(at 317.5 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "91ad9f58-217e-49c1-a58a-f20265a44472")
-		(property "Reference" "#PWR0130"
-			(at 195.58 170.18 0)
+		(uuid "9840c55b-c745-498a-950f-83c3a03c48e7")
+		(property "Reference" "F2"
+			(at 317.5 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,8 +8777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 195.58 162.56 0)
+		(property "Value" "200A Fuse"
+			(at 318.008 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +8786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 166.37 0)
+			(at 317.5 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,8 +8794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 195.58 166.37 0)
+		(property "Datasheet" "~"
+			(at 317.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,8 +8803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 195.58 166.37 0)
+		(property "Description" "Fuse"
+			(at 317.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,12 +8813,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a641027-fadc-418d-a8c8-725ec7a943e2")
+			(uuid "1a9df963-1e9f-4467-86d7-662fc996f4c1")
+		)
+		(pin "2"
+			(uuid "1c190d9d-b47a-4a82-a9a9-e3f0e506db04")
 		)
 		(instances
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR0130")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -9816,74 +9118,6 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 271.78 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5b17e9d-ae80-47f7-bfcf-19d7c9bff9fd")
-		(property "Reference" "F1"
-			(at 271.78 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "200A Fuse"
-			(at 271.78 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 271.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7522c84-17f6-4516-b95f-66dee014afc2")
-		)
-		(pin "2"
-			(uuid "f04abde6-83f8-4c40-84c2-2d47b4c0376c")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -10212,87 +9446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 193.04 176.53 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9b8610e-b19a-40ab-9587-473b5562be6b")
-		(property "Reference" "Q109"
-			(at 199.644 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS_GSD"
-			(at 199.39 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:SOT-523_Custom(C96676)"
-			(at 198.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586202943637377024"
-			(at 193.04 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 193.04 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C96676"
-			(at 188.976 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6689b736-4ef7-4a6f-b177-660ef85924cd")
-		)
-		(pin "1"
-			(uuid "4ba79ea0-f00f-4985-87c6-2f81c623dff4")
-		)
-		(pin "2"
-			(uuid "c87e35be-c969-47c9-a26f-1c1785788dd9")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "Q109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 148.59 234.95 0)
 		(unit 1)
@@ -10352,87 +9505,6 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 347.98 171.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2355547-ad27-4968-82d6-f56046b1e892")
-		(property "Reference" "Q104"
-			(at 354.33 172.7201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS_GSD"
-			(at 354.33 170.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:SOT-523_Custom(C96676)"
-			(at 353.06 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586202943637377024"
-			(at 347.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 347.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C96676"
-			(at 343.662 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b6592997-29aa-4655-98f9-556f627c65da")
-		)
-		(pin "1"
-			(uuid "d94038d5-1e79-468d-9f89-8f93bf11c71f")
-		)
-		(pin "2"
-			(uuid "042aeda9-45ae-4bdc-82a9-29370b4a97d3")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "Q104")
 					(unit 1)
 				)
 			)
@@ -10574,6 +9646,83 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 220.98 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccee92d8-1dce-420c-87c1-63d7a150ba54")
+		(property "Reference" "R2"
+			(at 223.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 223.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 221.996 189.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 220.98 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17590"
+			(at 226.06 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3994575-bd79-49ad-9221-1d30867853f5")
+		)
+		(pin "2"
+			(uuid "e1d25c5c-57ca-42ff-9f9a-251b9a0a146c")
+		)
+		(instances
+			(project "ESF_ChargingShutdownCircuit"
+				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11254,7 +10403,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 218.44 0)
+		(at 219.71 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11263,7 +10412,7 @@
 		(fields_autoplaced yes)
 		(uuid "e15663dc-2740-4707-adb3-799ea6bc9964")
 		(property "Reference" "#PWR024"
-			(at 219.71 224.79 0)
+			(at 219.71 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +10421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 223.52 0)
+			(at 219.71 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11280,7 +10429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 218.44 0)
+			(at 219.71 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +10438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 218.44 0)
+			(at 219.71 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11298,7 +10447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 218.44 0)
+			(at 219.71 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,83 +10534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 308.61 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e610b2ad-09e2-43ec-a294-a377ac3405a4")
-		(property "Reference" "R104"
-			(at 301.244 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2K"
-			(at 301.244 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 309.626 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 308.61 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 308.61 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C17520"
-			(at 313.69 168.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "754972bb-b2c5-4a45-b08e-df896b1cb60d")
-		)
-		(pin "2"
-			(uuid "15502c01-32bc-49d9-8f73-eb926bfca6e5")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "R104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 123.19 228.6 180)
 		(unit 1)
@@ -11531,83 +10603,6 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 179.07 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e83f312b-26c7-40f8-829b-263c14bf38d2")
-		(property "Reference" "R103"
-			(at 181.61 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 181.61 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 180.086 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 179.07 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C17513"
-			(at 173.228 171.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad684843-6125-404c-a5ad-77a40df449b5")
-		)
-		(pin "2"
-			(uuid "fddea1d5-3e5d-4978-abe8-456957572acb")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -11806,148 +10801,6 @@
 			(project "ESF_ChargingShutdownCircuit"
 				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 322.58 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6a8e9cc-4569-42d4-aed9-94d72803cc21")
-		(property "Reference" "R11"
-			(at 326.644 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 326.644 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 323.596 178.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 322.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C17590"
-			(at 316.738 180.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73b140ad-009d-4980-a10b-801aa0696aed")
-		)
-		(pin "2"
-			(uuid "313ce979-4f2f-464a-9f88-66c5a597af2b")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 179.07 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8c6e0db-1ee1-40d9-b44b-50879a321e2c")
-		(property "Reference" "#PWR0104"
-			(at 179.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 179.07 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 179.07 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1324e6e-f97a-476e-b5db-c1b229a0c4c0")
-		)
-		(instances
-			(project "ESF_ChargingShutdownCircuit"
-				(path "/6aa97c51-80aa-415b-bb60-389b36b9cf53"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)

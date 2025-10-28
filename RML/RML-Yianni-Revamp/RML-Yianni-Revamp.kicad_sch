@@ -644,6 +644,834 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BSPD:SAMMY-6PIN"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SAMMY-6PIN"
+				(at 9.398 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CONN_SD-105314-100_06_MOL"
+				(at 5.842 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053141106?display=pdf"
+				(at 14.986 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1053141106"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_SD-105314-100_06_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SAMMY-6PIN_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SAMMY-6PIN_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Comparator:LM397"
 			(pin_names
 				(offset 0.127)
@@ -1186,170 +2014,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
 					(name "~"
 						(effects
 							(font
@@ -3324,7 +3988,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "509a734d-73e7-40bf-8310-2244b2d4fed7")
 	)
@@ -3349,6 +4013,12 @@
 		(uuid "d1a5f4a0-deb4-4e6d-804e-95fe0768a38c")
 	)
 	(junction
+		(at 109.22 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09945ae6-380b-49c7-b35a-6f4635b3648d")
+	)
+	(junction
 		(at 77.47 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3367,22 +4037,16 @@
 		(uuid "18dcde32-7d86-4c3b-a7d0-7ed955aa9d9d")
 	)
 	(junction
-		(at 39.37 45.72)
+		(at 237.49 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c8794fe-eda5-4106-95dc-c73a8631e799")
+		(uuid "2c07883d-2cc2-49d0-87f8-41387f2bc40e")
 	)
 	(junction
 		(at 140.97 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e883dad-9fa2-4a74-afa6-1055f3973b99")
-	)
-	(junction
-		(at 237.49 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c07883d-2cc2-49d0-87f8-41387f2bc40e")
+		(uuid "2cd30025-c14d-4931-8e58-5622d5497e36")
 	)
 	(junction
 		(at 207.01 40.64)
@@ -3391,10 +4055,22 @@
 		(uuid "2ec0bc52-4367-445f-85d0-adea2e27f879")
 	)
 	(junction
+		(at 99.06 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f517fcb-a064-4f42-b108-ecd509dd8997")
+	)
+	(junction
 		(at 97.79 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32a5fdc7-0719-4353-b244-c0a6465a0863")
+	)
+	(junction
+		(at 62.23 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33e07cd3-32c0-4f0a-ab9d-ec357abfec9d")
 	)
 	(junction
 		(at 124.46 59.69)
@@ -3407,12 +4083,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d08043b-34e0-48fa-bd29-26fc6e9db00b")
-	)
-	(junction
-		(at 99.06 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40138576-c0c7-48f6-9256-b5330b0dd39d")
 	)
 	(junction
 		(at 156.21 35.56)
@@ -3451,22 +4121,10 @@
 		(uuid "5a2604b5-bb9c-4f4d-9749-5c1157338232")
 	)
 	(junction
-		(at 107.95 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5feb0c63-2940-4d54-9fd2-df54a815236d")
-	)
-	(junction
 		(at 106.68 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63cc70d0-cd0c-4f40-9098-2d2ff7386813")
-	)
-	(junction
-		(at 107.95 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a8368e2-5547-4bcb-828d-1439a2e7d3a8")
 	)
 	(junction
 		(at 38.1 128.27)
@@ -3487,16 +4145,16 @@
 		(uuid "82dad369-a346-4d17-8125-cc267b1732c7")
 	)
 	(junction
+		(at 144.78 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e89243-e239-4dc5-9abe-c7fc0660e289")
+	)
+	(junction
 		(at 39.37 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "945d5cc5-6be2-4ec9-a0c7-aa4d49864383")
-	)
-	(junction
-		(at 143.51 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "955eaeb4-13b9-4895-9c4d-86b39c557618")
 	)
 	(junction
 		(at 212.09 30.48)
@@ -3511,10 +4169,16 @@
 		(uuid "b370f965-26ee-4bba-84cc-de862c8c9bce")
 	)
 	(junction
-		(at 39.37 43.18)
+		(at 144.78 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dc60fda7-0ec2-4ef1-88f7-60b3b56afee9")
+		(uuid "c172b076-db17-4e11-9eb1-297a4aaff186")
+	)
+	(junction
+		(at 160.02 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a9e60a-9e37-4883-949e-629abb9ed932")
 	)
 	(junction
 		(at 134.62 118.11)
@@ -3541,10 +4205,20 @@
 		(uuid "f403a8c6-8557-4f41-a8fc-63f0c86e3ed4")
 	)
 	(junction
-		(at 143.51 35.56)
+		(at 109.22 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6537169-a772-42a5-b3bc-cc014bbb29a8")
+		(uuid "f7a46385-0fb2-454d-ad14-983e942406da")
+	)
+	(junction
+		(at 62.23 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f972ee1d-0979-4157-aa55-b30736c60c9a")
+	)
+	(no_connect
+		(at 135.89 31.75)
+		(uuid "4ff53608-eb53-4242-af8a-5bcc6c18cae4")
 	)
 	(no_connect
 		(at 250.19 50.8)
@@ -3553,6 +4227,16 @@
 	(no_connect
 		(at 224.79 50.8)
 		(uuid "ddffd991-9633-4c07-8b8d-6c77962708a3")
+	)
+	(wire
+		(pts
+			(xy 83.82 113.03) (xy 83.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f61ac1-891d-4b78-92ef-0a1a5dd3efea")
 	)
 	(wire
 		(pts
@@ -3576,16 +4260,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 43.18) (xy 45.72 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061841eb-e8f4-4bdc-96de-0b876da593bb")
-	)
-	(wire
-		(pts
 			(xy 212.09 45.72) (xy 224.79 45.72)
 		)
 		(stroke
@@ -3593,16 +4267,6 @@
 			(type default)
 		)
 		(uuid "067e3b3b-307e-4093-a527-76e53ac73ded")
-	)
-	(wire
-		(pts
-			(xy 107.95 52.07) (xy 116.84 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b33f905-0d92-4dac-9f7a-bd50803257f0")
 	)
 	(wire
 		(pts
@@ -3646,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 59.69) (xy 99.06 59.69)
+			(xy 99.06 59.69) (xy 109.22 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3676,16 +4340,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 27.94) (xy 158.75 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1151a299-7e04-44bc-bb54-86178dbe0bd3")
-	)
-	(wire
-		(pts
 			(xy 77.47 140.97) (xy 73.66 140.97)
 		)
 		(stroke
@@ -3693,6 +4347,16 @@
 			(type default)
 		)
 		(uuid "12346767-cbb0-45e8-85ad-df7d9c80449e")
+	)
+	(wire
+		(pts
+			(xy 147.32 109.22) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bc0a64-a82a-4842-b414-0d2544f3c9b2")
 	)
 	(wire
 		(pts
@@ -3806,6 +4470,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 52.07) (xy 147.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283eddba-7295-498e-81bf-4258fbfd3f9b")
+	)
+	(wire
+		(pts
 			(xy 254 25.4) (xy 254 26.67)
 		)
 		(stroke
@@ -3836,7 +4510,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 27.94) (xy 135.89 27.94)
+			(xy 109.22 59.69) (xy 124.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a72b6b6-4c30-4c9f-85b7-8f91f53fa4f0")
+	)
+	(wire
+		(pts
+			(xy 135.89 27.94) (xy 144.78 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3846,7 +4530,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 160.02 110.49)
+			(xy 160.02 102.87) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +4630,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 35.56) (xy 156.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebbcf4c-644d-4bd4-a7f2-d7d64032c01f")
+	)
+	(wire
+		(pts
 			(xy 114.3 134.62) (xy 110.49 134.62)
 		)
 		(stroke
@@ -3953,16 +4647,6 @@
 			(type default)
 		)
 		(uuid "40de4b74-2c35-46df-8632-a5132d5a6d30")
-	)
-	(wire
-		(pts
-			(xy 147.32 52.07) (xy 140.97 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4217eb1e-b55f-4909-80bb-30d7451eb8fc")
 	)
 	(wire
 		(pts
@@ -3976,13 +4660,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 43.18) (xy 39.37 43.18)
+			(xy 83.82 110.49) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49b52cb0-76ae-4846-a284-e47309198c1a")
+		(uuid "46f35047-d83d-45f5-8793-c33f795c70cc")
 	)
 	(wire
 		(pts
@@ -4026,13 +4710,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 107.95 52.07)
+			(xy 135.89 35.56) (xy 144.78 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5709f374-f525-4a4f-beda-684bc3bece13")
+		(uuid "59a2241d-2188-4b4c-be64-94bb4bd95efe")
 	)
 	(wire
 		(pts
@@ -4046,6 +4730,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 52.07) (xy 109.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c450ecd-e6f1-4453-9a08-aac28774dff1")
+	)
+	(wire
+		(pts
 			(xy 36.83 27.94) (xy 45.72 27.94)
 		)
 		(stroke
@@ -4053,6 +4747,16 @@
 			(type default)
 		)
 		(uuid "5c5dfff8-2aff-405f-9f48-d5e0fb786af9")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f91f08c-da02-4100-b83d-6d79c06e73bb")
 	)
 	(wire
 		(pts
@@ -4076,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 45.72) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66191329-85b5-40e1-b35c-50d188beb9bf")
+	)
+	(wire
+		(pts
 			(xy 212.09 30.48) (xy 222.25 30.48)
 		)
 		(stroke
@@ -4093,16 +4807,6 @@
 			(type default)
 		)
 		(uuid "6d232bb9-8732-4462-ae13-cdeb30f2c0ff")
-	)
-	(wire
-		(pts
-			(xy 76.2 110.49) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0c49c1-8d8f-4cf1-bb08-a5f9ab838c89")
 	)
 	(wire
 		(pts
@@ -4146,6 +4850,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 50.8) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798584b7-fdde-4d23-ae9c-3a3f66a2515f")
+	)
+	(wire
+		(pts
+			(xy 109.22 52.07) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a217208-f82d-4ce5-8b16-cb60be3cd55d")
+	)
+	(wire
+		(pts
 			(xy 73.66 128.27) (xy 77.47 128.27)
 		)
 		(stroke
@@ -4166,6 +4890,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 45.72) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dce217d-7f0c-4cd7-a60f-853aa0cdc5dd")
+	)
+	(wire
+		(pts
 			(xy 38.1 127) (xy 38.1 128.27)
 		)
 		(stroke
@@ -4173,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "8151f1e0-0bf7-48f7-850e-6f4b7f46bc17")
+	)
+	(wire
+		(pts
+			(xy 144.78 27.94) (xy 158.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82722597-432d-47c2-a76e-24ed23b06564")
 	)
 	(wire
 		(pts
@@ -4193,6 +4937,16 @@
 			(type default)
 		)
 		(uuid "83891979-66a7-4cee-82f0-8c020674b036")
+	)
+	(wire
+		(pts
+			(xy 160.02 106.68) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d75106-f1a7-4d98-a50a-b4d23987321f")
 	)
 	(wire
 		(pts
@@ -4266,23 +5020,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 138.43) (xy 53.34 147.32)
+			(xy 53.34 138.43) (xy 53.34 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f350197-0199-433e-8baf-23686a6d4aa8")
-	)
-	(wire
-		(pts
-			(xy 36.83 45.72) (xy 39.37 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f64d01c-e376-4ff5-bef9-8c191799028e")
 	)
 	(wire
 		(pts
@@ -4343,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "9aed5ed1-7137-479b-b277-37fc552c8564")
+	)
+	(wire
+		(pts
+			(xy 35.56 55.88) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea20f79-bad5-4d44-89a2-df7981e27f87")
 	)
 	(wire
 		(pts
@@ -4416,13 +5170,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 45.72) (xy 45.72 45.72)
+			(xy 35.56 53.34) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b51ede0d-2fda-4980-a354-415fa9d93f8e")
+		(uuid "b68fb5a5-f3d8-4e71-93e7-7f8bbfb4d2d5")
 	)
 	(wire
 		(pts
@@ -4496,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 106.68) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c591f61c-1403-4a2c-b522-cb5d63c3db7c")
+	)
+	(wire
+		(pts
 			(xy 77.47 130.81) (xy 77.47 128.27)
 		)
 		(stroke
@@ -4556,16 +5320,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 35.56) (xy 156.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d084414e-2903-498e-8abf-104330ea4342")
-	)
-	(wire
-		(pts
 			(xy 207.01 41.91) (xy 207.01 40.64)
 		)
 		(stroke
@@ -4573,16 +5327,6 @@
 			(type default)
 		)
 		(uuid "d17e3c5f-e96c-4bc8-800e-a56edca4556d")
-	)
-	(wire
-		(pts
-			(xy 143.51 35.56) (xy 135.89 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2764b22-8e1f-4e33-a7fd-1a81c40d08bb")
 	)
 	(wire
 		(pts
@@ -4626,6 +5370,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a1c9b2-d64d-48be-985e-b96a4ce38466")
+	)
+	(wire
+		(pts
 			(xy 115.57 35.56) (xy 115.57 34.29)
 		)
 		(stroke
@@ -4653,6 +5407,16 @@
 			(type default)
 		)
 		(uuid "e65e9a33-e6e7-4dc1-a955-8484b0840994")
+	)
+	(wire
+		(pts
+			(xy 35.56 43.18) (xy 62.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93d05de-5170-4865-83de-4ef14b427849")
 	)
 	(wire
 		(pts
@@ -4696,6 +5460,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 106.68) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0611191-19b1-420e-a263-b75e3751874a")
+	)
+	(wire
+		(pts
 			(xy 254 55.88) (xy 264.16 55.88)
 		)
 		(stroke
@@ -4733,16 +5507,6 @@
 			(type default)
 		)
 		(uuid "f86b53a8-dc2e-4564-9cca-a29b3f9abca1")
-	)
-	(wire
-		(pts
-			(xy 107.95 59.69) (xy 124.46 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa242e64-cfd6-476a-b530-6ed30d73a2da")
 	)
 	(wire
 		(pts
@@ -4824,16 +5588,6 @@
 		)
 		(uuid "0aa979c2-d7e4-4902-b0ce-49ad290df795")
 	)
-	(label "TS-"
-		(at 53.34 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24e6ee5a-6a05-4da5-baf0-fc626a4adb03")
-	)
 	(label "ISO_+12V"
 		(at 158.75 27.94 180)
 		(effects
@@ -4843,6 +5597,46 @@
 			(justify right bottom)
 		)
 		(uuid "2861cf23-7495-4d1e-a95d-91d8b559f8d9")
+	)
+	(label "RML1-"
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38b6ad63-f9a8-4ca2-b0de-4e52318752b7")
+	)
+	(label "RML2-"
+		(at 50.8 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e54830d-e45a-4d39-9b83-0f68e95e52a9")
+	)
+	(label "RML2-"
+		(at 220.98 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4863cb81-d18e-44ce-b1c9-14b76489b801")
+	)
+	(label "RML1+"
+		(at 50.8 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ce54e9f-11af-4632-b158-286747bc613b")
 	)
 	(label "TS+"
 		(at 45.72 27.94 180)
@@ -4864,15 +5658,25 @@
 		)
 		(uuid "55fe4d6a-2396-48bf-bd99-ff8878397fb6")
 	)
-	(label "GLV-"
-		(at 45.72 45.72 180)
+	(label "GLV+"
+		(at 68.58 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6ce6dbc4-840b-4fa9-b904-f36ee59b0955")
+		(uuid "5755ec97-be2d-47ba-a280-6ab2f26a2492")
+	)
+	(label "RML2+"
+		(at 220.98 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e33c1bb-bd9d-4174-9f1d-bb1ce0081fab")
 	)
 	(label "TS-"
 		(at 45.72 30.48 180)
@@ -4894,15 +5698,15 @@
 		)
 		(uuid "860d6a4c-57e9-4943-ac01-e2bd6e0b1e1c")
 	)
-	(label "ISO_GND"
-		(at 76.2 110.49 0)
+	(label "RML1-"
+		(at 195.58 106.68 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "89225138-3f57-4c7b-a5a1-47f4ce29a089")
+		(uuid "94a1202d-de9d-44ca-bf1a-eb37bb81165b")
 	)
 	(label "TS+"
 		(at 38.1 83.82 0)
@@ -4913,6 +5717,26 @@
 			(justify left bottom)
 		)
 		(uuid "9d7ef768-663f-40b2-b0b9-eb5ab419936b")
+	)
+	(label "RML2+"
+		(at 50.8 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a01acbf0-1d8e-4beb-923b-9d7233648b05")
+	)
+	(label "RML1+"
+		(at 195.58 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7bf4920-3159-4634-967a-674462491df5")
 	)
 	(label "THRESH"
 		(at 273.05 25.4 180)
@@ -4934,6 +5758,16 @@
 		)
 		(uuid "bd49e415-3aa6-4a78-bcb6-217938616fb0")
 	)
+	(label "GLV-"
+		(at 68.58 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be44a6f3-b6cb-438c-92bb-2051cc895ffa")
+	)
 	(label "ISO_GND"
 		(at 158.75 35.56 180)
 		(effects
@@ -4953,16 +5787,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef89f16b-cd3f-48e1-880f-caf4422c7991")
-	)
-	(label "GLV+"
-		(at 45.72 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6d80fae-58b9-41ff-b11d-9871cb15f8c1")
 	)
 	(global_label "CLOCK"
 		(shape input)
@@ -5005,6 +5829,164 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BSPD:SAMMY-6PIN")
+		(at 35.56 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007f970e-4d54-4166-8afb-a542b4e8bf2a")
+		(property "Reference" "J3"
+			(at 26.67 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SAMMY-6PIN"
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "BSPD:SAMMY-6PIN"
+			(at 29.718 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053141106?display=pdf"
+			(at 20.574 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "200232c4-e6ed-48d2-9a67-efb00a6b3649")
+		)
+		(pin "1"
+			(uuid "6fd35ee6-4c35-41c3-9575-f1d60655205e")
+		)
+		(pin "2"
+			(uuid "7af1f170-7460-4de0-b437-232cd13c5739")
+		)
+		(pin "5"
+			(uuid "e8fb5e5c-b06c-430b-8c05-5e6564b8fd5b")
+		)
+		(pin "4"
+			(uuid "c662abdf-837c-427e-8a0d-68e2843b1bfb")
+		)
+		(pin "6"
+			(uuid "51ddedd4-c789-471f-a76d-31309f59bba9")
+		)
+		(instances
+			(project ""
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b73f732-0fce-43e0-b125-ab3c8b8d3222")
+		(property "Reference" "C11"
+			(at 218.186 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 215.646 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 213.0552 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1590"
+			(at 212.09 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7158fc0-b68f-4cc3-994b-de3d528ff9bf")
+		)
+		(pin "2"
+			(uuid "39e24414-b87f-4881-85ee-7c814f960ee0")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "C11")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5061,6 +6043,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C354068"
+			(at 124.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c297249f-8e34-48e3-9267-03f98df856dd")
 		)
@@ -5074,106 +6065,6 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 218.44 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13e759f6-b780-423a-a264-2bee609bcd2d")
-		(property "Reference" "Q2"
-			(at 224.79 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 224.79 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 218.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 218.44 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 218.44 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 218.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4a1bcaf5-fb67-4b03-b6bc-6d76752f606b")
-		)
-		(pin "1"
-			(uuid "bc77d570-a6e6-400a-a820-b709cba7643d")
-		)
-		(pin "2"
-			(uuid "36dee3ea-a4ff-48e2-978f-7b5613cd8d55")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5312,6 +6203,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 254 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16171950-9ade-4ca7-8338-9382f7c97bc0")
+		(property "Reference" "C9"
+			(at 257.81 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 257.81 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254.9652 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1592"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f328471-a001-4eaf-9867-6ce090796479")
+		)
+		(pin "2"
+			(uuid "59cc2eaf-f9cb-4eb0-a3a8-ae3500fafa91")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 74.93 175.26 0)
 		(unit 1)
@@ -5379,76 +6349,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cee1239-1d26-4e36-9441-e5e69ec69efd")
-		(property "Reference" "C4"
-			(at 81.28 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 81.28 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.4352 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6d8cabf-edc5-4ca1-99f1-38c62f179213")
-		)
-		(pin "2"
-			(uuid "56a3d0ad-762c-4e7c-a5d1-a49a5b9a3b70")
-		)
-		(instances
-			(project ""
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 106.68 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5475,7 +6375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.6452 35.56 0)
 			(effects
 				(font
@@ -5494,6 +6394,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1592"
 			(at 106.68 31.75 0)
 			(effects
 				(font
@@ -5543,7 +6452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 43.434 171.704 90)
 			(effects
 				(font
@@ -5552,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18674-1206W4F7502T5E/C17986"
 			(at 43.18 172.72 0)
 			(effects
 				(font
@@ -5570,6 +6479,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C17986"
+			(at 43.18 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8831a61b-37c7-4b89-84cb-69df639b9139")
 		)
@@ -5580,6 +6498,150 @@
 			(project ""
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23c4f57c-c641-4acd-b474-ec09ac135c63")
+		(property "Reference" "C4"
+			(at 80.01 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 80.01 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 78.4352 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C70225"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c430363e-58ce-4d2f-9b2e-7156dd67fd82")
+		)
+		(pin "2"
+			(uuid "a9d0f27d-b25a-4423-a6a5-b49065884833")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 53.34 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e8c3e1-7114-4acf-a04a-fa89a737d571")
+		(property "Reference" "#PWR015"
+			(at 53.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 53.213 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "403527ea-81bd-4ac0-bb9e-def70f66d283")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5744,7 +6806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.4852 35.56 0)
 			(effects
 				(font
@@ -5763,6 +6825,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C70225"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -5814,7 +6885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -5823,7 +6894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579710867975426048"
 			(at 193.04 133.35 0)
 			(effects
 				(font
@@ -5861,6 +6932,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 193.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C2590"
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,53 +7033,17 @@
 		)
 	)
 	(symbol
-		(lib_id "BSPD:SAMMY-2PIN")
-		(at 36.83 45.72 180)
+		(lib_id "power:GND")
+		(at 147.32 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "378eee14-6441-4a4e-9a70-d9d88658e8d8")
-		(property "Reference" "J2"
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GLV"
-			(at 27.94 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SD-105313-100_02_MOL"
-			(at 28.448 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131202?display=pdf"
-			(at 24.384 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 45.72 0)
+		(uuid "3a3f8299-f7d5-4e98-aa6a-36ab028f38e2")
+		(property "Reference" "#PWR0111"
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,16 +7051,124 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7e7d3378-5df6-42d3-82b9-2f97abacdf46")
+		(property "Value" "GND"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4442fa70-f22f-4633-a8d1-442760107048")
+			(uuid "c712292f-977a-4330-b30e-772e895a1db8")
 		)
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "J2")
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b04c790-69d5-4ed0-8e96-1f8329cb05ba")
+		(property "Reference" "R8"
+			(at 69.85 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 69.85 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 70.104 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18589-1206W4F1000T5E/C17901"
+			(at 69.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17901"
+			(at 69.85 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c22f9a-d1d8-43cc-bfc8-12cc8e6ea1f9")
+		)
+		(pin "2"
+			(uuid "fc3ff647-ff38-4780-8b95-d5d0eeb3226f")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6032,7 +7184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e064b8e-556e-4e93-8ba4-95bc25e373f7")
-		(property "Reference" "R110"
+		(property "Reference" "R17"
 			(at 177.8 130.8099 0)
 			(effects
 				(font
@@ -6050,7 +7202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 174.244 131.826 90)
 			(effects
 				(font
@@ -6059,7 +7211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898236594081792"
+		(property "Datasheet" "https://jlcpcb.com/parts/2nd/Resistors/Chip_Resistor_Surface_Mount_2980"
 			(at 175.26 132.08 0)
 			(effects
 				(font
@@ -6077,7 +7229,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C102750"
+		(property "JLC#" "C17900"
 			(at 175.26 132.08 0)
 			(effects
 				(font
@@ -6119,7 +7271,7 @@
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "R110")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6186,72 +7338,6 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43bfc078-b408-4909-9d58-6b914f041ead")
-		(property "Reference" "#PWR03"
-			(at 39.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73a96b65-f9af-48e3-8138-01da99dd6bee")
-		)
-		(instances
-			(project ""
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6325,6 +7411,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 152.4 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56cf5aae-a258-43ba-8468-d21782e5d497")
+		(property "Reference" "C12"
+			(at 152.4 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 152.4 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 105.7148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1590"
+			(at 152.4 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37d13805-2f1a-4f13-94aa-45d4ff616896")
+		)
+		(pin "2"
+			(uuid "4893743a-b807-45e1-9ef9-20f6f2ebc193")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 63.5 172.72 90)
 		(unit 1)
@@ -6350,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 63.754 171.704 90)
 			(effects
 				(font
@@ -6359,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC1206FR07910RL/C137224"
 			(at 63.5 172.72 0)
 			(effects
 				(font
@@ -6370,6 +7532,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C137224"
+			(at 63.5 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 70.104 127.254 90)
 			(effects
 				(font
@@ -6426,7 +7597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18589-1206W4F1000T5E/C17901"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -6437,6 +7608,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17901"
+			(at 69.85 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,84 +7640,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 69.85 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64ac5ace-dad4-4ca4-841a-3ea557fb8ee3")
-		(property "Reference" "R8"
-			(at 69.85 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 69.85 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.596 141.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "214e98e8-f5bf-4e1d-b56d-f058371a6516")
-		)
-		(pin "2"
-			(uuid "177b8554-e3bd-4682-ad49-dc320e15ca9d")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 107.95 55.88 0)
+		(at 144.78 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65b0401a-e599-4808-bb6a-2b67cbcc93f3")
-		(property "Reference" "C8"
-			(at 110.236 54.61 0)
+		(uuid "62b425fa-5210-451e-8fa8-d469a5e5135a")
+		(property "Reference" "C3"
+			(at 147.32 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,8 +7657,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 110.236 57.15 0)
+		(property "Value" "10u"
+			(at 147.32 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,8 +7666,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 108.9152 59.69 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 145.7452 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +7676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 55.88 0)
+			(at 144.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +7685,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 55.88 0)
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C70225"
+			(at 144.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,15 +7703,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "09b8ec9c-5f12-4d6f-bb1b-b9d89e323d28")
+			(uuid "21432560-7b23-4b43-8db3-902418b1cca6")
 		)
 		(pin "2"
-			(uuid "8466489a-8248-4b31-8740-4f0ed9ea4162")
+			(uuid "c36f48a2-2e60-4c02-a579-d814594958ec")
 		)
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6622,7 +7743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_SD-105313-100_02_MOL"
+		(property "Footprint" "BSPD:SAMMY-2PIN"
 			(at 28.448 24.13 0)
 			(effects
 				(font
@@ -6676,7 +7797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6910cab9-0804-45e4-9ef9-d9e978b88ede")
-		(property "Reference" "R109"
+		(property "Reference" "R16"
 			(at 137.16 106.6799 0)
 			(effects
 				(font
@@ -6694,7 +7815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 135.636 108.204 90)
 			(effects
 				(font
@@ -6703,7 +7824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898237633323008"
+		(property "Datasheet" "https://jlcpcb.com/parts/2nd/Resistors/Chip_Resistor_Surface_Mount_2980"
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -6721,7 +7842,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C102759"
+		(property "JLC#" "C1489"
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -6736,6 +7857,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Pins" ""
@@ -6763,7 +7885,182 @@
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "R109")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6abed1f7-017d-47a0-9841-4dc25dd55e32")
+		(property "Reference" "#PWR018"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df4cbdcf-f4a3-4620-bc32-f0efe22e9a31")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 218.44 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b6f64aa-57c5-4527-b867-27ca56f26d0b")
+		(property "Reference" "Q2"
+			(at 224.79 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 224.79 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579710867975426048"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 218.44 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 218.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C2590"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "35a823df-5d3b-4b6f-a69c-c8f2487de1ef")
+		)
+		(pin "1"
+			(uuid "e5c16990-4361-43c8-b5a1-d14ecd390b86")
+		)
+		(pin "2"
+			(uuid "ef20cf88-280b-4cbf-a770-1f0ffee28ae0")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6837,76 +8134,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 38.1 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73c03f0b-14ee-4088-91e6-67ded3caff3f")
-		(property "Reference" "R2"
-			(at 40.64 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "249k"
-			(at 40.64 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.116 103.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0eee5686-ba45-497e-8cf7-430e96711fad")
-		)
-		(pin "1"
-			(uuid "fbe245a0-9995-4432-ad11-c1bb994ff2ae")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 53.34 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6931,7 +8158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 53.594 171.704 90)
 			(effects
 				(font
@@ -6940,7 +8167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18648-1206W4F2402T5E/C17960"
 			(at 53.34 172.72 0)
 			(effects
 				(font
@@ -6951,6 +8178,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17960"
+			(at 53.34 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,17 +8210,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 39.37 43.18 0)
+		(lib_id "Device:C")
+		(at 140.97 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "778434db-cb87-4d9f-91bb-6dc847dfc5a0")
-		(property "Reference" "#PWR04"
-			(at 39.37 46.99 0)
+		(uuid "78690f3d-29b4-4ea6-90d8-80e991903184")
+		(property "Reference" "C7"
+			(at 143.51 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 143.51 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.9352 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,16 +8245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 39.37 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 43.18 0)
+		(property "Datasheet" "~"
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,8 +8254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 39.37 43.18 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,8 +8263,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 39.37 43.18 0)
+		(property "JLC#" "C70225"
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,12 +8273,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "585dc95c-cad0-4ebd-8d91-57c9a5e8063f")
+			(uuid "7d0b65ea-0e9a-49d5-a2a6-f174d2c4c45b")
+		)
+		(pin "2"
+			(uuid "ace04302-eee8-4df7-a6a3-9f45f44b4261")
 		)
 		(instances
-			(project ""
+			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "#PWR04")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7946f695-0e78-48d6-ab54-3f1c22940453")
+		(property "Reference" "R2"
+			(at 40.64 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249k"
+			(at 40.64 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 39.116 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/35547-1206W4F2493T5E/C34578"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C34578"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee9aeb48-c5c1-4fb9-bd43-2a4e192a9f17")
+		)
+		(pin "1"
+			(uuid "39009068-d816-43ca-9f0f-f7d16fd2b2dd")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7091,6 +8418,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C132076"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04bc28c4-8419-4a69-a6af-0870b3850315")
 		)
@@ -7110,6 +8446,72 @@
 			(project ""
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 62.23 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fc44f56-aebb-4869-bcc5-21bc4e627b7d")
+		(property "Reference" "#PWR017"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6401acc4-62c4-4261-9104-da8242c12cc6")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7143,7 +8545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 134.62 0)
 			(effects
 				(font
@@ -7152,7 +8554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176365943001088"
 			(at 53.34 134.62 0)
 			(effects
 				(font
@@ -7163,6 +8565,15 @@
 		)
 		(property "Description" "Zener diode"
 			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C43491"
+			(at 53.34 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +8624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 255.016 39.624 90)
 			(effects
 				(font
@@ -7222,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/parts/2nd/Resistors/Chip_Resistor_Surface_Mount_2980"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -7232,6 +8643,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17900"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -7283,7 +8703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 39.116 92.964 90)
 			(effects
 				(font
@@ -7292,7 +8712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/35547-1206W4F2493T5E/C34578"
 			(at 38.1 92.71 0)
 			(effects
 				(font
@@ -7302,6 +8722,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 38.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C34578"
 			(at 38.1 92.71 0)
 			(effects
 				(font
@@ -7320,6 +8749,72 @@
 			(project ""
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 83.82 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a153197-5c73-40a6-8ddc-24c3b9bfa55c")
+		(property "Reference" "#PWR016"
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 83.693 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b269daa8-695b-4e1c-a039-483962554019")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7350,7 +8845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 70.104 118.364 90)
 			(effects
 				(font
@@ -7359,7 +8854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18615-1206W4F1004T5E/C17927"
 			(at 69.85 119.38 0)
 			(effects
 				(font
@@ -7370,6 +8865,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17927"
+			(at 69.85 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,6 +8951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/xp-power/IA1212D/4487740?s=N4IgTCBcDaIJIEECMYUBEQF0C%2BQ"
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29886267-01cd-47d0-a165-eeb290422e3c")
 		)
@@ -7469,108 +8982,6 @@
 			(project ""
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "PS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 200.66 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8eb2a771-49c9-454a-9418-0d6b00b12cfc")
-		(property "Reference" "C101"
-			(at 204.47 33.6549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 204.47 36.1949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KO8NNNC_C59782.pdf"
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C59782"
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 200.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25426d16-cdef-4a0a-85cc-7fbd454d75ca")
-		)
-		(pin "2"
-			(uuid "cb93050e-1f0a-4ff1-80f7-7b9dfb21d471")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -7718,7 +9129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad15866-e4d8-407a-ab2a-3c539d544924")
-		(property "Reference" "U104"
+		(property "Reference" "U4"
 			(at 172.72 114.2298 0)
 			(effects
 				(font
@@ -7812,7 +9223,7 @@
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "U104")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7912,7 +9323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 255.016 30.734 90)
 			(effects
 				(font
@@ -7931,6 +9342,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C25664"
 			(at 254 30.48 0)
 			(effects
 				(font
@@ -8081,6 +9501,85 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9897009-3dfc-4777-9705-f6560ebfd511")
+		(property "Reference" "C8"
+			(at 113.03 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 113.03 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 110.1852 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1592"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "700d4e9e-8b8a-450f-b0f4-eb2f2f98049b")
+		)
+		(pin "2"
+			(uuid "7a16681e-9ae6-4210-8942-80106bbb761c")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8309,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 106.934 114.046 90)
 			(effects
 				(font
@@ -8336,6 +9835,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C1469"
+			(at 107.95 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6e666ad-9ca1-423e-8ad4-53b4de4e7b0c")
 		)
@@ -8346,249 +9854,6 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b394ce4d-aee6-4db1-b2d1-51a29777d949")
-		(property "Reference" "C9"
-			(at 257.81 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 257.81 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254.9652 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d8b8537-4513-4b33-8105-ed039e6542be")
-		)
-		(pin "1"
-			(uuid "5e674f7a-03f1-4b3c-8792-9c82f6571624")
-		)
-		(instances
-			(project ""
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b516d76b-3426-4865-8340-b4528a9ef9f8")
-		(property "Reference" "C3"
-			(at 147.32 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 147.32 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.4752 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2392f35-2734-4b46-a089-8cf10589cc31")
-		)
-		(pin "2"
-			(uuid "9f6106be-d568-4048-ac85-a9e1c83d953f")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 212.09 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba9ca04c-1ead-47a9-8376-ea355d57ef5d")
-		(property "Reference" "C102"
-			(at 215.9 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 215.9 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 213.0552 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KP5NNNC_C133086.pdf"
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C133086"
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95fce73a-8191-4b78-acac-d4f5353bb3f2")
-		)
-		(pin "2"
-			(uuid "59712217-dad6-4dfe-a975-2403c0276dae")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -8655,145 +9920,6 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSPD:SAMMY-2PIN")
-		(at 195.58 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfcc56ff-7036-4161-9d48-170b6e50d340")
-		(property "Reference" "J3"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "RML1"
-			(at 186.69 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SD-105313-100_02_MOL"
-			(at 187.198 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131202?display=pdf"
-			(at 183.134 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba58566e-6493-4d5b-b0a4-6864a4bfc620")
-		)
-		(pin "1"
-			(uuid "d57e0a30-6590-4a0f-be6c-e2821435571e")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce122d26-c0fb-45e7-9380-f62874ae5d93")
-		(property "Reference" "C6"
-			(at 101.6 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 101.6 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.0252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3989f43e-7b65-42e5-bbb2-16c564246bf1")
-		)
-		(pin "2"
-			(uuid "e7cf4b91-41b5-4fb7-9447-8decd75fd1af")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8867,17 +9993,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 113.03 0)
+		(lib_id "Device:C")
+		(at 99.06 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d665f5a8-b2bb-4fc3-b4a7-457533fec44b")
-		(property "Reference" "R3"
-			(at 40.64 111.7599 0)
+		(uuid "d5e733c0-bee4-4f4f-85ae-611e0a2f557c")
+		(property "Reference" "C6"
+			(at 101.6 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,8 +10010,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "249k"
-			(at 40.64 114.2999 0)
+		(property "Value" "10u"
+			(at 101.6 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,8 +10019,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 39.116 113.284 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100.0252 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +10029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 113.03 0)
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,8 +10037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 113.03 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,16 +10046,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2fbe0bcd-8e2e-4032-8010-d4f2539ad037")
+		(property "JLC#" "C70225"
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "442d9fc9-b699-4b18-8008-de578fc1edd9")
+			(uuid "e77b4b11-8fc7-4636-b882-0cb9e0bf2241")
+		)
+		(pin "2"
+			(uuid "93f18758-0b44-4600-9938-15665f2b7331")
 		)
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "R3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8964,7 +10098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 39.116 143.764 90)
 			(effects
 				(font
@@ -8973,7 +10107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/parts/2nd/Resistors/Chip_Resistor_Surface_Mount_2980"
 			(at 38.1 143.51 0)
 			(effects
 				(font
@@ -8983,6 +10117,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17948"
 			(at 38.1 143.51 0)
 			(effects
 				(font
@@ -9001,75 +10144,6 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 140.97 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e13e3183-8ccd-4cd2-b956-da63d86fe246")
-		(property "Reference" "C7"
-			(at 143.51 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 143.51 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.9352 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3a039c0-1be1-4af5-891a-ad093e4536b1")
-		)
-		(pin "2"
-			(uuid "44da1b32-2a10-42a4-b275-7ecf22f4d0ef")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9142,146 +10216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9dbe034-bae1-4d8c-aa73-33437c4e7c46")
-		(property "Reference" "R4"
-			(at 40.64 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "249k"
-			(at 40.64 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.116 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "867502a5-c3b9-44b7-ac88-e764973503a6")
-		)
-		(pin "1"
-			(uuid "b2f505cc-8862-4388-978b-f94bfe523577")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSPD:SAMMY-2PIN")
-		(at 220.98 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea71bb35-eb6b-4776-aefc-33229e580576")
-		(property "Reference" "J4"
-			(at 212.09 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "RML2"
-			(at 212.09 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CONN_SD-105313-100_02_MOL"
-			(at 212.598 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131202?display=pdf"
-			(at 208.534 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6d88826-3d49-40b5-9a51-8101c8f4d2a7")
-		)
-		(pin "1"
-			(uuid "ce93bdf9-b949-4829-8725-2609315b86ab")
-		)
-		(instances
-			(project "RML-Yianni-Revamp"
-				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Timer:LM555xM")
 		(at 237.49 50.8 0)
 		(unit 1)
@@ -9291,7 +10225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecb2e60b-9e2c-42c3-823d-38562d4ab60f")
-		(property "Reference" "U102"
+		(property "Reference" "U5"
 			(at 239.6841 38.1 0)
 			(effects
 				(font
@@ -9396,7 +10330,86 @@
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "U102")
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f148c089-5d8c-48df-a5db-128f540b62ec")
+		(property "Reference" "R4"
+			(at 40.64 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249k"
+			(at 40.64 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 39.116 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/35547-1206W4F2493T5E/C34578"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C34578"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bee0d96f-e7f6-4c18-9b6e-47cdca7b1cc0")
+		)
+		(pin "1"
+			(uuid "bdae5c23-05c1-4bfe-aa29-c3b1925e74f1")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9478,7 +10491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68a0817-85bb-4b9d-a1aa-cc3821e2a853")
-		(property "Reference" "U110"
+		(property "Reference" "U2"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -9620,7 +10633,7 @@
 		(instances
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
-					(reference "U110")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9654,7 +10667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 39.116 133.604 90)
 			(effects
 				(font
@@ -9663,7 +10676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18705-1206W4F4992T5E/C18017"
 			(at 38.1 133.35 0)
 			(effects
 				(font
@@ -9673,6 +10686,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C18017"
 			(at 38.1 133.35 0)
 			(effects
 				(font
@@ -9721,7 +10743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 109.5248 0)
 			(effects
 				(font
@@ -9748,6 +10770,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C1590"
+			(at 88.9 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf27b58a-ea49-4df6-b2cc-a971446ba6f7")
 		)
@@ -9758,6 +10789,164 @@
 			(project "RML-Yianni-Revamp"
 				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe432867-a829-46f0-839e-7ee78103b6e6")
+		(property "Reference" "C10"
+			(at 204.47 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 204.47 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.6252 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1592"
+			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e38cff-9214-4b2b-b53c-bf98ad9d0ad8")
+		)
+		(pin "2"
+			(uuid "b5066ef3-be59-498d-9f4b-f77584143352")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb2f780-6230-46d6-bdfd-cedbfbc0608e")
+		(property "Reference" "R3"
+			(at 40.64 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249k"
+			(at 40.64 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 39.116 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/35547-1206W4F2493T5E/C34578"
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C34578"
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55da3dd4-c037-44a9-9c36-e195d99634fb")
+		)
+		(pin "1"
+			(uuid "3f7c303c-114d-40be-b35b-7f6567ef7af3")
+		)
+		(instances
+			(project "RML-Yianni-Revamp"
+				(path "/6fc260e6-9c33-4f6e-9221-b841b900d5e4"
+					(reference "R3")
 					(unit 1)
 				)
 			)
