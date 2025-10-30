@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fabrication",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -606,8 +606,8 @@
         },
         {
           "group_by": false,
-          "label": "JCL#",
-          "name": "JCL#",
+          "label": "JLC Part #",
+          "name": "JLC Part #",
           "show": true
         },
         {
@@ -624,14 +624,14 @@
         },
         {
           "group_by": false,
-          "label": "JCL Link",
-          "name": "JCL Link",
+          "label": "JLC Link",
+          "name": "JLC Link",
           "show": true
         },
         {
           "group_by": false,
-          "label": "JCL Datasheet",
-          "name": "JCL Datasheet",
+          "label": "JLC Datasheet",
+          "name": "JLC Datasheet",
           "show": true
         },
         {
@@ -657,6 +657,12 @@
           "label": "Symbol Source",
           "name": "Symbol Source",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -664,7 +670,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "JCL Datasheet"
+      "sort_field": "JLC Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {
