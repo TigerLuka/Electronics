@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM7805MPX/NOPB")(type "KiCad")(uri "/Users/jadonyeboah/Downloads/ul_LM7805MPX-NOPB/KiCADv6/2025-10-28_19-02-33.kicad_sym")(options "")(descr ""))
+  (lib (name "ALDP105W")(type "KiCad")(uri "/Users/jadonyeboah/Downloads/ul_ALDP105W/KiCADv6/2025-10-28_19-37-31.kicad_sym")(options "")(descr ""))
+  (lib (name "43650-0428")(type "KiCad")(uri "/Users/jadonyeboah/Downloads/ul_436500428/KiCADv6/2025-10-28_22-05-58.kicad_sym")(options "")(descr ""))
+  (lib (name "43650-0225")(type "KiCad")(uri "/Users/jadonyeboah/Downloads/ul_436500225/KiCADv6/2025-10-28_22-07-23.kicad_sym")(options "")(descr ""))
+)
