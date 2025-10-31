@@ -52,7 +52,28 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|133300000|62700000|6f5be238-0399-49e9-a133-e9b8752de5b3|7be5f25f-9747-4309-b87f-08de5e3b044a",
+          ""
+        ],
+        [
+          "track_dangling|101000000|57500000|44085b99-9813-44df-a10f-9e0ee15474ac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|185374962|74374962|4f2400b9-31d9-4d57-945d-6ad80508c3b9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|73000000|66850000|df9d4bc5-1bef-49a6-900a-fec29d49dccd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|99000000|116000000|202d8df9-83fa-4a39-aebf-912ec07ae0f8|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
