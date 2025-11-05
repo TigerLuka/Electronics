@@ -4960,6 +4960,12 @@
 		(uuid "3e42bbd1-4cdf-44af-a820-4f8a3b72e4c8")
 	)
 	(junction
+		(at 85.09 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fe24bc8-06fa-48e1-ba96-901057f10095")
+	)
+	(junction
 		(at 105.41 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5128,6 +5134,12 @@
 		(uuid "e84ba82d-e89f-4e6e-abd4-fc64a8e808ca")
 	)
 	(junction
+		(at 49.53 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec9dadff-1a8d-4c85-bf3b-e374b165be9f")
+	)
+	(junction
 		(at 237.49 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5152,10 +5164,6 @@
 		(uuid "fbba86a5-5cf5-4b85-a462-4de2ac8826f9")
 	)
 	(no_connect
-		(at 71.12 218.44)
-		(uuid "0bc8263d-44ed-495b-8f53-09f567fd35f3")
-	)
-	(no_connect
 		(at 320.04 138.43)
 		(uuid "1d91521e-54d2-44ac-8457-5990083e9278")
 	)
@@ -5170,14 +5178,6 @@
 	(no_connect
 		(at 252.73 256.54)
 		(uuid "a4842c9a-5648-494e-b0c4-9adec22ca5cc")
-	)
-	(no_connect
-		(at 71.12 215.9)
-		(uuid "c4b0216c-dce0-4806-800a-633c5f8442f9")
-	)
-	(no_connect
-		(at 83.82 213.36)
-		(uuid "cf13806c-64dd-48e0-8f3c-b38c03a358ec")
 	)
 	(no_connect
 		(at 292.1 256.54)
@@ -5646,6 +5646,16 @@
 			(type default)
 		)
 		(uuid "278d373d-1964-4655-983c-6eee37469761")
+	)
+	(wire
+		(pts
+			(xy 71.12 215.9) (xy 49.53 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279020e7-c135-4120-9977-859d45b89ae2")
 	)
 	(wire
 		(pts
@@ -6149,6 +6159,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 218.44) (xy 71.12 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5b5253-f40c-449d-bfbe-206b51be3f27")
+	)
+	(wire
+		(pts
+			(xy 85.09 213.36) (xy 85.09 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7003dd39-0c40-4251-8dd6-c2bb5d80fab5")
+	)
+	(wire
+		(pts
 			(xy 317.5 118.11) (xy 323.85 118.11)
 		)
 		(stroke
@@ -6336,6 +6366,16 @@
 			(type default)
 		)
 		(uuid "97adedd3-f419-441d-83c1-d40cd1fe4ce8")
+	)
+	(wire
+		(pts
+			(xy 83.82 213.36) (xy 85.09 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fc1f9a-e42e-45ec-b24a-1dfc9938c7fd")
 	)
 	(wire
 		(pts
@@ -6996,6 +7036,16 @@
 			(type default)
 		)
 		(uuid "f27ead74-0dc0-4596-8e01-64226ab86c49")
+	)
+	(wire
+		(pts
+			(xy 49.53 215.9) (xy 49.53 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32b7927-da9e-4589-8127-f2ef4135c5ff")
 	)
 	(wire
 		(pts
@@ -13686,6 +13736,16 @@
 		)
 		(uuid "6ba07cdf-d39a-4ee3-84f0-2993214fb0d5")
 	)
+	(label "Charger_SHDN"
+		(at 69.85 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d57e0b4-1725-4694-b59d-c8cc16d92b22")
+	)
 	(label "+12V_Contactor"
 		(at 283.21 209.55 180)
 		(effects
@@ -13746,6 +13806,16 @@
 		)
 		(uuid "ab5806ba-2267-488d-beea-ffbc2697d756")
 	)
+	(label "Disc12V+"
+		(at 71.12 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae571d1c-083d-4bac-b493-0b6cdd9a1c96")
+	)
 	(label "IMD_RESET"
 		(at 212.09 265.43 180)
 		(effects
@@ -13805,6 +13875,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed1cdcc5-2900-43d1-9a47-beb9dfabc925")
+	)
+	(label "Disc12V-"
+		(at 85.09 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f583166d-a68d-4341-874e-173d5ca7cc8c")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_BEC")
