@@ -602,6 +602,12 @@
           "label": "JLC#",
           "name": "JLC#",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JCL#",
+          "name": "JCL#",
+          "show": false
         }
       ],
       "filter_string": "",
