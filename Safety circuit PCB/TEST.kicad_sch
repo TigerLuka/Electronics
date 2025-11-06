@@ -1869,22 +1869,10 @@
 		(uuid "132d111e-d23e-48cc-a02c-a27325a6eb3a")
 	)
 	(junction
-		(at 100.33 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ba00837-1db0-4ab2-9cb4-e797183dc5d4")
-	)
-	(junction
 		(at 127 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "220b37d1-57f3-4a5f-a21b-8188d5a2fbdf")
-	)
-	(junction
-		(at 62.23 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23dd8517-4b0e-4fdc-ab05-55ed3cadcae0")
 	)
 	(junction
 		(at 13.97 43.18)
@@ -1905,34 +1893,10 @@
 		(uuid "3fec813e-2273-4d8c-9978-1837ea0de89f")
 	)
 	(junction
-		(at 255.27 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d53e729-82e4-4734-8a7d-64a350817607")
-	)
-	(junction
 		(at 171.45 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "760eb318-3ad4-4ebc-9ed1-4daaa7cbbac6")
-	)
-	(junction
-		(at 215.9 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aae61b12-1644-4b80-9d77-4bd94257cc49")
-	)
-	(junction
-		(at 181.61 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae3c9249-428c-4059-b85a-322c0567fe08")
-	)
-	(junction
-		(at 25.4 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c131d5-5ae7-44e5-9dbf-1f6d0963861c")
 	)
 	(junction
 		(at 88.9 43.18)
@@ -1940,15 +1904,9 @@
 		(color 0 0 0 0)
 		(uuid "d043579d-2b39-4a0b-9ffd-8fe06e8702d8")
 	)
-	(junction
-		(at 140.97 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0a4b9d8-1a15-40cf-9012-e7a81e155b6e")
-	)
 	(wire
 		(pts
-			(xy 26.67 43.18) (xy 25.4 43.18)
+			(xy 13.97 43.18) (xy 26.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 43.18) (xy 100.33 43.18)
+			(xy 88.9 43.18) (xy 105.41 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2028,27 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 52.07) (xy 181.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3751de-e161-473a-949b-39afa9ff8739")
-	)
-	(wire
-		(pts
-			(xy 215.9 52.07) (xy 215.9 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d872cb3-95f9-425a-9b44-16e18f376a2c")
-	)
-	(wire
-		(pts
-			(xy 260.35 43.18) (xy 255.27 43.18)
+			(xy 246.38 43.18) (xy 260.35 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2058,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 43.18) (xy 62.23 43.18)
+			(xy 49.53 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2118,16 +2056,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 255.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a8afd9-c565-48b2-aca9-f8ae8b23609d")
-	)
-	(wire
-		(pts
 			(xy 127 43.18) (xy 127 60.96)
 		)
 		(stroke
@@ -2148,16 +2076,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 43.18) (xy 25.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a760028-0d2e-477f-9882-76d86eb23ef0")
-	)
-	(wire
-		(pts
 			(xy 13.97 33.02) (xy 13.97 43.18)
 		)
 		(stroke
@@ -2168,17 +2086,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 43.18) (xy 181.61 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0a60a4-e31b-4dfa-8189-ac4fbabbff8d")
-	)
-	(wire
-		(pts
-			(xy 140.97 43.18) (xy 127 43.18)
+			(xy 127 43.18) (xy 146.05 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2198,16 +2106,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 100.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f84b31-ea03-4847-aab6-43ea56d3a81e")
-	)
-	(wire
-		(pts
 			(xy 194.31 20.32) (xy 194.31 21.59)
 		)
 		(stroke
@@ -2218,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 43.18) (xy 215.9 43.18)
+			(xy 209.55 43.18) (xy 220.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2278,33 +2176,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 52.07) (xy 25.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951b861c-c7bf-4757-9ceb-16b4e0d2e82b")
-	)
-	(wire
-		(pts
-			(xy 171.45 43.18) (xy 181.61 43.18)
+			(xy 171.45 43.18) (xy 186.69 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "953fb68b-1722-48f4-b925-a70eeff5ee2f")
-	)
-	(wire
-		(pts
-			(xy 62.23 43.18) (xy 49.53 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9653eecf-8b2e-40df-9c4f-147c8986c489")
 	)
 	(wire
 		(pts
@@ -2325,16 +2203,6 @@
 			(type default)
 		)
 		(uuid "986d1a9e-5702-4a20-9107-b2ad20c7d077")
-	)
-	(wire
-		(pts
-			(xy 220.98 43.18) (xy 215.9 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ece71c-4917-4a90-b388-c4f41a100fd6")
 	)
 	(wire
 		(pts
@@ -2365,16 +2233,6 @@
 			(type default)
 		)
 		(uuid "aeb14173-f458-47d2-87aa-59cc01ac50e4")
-	)
-	(wire
-		(pts
-			(xy 140.97 52.07) (xy 140.97 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd24a63-fe7d-48dd-9b18-396109f99cf6")
 	)
 	(wire
 		(pts
@@ -2458,16 +2316,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 52.07) (xy 62.23 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16abb14-1651-4088-9bb3-9166430e97e1")
-	)
-	(wire
-		(pts
 			(xy 40.64 124.46) (xy 43.18 124.46)
 		)
 		(stroke
@@ -2485,16 +2333,6 @@
 			(type default)
 		)
 		(uuid "c9bbd342-fa41-45b5-adcc-d5fbea41d252")
-	)
-	(wire
-		(pts
-			(xy 88.9 43.18) (xy 100.33 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c60d0d-3c58-4dc8-b202-a477b425a230")
 	)
 	(wire
 		(pts
@@ -2528,16 +2366,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 140.97 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc528e1-5db2-4135-968a-996ace292ed6")
-	)
-	(wire
-		(pts
 			(xy 113.03 38.1) (xy 113.03 39.37)
 		)
 		(stroke
@@ -2545,16 +2373,6 @@
 			(type default)
 		)
 		(uuid "dbe1aa30-30d9-4252-9200-542cfcb8b8dd")
-	)
-	(wire
-		(pts
-			(xy 255.27 43.18) (xy 246.38 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb8a01d-1d4a-4aba-b1c8-9c2036d2e5eb")
 	)
 	(wire
 		(pts
@@ -2885,175 +2703,6 @@
 			(justify right bottom)
 		)
 		(uuid "f98fdd3b-7545-4b2f-adc2-daaac372e4a7")
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 255.27 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "006446e6-8086-421f-8ab7-8f73604864bb")
-		(property "Reference" "R13"
-			(at 257.81 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 257.81 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 256.286 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7af981b7-3b20-4af6-a4d7-3d249fa42852")
-		)
-		(pin "1"
-			(uuid "6f76056c-4a33-4318-a41e-333a049ac4d2")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -3630,72 +3279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aee7a40-cf74-4260-a690-7eefa1e49051")
-		(property "Reference" "#PWR019"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "169f862e-5dc8-423a-b951-5223d822e3b2")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 194.31 25.4 90)
 		(unit 1)
@@ -3868,344 +3451,6 @@
 			(project "TEST"
 				(path "/49768109-2e19-4295-adfa-599621ab46ec"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 140.97 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "330ce41f-04f6-4401-995e-df712c089dfa")
-		(property "Reference" "R7"
-			(at 143.51 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 143.51 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 141.986 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbd39943-21ad-4d91-8d34-f5edc975cc7c")
-		)
-		(pin "1"
-			(uuid "75ed1fa0-38a7-4188-9cce-a1eab62532c5")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 215.9 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3315c5c7-e2db-4785-a214-863cb39d9a7b")
-		(property "Reference" "R11"
-			(at 218.44 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 218.44 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 216.916 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0af2039d-497c-48a4-908f-36c73900c11d")
-		)
-		(pin "1"
-			(uuid "320a881f-7526-4c49-8070-5f5ddd76259a")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4614,175 +3859,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 62.23 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e2981d4-f6ff-4016-8003-e871bbe2cfea")
-		(property "Reference" "R3"
-			(at 64.77 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 64.77 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 63.246 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 62.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "acebd4ea-d119-45a6-ac94-49e970f92e70")
-		)
-		(pin "1"
-			(uuid "0c0e4c4a-658d-4f1d-9082-20b2320f72f9")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 194.31 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4945,72 +4021,6 @@
 			(project "TEST"
 				(path "/49768109-2e19-4295-adfa-599621ab46ec"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b348a4-e9aa-426f-bc07-26ed31a992f5")
-		(property "Reference" "#PWR010"
-			(at 140.97 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a64afb3b-6c4f-424e-bc8e-7f356fcaa0d7")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5300,138 +4310,6 @@
 			(project "TEST"
 				(path "/49768109-2e19-4295-adfa-599621ab46ec"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "796809c1-d1cf-4b08-967e-de7d858ed4c0")
-		(property "Reference" "#PWR012"
-			(at 62.23 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "761d5d43-f8d3-4be7-9b84-f67f055ac124")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80814468-3a03-4626-9934-285089a14cc1")
-		(property "Reference" "#PWR011"
-			(at 100.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ec7a5f9-a930-43c0-9dd5-f4a29e0cba63")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5830,72 +4708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc55d7f-ef9a-4eff-9867-b639ad9bfaa6")
-		(property "Reference" "#PWR08"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47657f31-8ace-431d-bcef-697f4ab7ce0a")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 267.97 25.4 90)
 		(unit 1)
@@ -6134,175 +4946,6 @@
 			(project "TEST"
 				(path "/49768109-2e19-4295-adfa-599621ab46ec"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 25.4 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b0dc837-d73a-411a-91ee-81cc3cda33d6")
-		(property "Reference" "R1"
-			(at 27.94 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 27.94 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 26.416 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8083431e-4e0f-4aea-b9a6-ba6676c092ce")
-		)
-		(pin "1"
-			(uuid "72e45a09-0e8a-4823-bc2a-f111b805a608")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7121,72 +5764,6 @@
 			(project "TEST"
 				(path "/49768109-2e19-4295-adfa-599621ab46ec"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b01bf5fb-d3ce-4efb-b261-af57766671fe")
-		(property "Reference" "#PWR07"
-			(at 255.27 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "762d500f-efa4-4020-a731-8282983d1f17")
-		)
-		(instances
-			(project ""
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8406,72 +6983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 181.61 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d777b036-3dfa-4c43-bc68-a79ea6fe119e")
-		(property "Reference" "#PWR09"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f857d0c7-e6d3-4a51-80e0-2d6babe0e50f")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Molex-1053131202:1053131202")
 		(at 40.64 91.44 180)
 		(unit 1)
@@ -8852,343 +7363,6 @@
 			(project "TEST"
 				(path "/49768109-2e19-4295-adfa-599621ab46ec"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 181.61 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e448eca8-f47b-4a3e-b7ab-143f85858a90")
-		(property "Reference" "R9"
-			(at 184.15 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 184.15 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 182.626 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d352445d-d7dc-4c65-9f15-0181e937b08e")
-		)
-		(pin "1"
-			(uuid "4a77b890-ad92-4843-9b48-4085085e60a1")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9ce7872-fe42-4332-8cf8-496ea5a977b5")
-		(property "Reference" "R5"
-			(at 102.87 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 102.87 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SC:CRCW0805"
-			(at 101.346 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590171393792389120"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100KJNEA/1175246"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "CRCW0805100KJNEA"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Drawing" ""
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Link" ""
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588950168741404672"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW08051K00FKEA/C844939"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part #" " C844939"
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Source" ""
-			(at 100.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ccd3367-a222-4a84-9166-e1fdd31d0232")
-		)
-		(pin "1"
-			(uuid "258b4020-67d6-4bdb-a367-05e0ef30c1c2")
-		)
-		(instances
-			(project "TEST"
-				(path "/49768109-2e19-4295-adfa-599621ab46ec"
-					(reference "R5")
 					(unit 1)
 				)
 			)
