@@ -64,10 +64,6 @@
           "teensy connector is messed up"
         ],
         [
-          "track_dangling|101000000|57500000|44085b99-9813-44df-a10f-9e0ee15474ac|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "track_dangling|185374962|74374962|4f2400b9-31d9-4d57-945d-6ad80508c3b9|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -814,7 +810,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "K:/LSU TigerRacing/TigerRacing/Design/2026_Design/Powertrain/PCB/PCB STEPs/PrechargeGarethMode.step",
+      "step": "Precharge the fat way.step",
       "svg": "",
       "vrml": ""
     },
