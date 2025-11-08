@@ -1,0 +1,147 @@
+- 3 ohms resistor - BAD, too fast
+
+=== STANDBY 
+* Waiting for stable shutdown circuit
+ === PRECHARGE   Target precharge 90.0%
+    0ms 103.3%    61.4V
+  100ms 93.4%   173.3V
+  200ms 99.6%   266.4V
+* Precharge complete at: 101%   297.5V
+ === RUNNING
+
+- 680 ohms  - BAD, too fast
+
+ === STANDBY - 
+* Waiting for stable shutdown circuit
+ === PRECHARGE   Target precharge 90.0%
+    0ms 48.2%    26.3V
+  100ms 71.6%   130.1V
+  200ms 86.6%   230.3V
+  300ms 92.1%   274.5V
+  400ms 94.9%   294.4V
+* Precharge complete at: 96%   301.0V
+ === RUNNING
+ 
+- 3k ohms - BAD, too slow
+
+ === STANDBY
+* Waiting for stable shutdown circuit
+ === PRECHARGE   Target precharge 90.0%
+    0ms 12.5%     6.6V
+  100ms 20.4%    36.0V
+  200ms 30.4%    80.1V
+  300ms 38.9%   115.2V
+  400ms 46.2%   142.8V
+  500ms 52.5%   164.8V
+  600ms 58.6%   185.3V
+  700ms 62.6%   198.3V
+  800ms 66.7%   211.5V
+  900ms 69.8%   221.7V
+ 1000ms 72.5%   230.1V
+ 1100ms 74.4%   235.9V
+ 1200ms 76.5%   242.3V
+ 1300ms 77.5%   245.7V
+ 1400ms 78.2%   248.2V
+ 1500ms 79.8%   253.3V
+ 1600ms 81.1%   257.3V
+ 1700ms 81.5%   258.6V
+ 1800ms 81.8%   259.8V
+ 1900ms 82.5%   262.1V
+ 2000ms 82.9%   263.5V
+ 2100ms 83.4%   264.7V
+ 2200ms 83.8%   266.2V
+ 2300ms 84.2%   267.3V
+ 2400ms 83.5%   264.7V
+ 2500ms 83.2%   264.2V
+ 2600ms 83.9%   266.5V
+ 2700ms 84.0%   266.6V
+ 2800ms 84.9%   269.8V
+ 2900ms 85.7%   272.2V
+ 3000ms 85.1%   269.9V
+ === ERROR
+   *Precharge too slow. Potential causes:
+   - Wiring fault
+   - Discharge is stuck-on
+   - Target precharge percent is too high
+
+1360 ohms resistor - GOOD
+
+ === STANDBY
+* Waiting for stable shutdown circuit
+ === PRECHARGE   Target precharge 90.0%
+    0ms 20.7%    14.0V
+  100ms 39.5%    74.6V
+  200ms 56.4%   151.6V
+  300ms 67.6%   202.0V
+  400ms 75.3%   233.6V
+  500ms 81.0%   254.9V
+  600ms 85.3%   270.1V
+  700ms 87.2%   276.8V
+  800ms 89.6%   284.4V
+  900ms 90.9%   288.3V
+ 1000ms 91.7%   290.9V
+* Precharge complete at: 92%   291.6V
+ === RUNNING
+ === STANDBY
+* Waiting for stable shutdown circuit
+
+2040 ohms resistor - CLOSE enough???
+
+=== PRECHARGE   Target precharge 90.0%
+    0ms 18.7%     9.8V
+  100ms 29.4%    52.2V
+  200ms 42.4%   112.1V
+  300ms 52.6%   156.3V
+  400ms 60.3%   187.1V
+  500ms 67.5%   212.2V
+  600ms 72.4%   229.0V
+  700ms 76.3%   242.1V
+  800ms 80.2%   254.4V
+  900ms 82.4%   261.9V
+ 1000ms 84.1%   267.1V
+ 1100ms 85.3%   270.4V
+ 1200ms 86.5%   274.7V
+ 1300ms 87.2%   276.8V
+ 1400ms 87.8%   279.0V
+ 1500ms 88.3%   280.3V
+ 1600ms 88.8%   281.8V
+ 1700ms 89.0%   282.8V
+ 1800ms 89.5%   283.9V
+ 1900ms 89.5%   284.2V
+ 2000ms 90.0%   285.9V
+ 2100ms 89.1%   283.3V
+ 2200ms 89.1%   282.8V
+ 2300ms 89.2%   282.9V
+ 2400ms 89.8%   284.8V
+ 2500ms 89.6%   284.1V
+ 2600ms 89.8%   285.1V
+ 2700ms 89.5%   284.2V
+ 2800ms 89.6%   284.5V
+ 2900ms 89.6%   284.4V
+ 3000ms 89.8%   284.9V
+ === ERROR
+   *Precharge too slow. Potential causes:
+   - Wiring fault
+   - Discharge is stuck-on
+   - Target precharge percent is too high
+
+1.4k ohms resistor - GOOD, around best time 
+
+=== STANDBY
+* Waiting for stable shutdown circuit
+ === PRECHARGE   Target precharge 90.0%
+    0ms 27.1%    14.4V
+  100ms 40.5%    72.5V
+  200ms 56.8%   149.9V
+  300ms 67.5%   199.6V
+  400ms 75.1%   231.5V
+  500ms 80.7%   252.8V
+  600ms 84.3%   265.8V
+  700ms 86.8%   274.3V
+  800ms 89.3%   282.1V
+  900ms 90.5%   285.9V
+ 1000ms 91.5%   289.8V
+* Precharge complete at: 91%   288.7V
+ === RUNNING
+ === STANDBY
+* Waiting for stable shutdown circuit

@@ -64,6 +64,10 @@
           "teensy connector is messed up"
         ],
         [
+          "solder_mask_bridge|187850000|114750000|f9392ef6-d702-436f-bbc2-b402b10bc5cf|48302d6e-d5d9-457b-b347-caad5af53fec",
+          ""
+        ],
+        [
           "track_dangling|185374962|74374962|4f2400b9-31d9-4d57-945d-6ad80508c3b9|00000000-0000-0000-0000-000000000000",
           ""
         ],
