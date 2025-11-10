@@ -1139,7 +1139,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BSPD:SAMMY-3PIN"
+		(symbol "BSPD:SAMMY-4PIN"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1154,16 +1154,16 @@
 					)
 				)
 			)
-			(property "Value" "SAMMY-3PIN"
-				(at 8.636 3.81 0)
+			(property "Value" "SAMMY-4PIN"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "CONN_SD-105313-100_03_MOL"
-				(at 8.382 -8.89 0)
+			(property "Footprint" "CONN_SD-105313-100_04_MOL"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1172,8 +1172,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131203?display=pdf"
-				(at 9.906 -10.668 0)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131104?display=pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1199,7 +1199,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "1053131203"
+			(property "ki_keywords" "1053131104"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1208,7 +1208,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN_SD-105313-100_03_MOL"
+			(property "ki_fp_filters" "CONN_SD-105313-100_04_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1217,10 +1217,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SAMMY-3PIN_1_1"
+			(symbol "SAMMY-4PIN_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
+						(xy 5.08 2.54) (xy 5.08 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1232,511 +1232,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SAMMY-3PIN_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BSPD:SAMMY-5PIN"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SAMMY-5PIN"
-				(at 8.382 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_SD-105313-100_05_MOL"
-				(at 7.874 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131205?display=pdf"
-				(at 6.35 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1053131205"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_SD-105313-100_05_MOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SAMMY-5PIN_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 12.7 -12.7)
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1892,42 +1388,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.16) (xy 8.89 -9.3133)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.16) (xy 8.89 -11.0067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -1940,7 +1400,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 12.7 2.54)
+						(xy 12.7 -10.16) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -2022,29 +1482,11 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "SAMMY-5PIN_1_2"
+			(symbol "SAMMY-4PIN_1_2"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -12.7)
+						(xy 5.08 2.54) (xy 5.08 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -2056,7 +1498,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -12.7) (xy 12.7 -12.7)
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -2212,42 +1654,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -9.3133)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -11.0067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -2260,7 +1666,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 12.7 2.54)
+						(xy 12.7 -10.16) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -2335,24 +1741,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4204,16 +3592,6 @@
 		)
 		(uuid "0026589f-6e0e-4d86-9b86-bab0a3d1ce8f")
 	)
-	(text "NC"
-		(exclude_from_sim no)
-		(at 18.288 74.168 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2a19b1a3-c4d4-4466-9145-168f31679903")
-	)
 	(text "BSE Voltage (0.5-4.5V)\n"
 		(exclude_from_sim no)
 		(at 87.122 19.304 0)
@@ -4289,7 +3667,7 @@
 	)
 	(text "BSE Voltage (0.5-4.5V)\n"
 		(exclude_from_sim no)
-		(at 87.376 58.42 0)
+		(at 89.408 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4374,7 +3752,7 @@
 		)
 		(uuid "df4fcca9-64dd-4147-99de-337bf675a0c9")
 	)
-	(text "τ = 0.22s\n\n"
+	(text "τ = 0.487s\n\n"
 		(exclude_from_sim no)
 		(at 272.542 115.57 0)
 		(effects
@@ -4624,12 +4002,6 @@
 		(uuid "0a20d19d-a925-4a0d-ab8f-7dc02d4118b0")
 	)
 	(junction
-		(at 74.93 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a2e7deb-0014-49b8-a1c7-a37fc5e8f2c9")
-	)
-	(junction
 		(at 36.83 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4840,12 +4212,6 @@
 		(uuid "df06562c-3343-4240-bd3c-665bccbbde92")
 	)
 	(junction
-		(at 74.93 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df843fc7-6618-4beb-97ba-99a53b8ffc8e")
-	)
-	(junction
 		(at 54.61 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4896,22 +4262,8 @@
 		(uuid "71d81f88-8052-4c3e-8698-67e6edc92d6f")
 	)
 	(no_connect
-		(at 34.29 73.66)
-		(uuid "79925085-76b4-4680-9a44-b739ee712b05")
-	)
-	(no_connect
 		(at 129.54 77.47)
 		(uuid "7e6c5e6e-d667-41a7-8168-78f48ad8ffb9")
-	)
-	(wire
-		(pts
-			(xy 74.93 69.85) (xy 74.93 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00896936-d850-412c-af96-8e94c2fceaeb")
 	)
 	(wire
 		(pts
@@ -5035,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 72.39) (xy 90.17 72.39)
+			(xy 68.58 38.1) (xy 88.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5052,16 +4404,6 @@
 			(type default)
 		)
 		(uuid "1333e2fe-11e5-44e5-8a66-b0d0dbc25ed3")
-	)
-	(wire
-		(pts
-			(xy 73.66 77.47) (xy 74.93 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1395b7bc-8fa2-4959-a4bf-4a17f70066ad")
 	)
 	(wire
 		(pts
@@ -5102,16 +4444,6 @@
 			(type default)
 		)
 		(uuid "179e4644-1d9e-47f9-ae01-8572789db099")
-	)
-	(wire
-		(pts
-			(xy 81.28 69.85) (xy 81.28 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8940a9-29d1-4906-8475-76064fd4f6c5")
 	)
 	(wire
 		(pts
@@ -5165,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 81.28 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f96dac3-bbb1-48ba-9a73-cc2ee0ede32b")
-	)
-	(wire
-		(pts
 			(xy 52.07 203.2) (xy 54.61 203.2)
 		)
 		(stroke
@@ -5212,6 +4534,16 @@
 			(type default)
 		)
 		(uuid "226f39e3-21db-4470-a50f-af4e635982fd")
+	)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233a6655-21cb-455a-a24b-bc6e04f97d5c")
 	)
 	(wire
 		(pts
@@ -5422,16 +4754,6 @@
 			(type default)
 		)
 		(uuid "3a8b3a5a-df6c-416d-9513-7ec602ad0891")
-	)
-	(wire
-		(pts
-			(xy 81.28 59.69) (xy 81.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab65d74-96d6-41c3-98eb-4e9f7beef8bd")
 	)
 	(wire
 		(pts
@@ -6085,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 74.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a0ca4b-6db5-4e82-91a1-a49264a07709")
-	)
-	(wire
-		(pts
 			(xy 81.28 20.32) (xy 81.28 22.86)
 		)
 		(stroke
@@ -6355,16 +5667,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 74.93 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3bb8ff6-bdb8-4cba-b832-c5b2f12a1046")
-	)
-	(wire
-		(pts
 			(xy 66.04 170.18) (xy 66.04 172.72)
 		)
 		(stroke
@@ -6372,16 +5674,6 @@
 			(type default)
 		)
 		(uuid "a51b6221-309e-43a2-995a-ec3dec287543")
-	)
-	(wire
-		(pts
-			(xy 74.93 59.69) (xy 81.28 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6851e7a-6696-40a1-8053-d1fee59a6109")
 	)
 	(wire
 		(pts
@@ -6725,16 +6017,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 69.85) (xy 69.85 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b74a4f-9b5b-461a-9864-5257cdfd3c67")
-	)
-	(wire
-		(pts
 			(xy 54.61 181.61) (xy 54.61 180.34)
 		)
 		(stroke
@@ -6842,16 +6124,6 @@
 			(type default)
 		)
 		(uuid "dfbcdef7-61bf-47b7-a995-b3843dc2f3c8")
-	)
-	(wire
-		(pts
-			(xy 74.93 58.42) (xy 74.93 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0765cd2-607e-4041-93be-68b929386230")
 	)
 	(wire
 		(pts
@@ -7102,16 +6374,6 @@
 			(type default)
 		)
 		(uuid "f9e0f266-42b6-4e62-99a0-b1b3bff1492c")
-	)
-	(wire
-		(pts
-			(xy 69.85 67.31) (xy 74.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e2e69e-fe40-4332-972f-2d5abce06ba5")
 	)
 	(wire
 		(pts
@@ -11562,7 +10824,25 @@
 			"egBQADgAMgBRAEMARQBzAHgAYwB3AGEATQB3ADgAUABYAFAAaQBOAEoAdgAyAHAAVABRAE4AZwBz"
 			"ADMATwAxAEcAegBqAGoAUwBiAHcASwBtADYAYgAvAGIAWQA4AC8AMQBEAEEAUgBRAEIAaQBRAEMA"
 			"UQBCAGoARQBhAFgAcwAwAGUAVABDAGIATQB4AEYAbgBjAHgAOQBzAGgAYQB0AGIAeQBrAGkAQwBT"
-			"AFAASABPAG0AeQBTAGkAUQBTAGkAVQBRAA=="
+			"AFAASABPAG0AeQBTAGkAUQBTAGkAVQBRAP//////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"///////////////////////////////////////////////////3////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"///////////34v//////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////3sr/////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////w=="
 		)
 	)
 	(image
@@ -13170,7 +12450,25 @@
 			"QQBUAEEAQgBsAEEARABJAEEATgBRAEIAawBBAEgAUQBBAGEAZwBCAHkAQQBFAHMAQQBiAFEAQgBZ"
 			"AEEAQwBzAEEAWgBnAEIAdABBAEUATQBBAGEAQQBCAGkAQQBIAFkAQQBWAFEAQQB4AEEARwBFAEEA"
 			"WQBRAEIAcwBBAEQATQBBAGIAdwBCAHoAQQBFAEUAQQBRAHcAQQA1AEEARABnAEEATAB3AEIANgBB"
-			"AEgATQBBAFIAZwBCADQAQQBHAG8AQQBZAGcAQgBOAEEARQBvAEEAVg=="
+			"AEgATQBBAFIAZwBCADQAQQBHAG8AQQBZAGcAQgBOAEEARQBvAEEAVgBvAHIALgBwAHkAAAAAAAAA"
+			"AAAAAAAAhwVlxgAsAYBTAFQAIAAgAFUAUQBGAE4ALAAgADYAIABQAGkAbgAgACgAaAB0AHQAcABz"
+			"ADoALwAvAHcAdwB3AC4AcwB0AC4AYwBvAG0ALwByAGUAcwBvAHUAcgBjAGUALwBlAG4ALwBkAGEA"
+			"dABhAHMAaABlAGUAdAAvAGUAYwBtAGYAMAAyAC0AMgBhAG0AeAA2AC4AcABkAGYAKQAsACAAZwBl"
+			"AG4AZQByAGEAdABlAGQAIAB3AGkAdABoACAAawBpAGMAYQBkAC0AZgBvAG8AdABwAHIAaQBuAHQA"
+			"LQBnAGUAbgBlAHIAYQB0AG8AcgAgAGkAcABjAF8AbgBvAEwAZQBhAGQAXwBnAGUAbgBlAHIAYQB0"
+			"AG8AcgAuAHAAeQAAAAAAAAAAAAAAAAAAAKgFcMYALQGAcQBmAG4ALAAgADQAOAAgAHAAaQBuACAA"
+			"KABoAHQAdABwADoALwAvAHcAdwB3AC4AdABoAGEAdABjAG8AcgBwAC4AYwBvAG0ALwBkAGEAdABh"
+			"AHMAaAB0AHMALwB0AGgAYQB0AF8ANgAyADYAeABfAGQAYQB0AGEAcwBoAGUAZQB0AC4AcABkAGYA"
+			"KQAsACAAZwBlAG4AZQByAGEAdABlAGQAIAB3AGkAdABoACAAawBpAGMAYQBkAC0AZgBvAG8AdABw"
+			"AHIAaQBuAHQALQBnAGUAbgBlAHIAYQB0AG8AcgAgAGkAcABjAF8AbgBvAGwAZQBhAGQAXwBnAGUA"
+			"bgBlAHIAYQB0AG8AcgAuAHAAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9BV/GAC4BgHEAZgBu"
+			"ACwAIAA2ADQAIABwAGkAbgAgACgAaAB0AHQAcAA6AC8ALwB3AHcAMQAuAG0AaQBjAHIAbwBjAGgA"
+			"aQBwAC4AYwBvAG0ALwBkAG8AdwBuAGwAbwBhAGQAcwAvAGUAbgAvAGQAZQB2AGkAYwBlAGQAbwBj"
+			"AC8ANwAwADUAOQAzAGQALgBwAGQAZgApACwAIABnAGUAbgBlAHIAYQB0AGUAZAAgAHcAaQB0AGgA"
+			"IABrAGkAYwBhAGQALQBmAG8AbwB0AHAAcgBpAG4AdAAtAGcAZQBuAGUAcgBhAHQAbwByACAAaQBw"
+			"AGMAXwBuAG8AbABlAGEAZABfAGcAZQBuAGUAcgBhAHQAbwByAC4AcAB5AAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAATgWqxgAvAYBRAEYATgAsACAANgA4ACAAUABpAG4AIAAoAGgAdAB0AHAAcwA6AC8ALwB3"
+			"AHcAdwAuAHMAdAAuAGMAbwBtAC8AcgBlAHMAbwB1AHIAYwBlAC8AZQ=="
 		)
 	)
 	(image
@@ -14232,7 +13530,25 @@
 			"awA2AHQAOABWAEIANgBhAGsAUQBYADcAdwB1AGgAVwBQAE8AagAwAHcATwBtAFAATgBQAEQATAB0"
 			"AHIAdwByADcAYQBBAHMANgA1ADUAVQBKAGQAYwBEAGgAUwBMADEAUgBmADQALwBOAGYAagBaAEYA"
 			"bwBwAEEAagBKAGgAMgBkADUAdgArAGUANQBoAGMANwBVAFMAdgBZAGMAUwBKAFQAMABxADYAOQB1"
-			"ADIATgArAE0AKwBlAFQAegBBAEwAcwB2AHQAdABsAGIAQQ=="
+			"ADIATgArAE0AKwBlAFQAegBBAEwAcwB2AHQAdABsAGIAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAA8D+sW+78AD8GgHD6kCutAQAAIEbEJa0BAABw+pArrQEAAAEAAAAAAAAAqAQAAGwAdQAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwP6Nb8/wAQAaAwPqQK60BAACQWMQlrQEAAMD6"
+			"kCutAQAAAQAAAAAAAAC6BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/plv0"
+			"/K1BBoDA/5ArrQEAABBgxCWtAQAAwP+QK60BAAABAAAAAAAAALYEAAAAAAAAAAAAAAAAAADl5OTk"
+			"TLOpP1taWhocHLw/AAAAAAAA8D+9W/n8AEIGgPALkSutAQAAMF7EJa0BAADwC5ErrQEAAAEAAAAA"
+			"AAAAtgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwP7BbwvwAQwaA8FzEJa0B"
+			"AADQWcQlrQEAAOBdxCWtAQAAAQAAAAAAAAC5BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAPA/t1vH/ABEBoBwRsQlrQEAAIBUxCWtAQAAMI+/MK0BAAABAMX8AHwDgLcEAACtAQAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D9KW8j8AEUGgLBbxCWtAQAAMFnEJa0BAADg"
+			"WMQlrQEAAAEAAAAAAAAAuQQAAK0BAAAAAAAAAAAAAOXk5ORMs6k/W1paGhwcvD8AAAAAAADwP0Fb"
+			"zfwARgaAYFvEJa0BAAAQh78wrQEAALBWxCWtAQAAAQDEJa0BAAC5BAAArQEAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAPA/RFvW/ABHBoDA/5ArrQEAAEBYxCWtAQAAwP+QK60BAAABAAAA"
+			"AAAAALoEAAAAAAAAAAAAAAAAAADl5OTkTLOpP1taWhocHLw/AAAAAAAA8D9bW9v8AEgGgEBYxCWt"
+			"AQAAAFzEJa0BAADAhr8wrQEAAAEAAAAAAAAAuwQAAK0BAAAAAAAAAAAAAOXk5ORMs6k/W1paGhwc"
+			"vD8AAAAAAADwP15b3PwASQaAAGHEJa0BAAAwj78wrQEAACBfxCWtAQAAAQAAAAAAAAC5BAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/VVsh/K1KBoCgV8QlrQEAABBbxCWtAQAA"
+			"gIW/MK0BAAABAAAAAAAAALsEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D9o"
+			"Wyr8AEsGgEAMkSutAQAAgF7EJa0BAABADJErrQEAAAEAAA=="
 		)
 	)
 	(image
@@ -14856,7 +14172,25 @@
 			"QgBsAFkAbgBoAGYAVgBKAGkATQBKAFEAQwBVAFoAKwBYADYAUQBxAEUAbQBaAEoARQBwADUAVQBE"
 			"AEMAQQBmAHkATABGAFcAVwAxAEgASQBSAEQASQB3AGcANwBuAEQAZgA0AFoAMABhAEsAWQBCAFEA"
 			"ZQA4AE8ARAB5ACsAYwBwAEQARwBtAEsATAAyAHgASgBXAEEAVABjAG4AbQBGAEEAegBEAGkANQBM"
-			"AHoARgA0ADcARw=="
+			"AHoARgA0ADcARwBmAGUAdAAgAHMAMwBjACAAaAB0AHQAcABzADoALwAvAHcAdwB3AC4AaQBuAGYA"
+			"aQBuAGUAbwBuAC4AYwBvAG0ALwBkAGcAZABsAC8AaQBuAGYAaQBuAGUAbwBuAC0AYQBuAC0AMQAw"
+			"ADMANQAtAGEAcABwAGwAaQBjAGEAdABpAG8AbgBuAG8AdABlAHMALQB2ADIAOQBfADAAMQAtAGUA"
+			"bgAuAHAAZABmAD8AZgBpAGwAZQBpAGQAPQA1ADUANAA2AGQANAA2ADIANQAzADMANgAwADAAYQA0"
+			"ADAAMQA1ADMANQA1ADkAMQA1ADkAMAAyADAAZgA3ADYAIwBwAGEAZwBlAD0AMgA1AAAAAAAAAAAA"
+			"AAAAAAAAAAAAAP86Hc8ApAGAZABpAHIAZQBjAHQAZgBlAHQAIABzADEAIABoAHQAdABwAHMAOgAv"
+			"AC8AdwB3AHcALgBpAG4AZgBpAG4AZQBvAG4ALgBjAG8AbQAvAGQAZwBkAGwALwBpAG4AZgBpAG4A"
+			"ZQBvAG4ALQBhAG4ALQAxADAAMwA1AC0AYQBwAHAAbABpAGMAYQB0AGkAbwBuAG4AbwB0AGUAcwAt"
+			"AHYAMgA5AF8AMAAxAC0AZQBuAC4AcABkAGYAPwBmAGkAbABlAGkAZAA9ADUANQA0ADYAZAA0ADYA"
+			"MgA1ADMAMwA2ADAAMABhADQAMAAxADUAMwA1ADUAOQAxADUAOQAwADIAMABmADcANgAjAHAAYQBn"
+			"AGUAPQAyADAAAAAAAAAAAAAAAAAAAAAAAAAAAACAOmjPAKUBgEQAaQByAGUAYwB0AEYARQBUACAA"
+			"UwAzAEMAIABoAHQAdABwAHMAOgAvAC8AdwB3AHcALgBpAG4AZgBpAG4AZQBvAG4ALgBjAG8AbQAv"
+			"AGQAZwBkAGwALwBJAG4AZgBpAG4AZQBvAG4ALQBBAE4ALQAxADAAMwA1AC0AQQBwAHAAbABpAGMA"
+			"YQB0AGkAbwBuAE4AbwB0AGUAcwAtAHYAMgA5AF8AMAAxAC0ARQBOAC4AcABkAGYAPwBmAGkAbABl"
+			"AEkAZAA9ADUANQA0ADYAZAA0ADYAMgA1ADMAMwA2ADAAMABhADQAMAAxADUAMwA1ADUAOQAxADUA"
+			"OQAwADIAMABmADcANgAjAHAAYQBnAGUAPQAyADUAAAAAAAAAAAAAAAAAAAAAAAAAlTp3zwCmAYBk"
+			"AGkAcgBlAGMAdABmAGUAdAAgAHMAYQAgAGgAdAB0AHAAcwA6AC8ALwB3AHcAdwAuAGkAbgBmAGkA"
+			"bgBlAG8AbgAuAGMAbwBtAC8AZABnAGQAbAAvAGkAbgBmAGkAbgBlAG8AbgAtAGEAbgAtADEAMAAz"
+			"ADUALQBhAHAAcA=="
 		)
 	)
 	(image
@@ -17492,7 +16826,25 @@
 			"dgBIAGMATQByAHcAVQBJAFcAYgByAGwAQwBOAE0AQwBKAHoAYwA5AEkAawA1AGkAVQBOAFUAKwAv"
 			"AEkAWABnAE8AUwAxAEoARQBSAEMAQQBBAEIATQBRAG0AaQBOAGgARwBQAFgAZwBpAEQAbgBCAHQA"
 			"KwBQAE8AagBQAHIARAA3ADgAQgBtADgAbgA1ADkAVwBuADUAWQBvADYAQwBiADkAMQBXADMAMwBS"
-			"AFYAQwAwAGYAegB6AGsANQBxAE4AWgBPAEUAUgBJAFEASgBYAFYAeABjAFgASQBTAA=="
+			"AFYAQwAwAGYAegB6AGsANQBxAE4AWgBPAEUAUgBJAFEASgBYAFYAeABjAFgASQBTAGMAdAByAG8A"
+			"bgBpAGMAcwAgADYAMQAwADAAMgA0ADIANAAzADAAMgAxACAAKABoAHQAdABwAHMAOgAvAC8AawBh"
+			"AHQAYQBsAG8AZwAuAHcAZQAtAG8AbgBsAGkAbgBlAC4AZABlAC8AZQBtAC8AZABhAHQAYQBzAGgA"
+			"ZQBlAHQALwA2ADEAMAAwADIANAAyADQAMwAwADIAMQAuAHAAZABmACkALAAgAGcAZQBuAGUAcgBh"
+			"AHQAZQBkACAAdwBpAHQAaAAgAGsAaQBjAGEAZAAtAGYAbwBvAHQAcAByAGkAbgB0AC0AZwBlAG4A"
+			"ZQByAGEAdABvAHIAAAAAAAAAAAAAAAAAAAAAAAAAY7fH1AAsAIBjAG8AbgBuAGUAYwB0AG8AcgAg"
+			"AHcAdQBlAHIAdABoACwAIAB3AHIALQBwAGgAZAAgADIALgA1ADQAbQBtACAAZAB1AGEAbAAgAHMA"
+			"bwBjAGsAZQB0ACAAaABlAGEAZABlAHIAIABiAG8AdAB0AG8AbQAgAGUAbgB0AHIAeQAgAHMAbQBk"
+			"ACwAIAB3AHUAZQByAHQAaAAgAGUAbABlAGMAdAByAG8AbgBpAGMAcwAgADYAMQAwADAAMgAwADIA"
+			"NAAzADAAMgAxACAAKABoAHQAdABwAHMAOgAvAC8AawBhAHQAYQBsAG8AZwAuAHcAZQAtAG8AbgBs"
+			"AGkAbgBlAC4AZABlAC8AZQBtAC8AZABhAHQAYQBzAGgAZQBlAHQALwA2ADEAMAAwADIAMAAyADQA"
+			"MwAwADIAMQAuAHAAZABmACkALAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAdwBpAHQAaAAgAGsAaQBj"
+			"AGEAZAAtAGYAbwBvAHQAcAByAGkAbgB0AC0AZwBlAG4AZQByAGEAdABvAHIAAAAAAAAAAAAAAAAA"
+			"AAAAAAAADLes1AAtAIBDAG8AbgBuAGUAYwB0AG8AcgAgAFcAdQBlAHIAdABoACwAIABXAFIALQBQ"
+			"AEgARAAgADIALgA1ADQAbQBtACAARAB1AGEAbAAgAFMAbwBjAGsAZQB0ACAASABlAGEAZABlAHIA"
+			"IABCAG8AdAB0AG8AbQAgAEUAbgB0AHIAeQAgAFMATQBEACwAIABXAHUAZQByAHQAaAAgAGUAbABl"
+			"AGMAdAByAG8AbgBpAGMAcwAgADYAMQAwADAAMgA2ADIANAAzADAAMgAxACAAKABoAHQAdABwAHMA"
+			"OgAvAC8AawBhAHQAYQBsAG8AZwAuAHcAZQAtAG8AbgBsAGkAbgBlAC4AZABlAC8AZQBtAC8AZABh"
+			"AHQAYQBzAGgAZQBlAHQALwA2ADEAMAAwADIANgAyADQAMwAwADIAMQAuAHAAZABmAA=="
 		)
 	)
 	(image
@@ -17960,7 +17312,25 @@
 			"hvE7ObN9axJRw0pGNsM6t4x9lYgiJxfyWXmUr1t/X/Y8uVhEoZEjbwN3PVm5daDmz/tX1ke/U9kY"
 			"+OSLsLCyRvTGUmk/wLm39nffK1zfAbgLB+ofAAAAAACw+OXz58/2h2q1Wvn9tweUBgAAAADgx1D5"
 			"679KpfLQUoCHoVKp7O3t8eWLAAAAAAAA4OcCfjAAAAAAAHiKzMcH//tr/iHEAAAAAAD4wVQRF/HE"
-			"ccUHAwAAAAAA8ET4P26qA2//t+vOAAAAAElFTkSuQmCC"
+			"ccUHAwAAAAAA8ET4P26qA2//t+vOAAAAAElFTkSuQmCCWUFid0J2QUhRQWNBQnlBR2tBYmdCMEFD"
+			"MEFad0JsQUc0QVpRQnlBR0VBZEFCdkFISUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUlq"
+			"bkhaUUFMZ0NBU2dCVEFGUUFJQUJhQUVnQUlBQnpBR1VBY2dCcEFHVUFjd0FnQUdNQWJ3QnVBRzRB"
+			"WlFCakFIUUFid0J5QUN3QUlBQkNBREVBTUFCQ0FDMEFXZ0JTQUMwQVV3Qk5BRFFBTFFCVUFFWUFJ"
+			"QUFvQUdnQWRBQjBBSEFBT2dBdkFDOEFkd0IzQUhjQUxnQnFBSE1BZEFBdEFHMEFaZ0JuQUM0QVl3"
+			"QnZBRzBBTHdCd0FISUFid0JrQUhVQVl3QjBBQzhBY0FCa0FHWUFMd0JsQUc0QVp3QXZBR1VBV2dC"
+			"SUFDNEFjQUJrQUdZQUtRQXNBQ0FBWndCbEFHNEFaUUJ5QUdFQWRBQmxBR1FBSUFCM0FHa0FkQUJv"
+			"QUNBQWF3QnBBR01BWVFCa0FDMEFaZ0J2QUc4QWRBQndBSElBYVFCdUFIUUFMUUJuQUdVQWJnQmxB"
+			"SElBWVFCMEFHOEFjZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUo3bkQ1UUFMd0NBU2dCVEFG"
+			"UUFJQUJhQUVVQUlBQnpBR1VBY2dCcEFHVUFjd0FnQUdNQWJ3QnVBRzRBWlFCakFIUUFid0J5QUN3"
+			"QUlBQlRBREVBTUFCQ0FDMEFXZ0JGQUZNQVN3QXRBRElBUkFBZ0FDZ0FhQUIwQUhRQWNBQTZBQzhB"
+			"THdCM0FIY0Fkd0F1QUdvQWN3QjBBQzBBYlFCbUFHY0FMZ0JqQUc4QWJRQXZBSEFBY2dCdkFHUUFk"
+			"UUJqQUhRQUx3QndBR1FBWmdBdkFHVUFiZ0JuQUM4QVpRQmFBRVVBTGdCd0FHUUFaZ0FwQUN3QUlB"
+			"Qm5BR1VBYmdCbEFISUFZUUIwQUdVQVpBQWdBSGNBYVFCMEFHZ0FJQUJyQUdrQVl3QmhBR1FBTFFC"
+			"bUFHOEFid0IwQUhBQWNnQnBBRzRBZEFBdEFHY0FaUUJ1QUdVQWNnQmhBSFFBYndCeUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUt6bk9aUUFNQUNBU2dCVEFGUUFJQUJhQUVVQUlBQnpB"
+			"R1VBY2dCcEFHVUFjd0FnQUdNQWJ3QnVBRzRBWlFCakFIUUFid0J5QUN3QUlBQkNBRTBBTVFBeUFF"
+			"SUFMUUJhQUVVQVV3QlRBQzBBVkFCQ0FGUUFJQUFvQUdnQWRBQjBBSEFBT2dBdkFDOEFkd0IzQUhj"
+			"QUxnQnFBSE1BZEFBdEFHMEFaZ0JuQUM0QVl3QnZBRw=="
 		)
 	)
 	(image
@@ -18680,7 +18050,25 @@
 			"VUFkd0JDQUhrQVFRQklBRWtBUVFCa0FHY0FRUUIyQUVFQVNBQmpBRUVBVndCQkFFSUFNUUJCQUVR"
 			"QVFRQkJBRlFBZHdCQkFESUFRUUJIQUdzQVFRQmFBR2NBUWdCVUFFRUFSQUJGQUVFQVlnQm5BRUVB"
 			"ZGdCQkFFUUFVUUJCQUZJQVp3QkNBRlVBUVFCSUFFRUFRUUJrQUhjQVFnQldBRUVBUXdBNEFFRUFU"
-			"UUIzQUVJQU1nQkJBRVFBUlFCQkFHTUFad0JCQQ=="
+			"UUIzQUVJQU1nQkJBRVFBUlFCQkFHTUFad0JCQdMAgHQAaAB0ACAAdABlAHIAbQBpAG4AYQBsACAA"
+			"YgBsAG8AYwBrACAAcABoAG8AZQBuAGkAeAAgAHAAdAAtADEALAA1AC0AMQAzAC0ANQAuADAALQBo"
+			"ACAAcABpAHQAYwBoACAANQBtAG0AIABzAGkAegBlACAANgA1AHgAOQBtAG0AIABkAHIAaQBsAGwA"
+			"IAAxAC4AMwBtAG0AIABwAGEAZAAgADIALgA2AG0AbQAAAAAAAAAAAAAAAAAyYdbZANQAgHQAaAB0"
+			"ACAAdABlAHIAbQBpAG4AYQBsACAAYgBsAG8AYwBrACAAcgBuAGQAIAAyADAANQAtADAAMAAwADgA"
+			"MwAgAHAAaQB0AGMAaAAgADEAMABtAG0AIABzAGkAegBlACAANgA1AHgAMQAwAC4AMwBtAG0AIABk"
+			"AHIAaQBsAGwAIAAxAC4AMwBtAG0AIABwAGEAZAAgADIALgA1AG0AbQAAAAAANgBtAG0AAAAAAAAA"
+			"AAAAAAAAAADOniraANUAgHQAaAB0ACAAdABlAHIAbQBpAG4AYQBsACAAYgBsAG8AYwBrACAAcgBu"
+			"AGQAIAAyADAANQAtADAAMAAwADgAMQAgAHAAaQB0AGMAaAAgADEAMABtAG0AIABzAGkAegBlACAA"
+			"NAA1AHgAMQAwAC4AMwBtAG0AIABkAHIAaQBsAGwAIAAxAC4AMwBtAG0AIABwAGEAZAAgADIALgA1"
+			"AG0AbQAAACAAAABtAG0AAAAAAAAAAAAAAAAAAADanj7aANYAgHQAaAB0ACAAdABlAHIAbQBpAG4A"
+			"YQBsACAAYgBsAG8AYwBrACAAcABoAG8AZQBuAGkAeAAgAHAAdAAtADEALAA1AC0ANAAtADUALgAw"
+			"AC0AaAAgAHAAaQB0AGMAaAAgADUAbQBtACAAcwBpAHoAZQAgADIAMAB4ADkAbQBtACAAZAByAGkA"
+			"bABsACAAMQAuADMAbQBtACAAcABhAGQAIAAyAC4ANgBtAG0AAAAAAAAAAAAAAAAAAADWnjLaANcA"
+			"gHQAaAB0ACAAdABlAHIAbQBpAG4AYQBsACAAYgBsAG8AYwBrACAAcgBuAGQAIAAyADAANQAtADAA"
+			"MAAwADgAMgAgAHAAaQB0AGMAaAAgADEAMABtAG0AIABzAGkAegBlACAANQA1AHgAMQAwAC4AMwBt"
+			"AG0AIABkAHIAaQBsAGwAIAAxAC4AMwBtAG0AIABwAGEAZAAgADIALgA1AG0AbQAAACAAAAA2AG0A"
+			"bQAAAAAAAAAAAAAAAADingbaANgAgHQAaAB0ACAAdABlAHIAbQBpAG4AYQBsACAAYgBsAG8AYwBr"
+			"ACAAcgBuAGQAIAAyADAANQAtADAAMAAwADcANQ=="
 		)
 	)
 	(image
@@ -21887,7 +21275,25 @@
 			"AGUAVwBnADAAMQBJAHEATABWAHYAQQBJAGcAaQBMAG0AMABxAFIAagBIAFkANQBnADkAQgAzAFQA"
 			"YwB6AEQAZAB2AEEATwBEAFoAcwBQAG4ARABiAEcAWgBlAHMAcQBUAFYAdQBnAGEAQQBlAEQAcABw"
 			"AHIAbAAzAGUAWgAyAEwAWQBOADgAWgA5AHYAdABZADcASwBaAGsALwAzAGcARwBMAGoAVABEAFcA"
-			"SwBXAE8ASgBEAFoARgBzAHgARgBNAE8AVgBrAHcASABkAEUASwBJAGMAUQBIAA=="
+			"SwBXAE8ASgBEAFoARgBzAHgARgBNAE8AVgBrAHcASABkAEUASwBJAGMAUQBIAHNBYlFCNUFIZ0Fk"
+			"UUJPQUVZQWFRQlJBRkFBY2dBckFEY0FWQUJPQUZJQU1BQXhBR3dBVWdCbkFEQUFTd0IwQUdnQVpB"
+			"QnBBSGdBVlFBd0FHc0FNZ0FyQUVRQU1nQnJBRTRBT1FBMUFGRUFhUUJRQUc4QWVRQTJBR1lBVkFC"
+			"RUFGUUFlZ0F6QUVVQVdRQldBRElBYXdCTkFISUFUUUJJQUc0QU13QnhBR0VBU0FCSEFHVUFOUUJy"
+			"QUZFQU1BQlJBR29BT1FCaEFEZ0FiUUIwQUVRQWVRQTFBSFVBTUFCd0FEY0FUZ0JaQUhJQU9RQmtB"
+			"RVVBUndBNUFFWUFjUUIwQUZjQVNnQjJBSEFBTHdBM0FGa0FVd0JCQUhnQVNBQjJBRlVBTXdCUUFF"
+			"UUFUUUJoQUdvQWJnQnBBSGNBV0FCcEFEZ0FXQUI1QUhVQU13QmpBRFlBVlFCeUFEY0FSZ0JaQUhV"
+			"QVNBQnlBRWtBVGdCcUFIWUFlUUEwQUZZQVZBQk1BR1FBYndCMEFHWUFPQUJWQURRQWVRQjFBRVlB"
+			"V0FBdkFHY0FUUUJ5QUVNQU9RQktBR3NBZUFBNUFISUFNd0JpQURZQWJBQlhBRkVBU1FCREFDc0FR"
+			"d0J3QUV3QVl3QndBRmNBTVFCbEFHTUFiUUIwQUdrQVR3QlhBRklBZWdCRkFIVUFRZ0JSQUZnQVpn"
+			"QnFBRWNBV0FCUkFIa0FOd0JUQUVnQWN3Qk5BR2dBVXdCT0FHb0FaZ0JHQURNQVp3QjFBRGdBZFFB"
+			"NUFHZ0FTQUJtQUZZQVpBQTRBRUlBZUFCRkFHUUFVUUJQQURNQVZ3QlRBSGtBUmdCeEFFMEFaQUI2"
+			"QUhVQWFnQklBSGNBTndBdkFGa0FZd0JFQUVzQUt3QklBSG9BY1FCdEFFY0FjZ0F3QURRQU1BQk9B"
+			"REFBTkFCRUFHc0FlZ0JtQUVFQU9BQkxBR3dBUkFCSUFDOEFOUUIyQUVjQWRBQTFBSEVBUlFCVkFF"
+			"UUFkZ0JHQURnQWFRQkhBR29BYmdCNEFGY0FUUUJuQUVRQVVnQlFBRXNBVkFBeUFFZ0FiQUJEQUVN"
+			"QU5nQkxBSFlBU1FBNUFIVUFUQUF5QUhvQVVnQnlBRlFBTXdCbEFEQUFWd0JxQURJQU1BQlRBSEVB"
+			"ZWdCTkFHNEFkd0JUQUdVQVNBQmhBRm9BTVFCMkFHRUFPUUIzQUUwQVNnQnBBR2dBS3dCakFGTUFN"
+			"d0EyQUZjQU13QkJBR1VBUWdCU0FFSUFhd0JDQURnQVN3Qm9BREFBVlFCdUFHWUFkd0IxQURBQWFn"
+			"QXdBREFBTlFCSUFESUFlQUE1QUVRQWRnQjZBQUFBQUFBQUFBQUFBQUFBQUFBQQ=="
 		)
 	)
 	(image
@@ -23475,7 +22881,25 @@
 			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
 			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
 			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
-			"QUFBQUFBQQ=="
+			"QUFBQUFBQWwAbwBnAG8AMgBfADQAMABtAG0AXwBjAG8AcABwAGUAcgAAAAAAAAAAAAAAGDS18AAv"
+			"CIBsAG8AZwBvACAAcwB5AG0AYgBvAGwAIABvAHMAaAB3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"ABw0sfAAMAiAawBpAGMAYQBkAC0AbABvAGcAbwBfADgAbQBtAF8AYwBvAHAAcABlAHIAAAAAAAAA"
+			"AAAAAAAAAAAQNL3wADEIgGsAaQBjAGEAZAAtAGwAbwBnAG8AXwAxADIAbQBtAF8AYwBvAHAAcABl"
+			"AHIAAAAAAAAAAAAAAAAAFDS58AAyCIBsAG8AZwBvACAAcwB5AG0AYgBvAGwAIABvAHMAaAB3AAAA"
+			"AAAAAAAAAAAAAAAAAAAIAAAAAAAAACg0hfAAMwiAbABvAGcAbwAgAHMAeQBtAGIAbwBsACAAbwBz"
+			"AGgAdwAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAsNIHwADQIgE9TSFctU3ltYm9sXzIyLjN4MjBt"
+			"bV9TaWxrU2NyZWVuAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIDSN8AA1CIBQb2xhcml0eV9DZW50"
+			"ZXJfUG9zaXRpdmVfMzBtbV9TaWxrU2NyZWVuAAAAAAAAAAAIAAAAAAAAACQ0ifAANgiAT1NIVy1T"
+			"eW1ib2xfNDQuNXg0MG1tX1NpbGtTY3JlZW4AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA4NJXwADcI"
+			"gFBvbGFyaXR5X0NlbnRlcl9OZWdhdGl2ZV8xMm1tX1NpbGtTY3JlZW4AAAAAAAAAAAAAAAAAAAAA"
+			"PDSR8AA4CIBQb2xhcml0eV9DZW50ZXJfTmVnYXRpdmVfMzBtbV9TaWxrU2NyZWVuAAAAAAAAAAAI"
+			"AAAAAAAAADA0nfAAOQiAbABvAGcAbwAgAHMAeQBtAGIAbwBsACAAbwBzAGgAdwAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAA=="
 		)
 	)
 	(image
@@ -24892,7 +24316,25 @@
 			"AG8ANgBFAEwAQQBNAEMAWQAxAFoALwBJAGwAUgBzAFYAZgBxAHUANQB2AGYAVQAzAHIAYgA3AE8A"
 			"TAAxADQAMABsAGoAQQBRADkAdQAzAEUAWgBSAFcAVgBMAFoAYwBMAGcAeQAvAGYARwAvAEwAcABB"
 			"AEIAUQBUAGsAUwB5AEEAYgBDAFIAUgBCAEcARAB4ACsAOAB6AGEAcwA4ADUAbgA1AFYAYgBWAE0A"
-			"ZgBLAHoAcQBJAHoAZgArAGUAYgA2AEgAcgB0AG4AWgBxAFgAUgA3AE4AZgBaAGcATQBSAHAASw=="
+			"ZgBLAHoAcQBJAHoAZgArAGUAYgA2AEgAcgB0AG4AWgBxAFgAUgA3AE4AZgBaAGcATQBSAHAASwAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAASjfbNAHwCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAujcrNAH0CgAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6jd7N"
+			"AH4CgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAA2jdLNAH8CgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCiibOAIACgAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -27487,7 +26929,25 @@
 			"AFoAUABKAFoANgBMAFgAWABqAHQAMQA4AFEAdwB5AHoAaQAwAGgAYgBLADYAVgBqAEUAVwBpADMA"
 			"dABDAHoAdQBKAEIARwA2AHQAQQBjAG4AUQB4AHkAcAByAFIAQwB4AHAAQQBZAEUASQBUAE8ANgBV"
 			"AHAASwB5ADcASgAwAEkAQgBFAFIAKwBJAHMATAA5AFoAdgBxAHkASABUAEMATwAvAC8AbQBWADMA"
-			"NQAzAEgASgBjAGgAdgBsAEkANgBaAGQAKwAyAA=="
+			"NQAzAEgASgBjAGgAdgBsAEkANgBaAGQAKwAyAGUAYwB0AG8AcgAgAGYAbwBvAHQAcAByAGkAbgB0"
+			"ACAAZgBvAHIAOgAgAE0AUwBUAEIAXwAyACwANQAvADEAMwAtAEcARgA7ACAAbgB1AG0AYgBlAHIA"
+			"IABvAGYAIABwAGkAbgBzADoAIAAxADMAOwAgAHAAaQBuACAAcABpAHQAYwBoADoAIAA1AC4AMAAw"
+			"AG0AbQA7ACAAQQBuAGcAbABlAGQAOwAgAHQAaAByAGUAYQBkAGUAZAAgAGYAbABhAG4AZwBlACAA"
+			"fAB8ACAAbwByAGQAZQByACAAbgB1AG0AYgBlAHIAOgAgADEANwA3ADYAOAAwADkAIAAxADIAQQAA"
+			"ADIAYQAAAAAAAAAAAAAA3oFuzABWAYBzAHUAcgBmAGEAYwBlAC0AbQBvAHUAbgB0AGUAZAAgAHMA"
+			"dAByAGEAaQBnAGgAdAAgAHMAbwBjAGsAZQB0ACAAcwB0AHIAaQBwACwAIAAxAHgAMAA3ACwAIAAx"
+			"AC4AMAAwAG0AbQAgAHAAaQB0AGMAaAAsACAAcwBpAG4AZwBsAGUAIAByAG8AdwAsACAAcwB0AHkA"
+			"bABlACAAMgAgACgAcABpAG4AIAAxACAAcgBpAGcAaAB0ACkAIAAoAGgAdAB0AHAAcwA6AC8ALwBn"
+			"AGMAdAAuAGMAbwAvAGYAaQBsAGUAcwAvAGQAcgBhAHcAaQBuAGcAcwAvAGIAYwAwADcAMAAuAHAA"
+			"ZABmACkALAAgAHMAYwByAGkAcAB0ACAAZwBlAG4AZQByAGEAdABlAGQAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAA5YFRzABXAYBHAGUAbgBlAHIAaQBjACAAUABoAG8AZQBuAGkAeAAgAEMAbwBuAHQA"
+			"YQBjAHQAIABjAG8AbgBuAGUAYwB0AG8AcgAgAGYAbwBvAHQAcAByAGkAbgB0ACAAZgBvAHIAOgAg"
+			"AE0AUwBUAEIAVgBfADIALAA1AC8AMQA2AC0ARwBGADsAIABuAHUAbQBiAGUAcgAgAG8AZgAgAHAA"
+			"aQBuAHMAOgAgADEANgA7ACAAcABpAG4AIABwAGkAdABjAGgAOgAgADUALgAwADAAbQBtADsAIABW"
+			"AGUAcgB0AGkAYwBhAGwAOwAgAHQAaAByAGUAYQBkAGUAZAAgAGYAbABhAG4AZwBlACAAfAB8ACAA"
+			"bwByAGQAZQByACAAbgB1AG0AYgBlAHIAOgAgADEANwA3ADYAMAAyADgAIAAxADIAQQAAAAAAAAAA"
+			"AAAAiIFEzABYAYBnAGUAbgBlAHIAaQBjACAAcABoAG8AZQBuAGkAeAAgAGMAbwBuAHQAYQBjAHQA"
+			"IABjAG8AbgBuAGUAYwB0AG8AcgAgAGYAbwBvAA=="
 		)
 	)
 	(label "BSE_2"
@@ -27510,7 +26970,7 @@
 		)
 		(uuid "1013f34d-95f3-469f-8add-3a732fe854c8")
 	)
-	(label "0.455V"
+	(label "0.385V"
 		(at 29.21 135.89 180)
 		(effects
 			(font
@@ -27530,7 +26990,7 @@
 		)
 		(uuid "3bd2d8a6-e6d2-4bfd-9a6f-eac37885e367")
 	)
-	(label "0.455V"
+	(label "0.385V"
 		(at 29.21 218.44 180)
 		(effects
 			(font
@@ -27571,7 +27031,7 @@
 		(uuid "6ab4b990-0f12-4f09-9369-07e8fed071ab")
 	)
 	(label "BSE_2"
-		(at 90.17 72.39 180)
+		(at 88.9 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27680,7 +27140,7 @@
 		)
 		(uuid "df3cae1e-c0ab-45d7-8c3d-4b686568903e")
 	)
-	(label "0.455V"
+	(label "0.385V"
 		(at 364.49 38.1 0)
 		(effects
 			(font
@@ -27700,7 +27160,7 @@
 		)
 		(uuid "eb3ecd29-19db-4ad9-ba1e-1377c410e117")
 	)
-	(label "0.455V"
+	(label "0.385V"
 		(at 29.21 175.26 180)
 		(effects
 			(font
@@ -28561,6 +28021,82 @@
 		)
 	)
 	(symbol
+		(lib_id "BSPD:SAMMY-4PIN")
+		(at 68.58 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd3cf73-8190-4f80-b1ec-7ee93e70bcf3")
+		(property "Reference" "J1"
+			(at 59.69 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SAMMY-4PIN"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "BSPD:SAMMY-4PIN"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131104?display=pdf"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b7d71c5-e632-4b78-afb2-938d2dc88f0a")
+		)
+		(pin "4"
+			(uuid "1037db3c-dfbb-4fb6-bfc5-77ae96aa1c39")
+		)
+		(pin "1"
+			(uuid "343e3d1a-8606-4986-b2a7-e7313b207764")
+		)
+		(pin "3"
+			(uuid "1c3f2543-a314-4eb1-8e52-f566dc4c054b")
+		)
+		(instances
+			(project ""
+				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 283.21 95.25 0)
 		(unit 1)
@@ -29091,93 +28627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ba030eb-50ff-43ae-bc5b-85ce735ab238")
-		(property "Reference" "C13"
-			(at 85.09 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 85.09 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 82.2452 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178200518582272"
-			(at 81.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C1945"
-			(at 81.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 81.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac3afd44-9d4c-4e28-a1a0-72f1f976f300")
-		)
-		(pin "1"
-			(uuid "1bff69a7-ced7-4b44-989b-d18a433640de")
-		)
-		(instances
-			(project "BPSD-2025"
-				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74AHC1G32")
 		(at 327.66 96.52 0)
 		(unit 1)
@@ -29502,88 +28951,6 @@
 			(project "BPSD-2025"
 				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSPD:SAMMY-3PIN")
-		(at 69.85 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "220ce92d-0d2d-4d86-bcb6-0e6a074cfc7d")
-		(property "Reference" "J2"
-			(at 60.96 59.69 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SAMMY-3PIN"
-			(at 60.96 62.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "BSPD:SAMMY-3PIN"
-			(at 61.468 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131203?display=pdf"
-			(at 59.944 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0512cf64-0924-4ea5-9034-82d6f6fd684e")
-		)
-		(pin "3"
-			(uuid "26ad6a46-b5dc-44c9-8930-c54ce27cf5e7")
-		)
-		(pin "2"
-			(uuid "82fe999e-a4f7-4e23-900b-ef039eee3f58")
-		)
-		(instances
-			(project "BPSD-2025"
-				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -30190,88 +29557,6 @@
 			(project "BPSD-2025"
 				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSPD:SAMMY-3PIN")
-		(at 68.58 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37693f71-62e3-4963-a192-1e426c7425f7")
-		(property "Reference" "J1"
-			(at 59.69 20.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SAMMY-3PIN"
-			(at 59.69 22.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "BSPD:SAMMY-3PIN"
-			(at 60.198 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131203?display=pdf"
-			(at 58.674 22.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac0c56ec-bcac-4d3a-9527-fb08f56d1eb7")
-		)
-		(pin "3"
-			(uuid "e867d728-9d05-45da-88ce-f6c82421497d")
-		)
-		(pin "2"
-			(uuid "9b934b45-a687-4908-a7f6-89f3c01ca5c3")
-		)
-		(instances
-			(project ""
-				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -30938,6 +30223,82 @@
 			(project "BPSD-2025"
 				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BSPD:SAMMY-4PIN")
+		(at 34.29 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af01449-c89e-4bfc-9b9c-67e435e73015")
+		(property "Reference" "J2"
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SAMMY-4PIN"
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "BSPD:SAMMY-4PIN"
+			(at 34.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131104?display=pdf"
+			(at 34.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03ad79e5-ff88-4a03-bcbc-32c453531b73")
+		)
+		(pin "4"
+			(uuid "2ce8094d-54a0-4bf9-9c7b-27be69f58cad")
+		)
+		(pin "1"
+			(uuid "f88c18c6-91ef-4c4b-8e85-b6080d2bb523")
+		)
+		(pin "3"
+			(uuid "a7b5dadf-465b-4d9c-9705-2f8071425577")
+		)
+		(instances
+			(project "BPSD-2025"
+				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -32169,72 +31530,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 74.93 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf09f9a-687a-41e6-a676-475737574450")
-		(property "Reference" "#PWR010"
-			(at 74.93 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2de77c5c-844d-4140-98f4-8ed4935fc162")
-		)
-		(instances
-			(project "BPSD-2025"
-				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 104.14 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32492,94 +31787,6 @@
 			(project "BPSD-2025"
 				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSPD:SAMMY-5PIN")
-		(at 34.29 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75227420-6dcb-429c-8e3a-491f2bfd860f")
-		(property "Reference" "J4"
-			(at 25.4 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SAMMY-5PIN"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "BSPD:SAMMY-5PIN"
-			(at 26.416 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1053131205?display=pdf"
-			(at 27.94 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "309b6cb2-171c-425a-94b5-5affea2e46da")
-		)
-		(pin "5"
-			(uuid "8915df55-e561-462d-9bf8-9677fb0200b8")
-		)
-		(pin "4"
-			(uuid "f614ebc2-b4f1-4eb1-ab1f-b30dcc8d16ba")
-		)
-		(pin "1"
-			(uuid "648900af-9c8c-4388-9fa2-2a4352cedb79")
-		)
-		(pin "2"
-			(uuid "18e1a859-132c-486f-8d49-ca01ce4fe8c9")
-		)
-		(instances
-			(project ""
-				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -33361,72 +32568,6 @@
 			(project "BPSD-2025"
 				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c7f7006-e481-425a-86d8-3e1d8f3cbc0f")
-		(property "Reference" "#PWR011"
-			(at 74.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b60e8185-a20e-4865-ab1e-20367fe4606f")
-		)
-		(instances
-			(project "BPSD-2025"
-				(path "/c38381ad-ace2-4bec-bd8c-7738a02552f5"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -35473,7 +34614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 358.14 34.2899 0)
 			(effects
 				(font
@@ -35491,7 +34632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC1210FR0710KL/C309586"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/193755-1210W2F1202T5E/C182355"
 			(at 355.6 33.02 0)
 			(effects
 				(font
@@ -35509,7 +34650,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C309586"
+		(property "JLC#" "C182355"
 			(at 355.6 33.02 0)
 			(effects
 				(font
@@ -35845,7 +34986,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4k87"
 			(at 275.59 104.14 90)
 			(effects
 				(font
@@ -35862,7 +35003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588910180973494272"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC1210FR074K87L/C230270"
 			(at 275.59 107.95 0)
 			(effects
 				(font
@@ -35880,7 +35021,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C230160"
+		(property "JLC#" "C230270"
 			(at 275.59 107.95 90)
 			(effects
 				(font
