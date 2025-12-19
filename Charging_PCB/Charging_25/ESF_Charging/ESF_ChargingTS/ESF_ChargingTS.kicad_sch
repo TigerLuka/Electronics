@@ -2085,7 +2085,7 @@
 		)
 		(uuid "4c7f713c-3f0f-4d79-878a-a28e3cf3f0cb")
 	)
-	(text_box "Accumulator"
+	(text_box "TRACTIVE SYSTEM BATTERY (TSB)"
 		(exclude_from_sim no)
 		(at 166.37 49.53 0)
 		(size 105.41 85.09)
@@ -2112,19 +2112,19 @@
 		(at 120.65 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "114f5f55-b471-42e9-b1b4-97391ca72cad")
-	)
-	(junction
-		(at 123.19 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5962d7b6-74b8-43a8-aaf0-9e6f3fc364ea")
+		(uuid "75e8b323-e716-4cef-a348-9a66bd517607")
 	)
 	(junction
 		(at 196.85 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2b9ceaa-363a-4fa2-8cac-338ad9bd276a")
+	)
+	(junction
+		(at 123.19 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4ec8ab9-33ed-4206-bddf-7c6afa67a6fb")
 	)
 	(junction
 		(at 196.85 88.9)
@@ -2354,17 +2354,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 78.74) (xy 269.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "42d80d3d-761b-4fca-b6c8-916c42c4d22d")
-	)
-	(wire
-		(pts
 			(xy 182.88 121.92) (xy 180.34 121.92)
 		)
 		(stroke
@@ -2474,6 +2463,28 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 119.38) (xy 120.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "560f2779-b4f5-4a4f-8684-15d5fce3914d")
+	)
+	(wire
+		(pts
+			(xy 123.19 119.38) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "5683a042-a807-4bff-aeda-aa89e8a25572")
+	)
+	(wire
+		(pts
 			(xy 182.88 116.84) (xy 180.34 116.84)
 		)
 		(stroke
@@ -2495,6 +2506,17 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "703d655d-80a6-40a1-b6b6-b7fdc7fe91ea")
+	)
+	(wire
+		(pts
 			(xy 101.6 95.25) (xy 123.19 95.25)
 		)
 		(stroke
@@ -2513,17 +2535,6 @@
 			(color 0 255 0 1)
 		)
 		(uuid "74eea32e-6b8e-4dae-9062-d0f06b41eea4")
-	)
-	(wire
-		(pts
-			(xy 204.47 76.2) (xy 228.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "782697ef-1789-400d-b9c9-90a50fe91794")
 	)
 	(wire
 		(pts
@@ -2560,6 +2571,17 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 95.25) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "8160fa22-327a-4d09-97cb-789741b4ea1c")
+	)
+	(wire
+		(pts
 			(xy 106.68 91.44) (xy 120.65 91.44)
 		)
 		(stroke
@@ -2578,6 +2600,17 @@
 			(color 0 255 0 1)
 		)
 		(uuid "87cb56f5-f52c-4dc2-813a-48659b256937")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "8a04a22d-d108-4666-99e1-fee85a1490e7")
 	)
 	(wire
 		(pts
@@ -2677,6 +2710,17 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 76.2) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "b42d0a87-f601-44b3-af69-e5bf69baccbe")
+	)
+	(wire
+		(pts
 			(xy 182.88 119.38) (xy 180.34 119.38)
 		)
 		(stroke
@@ -2710,17 +2754,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 78.74) (xy 248.92 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "c55d55f3-9b7a-43f8-abb3-e1a4d0ddfef1")
-	)
-	(wire
-		(pts
 			(xy 33.02 147.32) (xy 33.02 139.7)
 		)
 		(stroke
@@ -2750,17 +2783,6 @@
 			(type default)
 		)
 		(uuid "cf0e48dd-de18-443f-82ba-1c0b7fc9c36c")
-	)
-	(wire
-		(pts
-			(xy 120.65 91.44) (xy 120.65 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "d1b08f11-62a2-4593-a908-6c81b7a4be0c")
 	)
 	(wire
 		(pts
@@ -2807,14 +2829,14 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 95.25) (xy 123.19 138.43)
+			(xy 120.65 91.44) (xy 120.65 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 153 0 1)
 		)
-		(uuid "d98be00b-8384-4935-8aed-454c8b10978b")
+		(uuid "dbfa607a-655f-4f7a-b9f1-0aba939bc23e")
 	)
 	(wire
 		(pts
@@ -3167,6 +3189,74 @@
 		(uuid "fed1f842-b597-4aa1-9ebc-728c774bddd9")
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 123.19 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d20809a-0f3b-4fcb-8ba2-b8a9558d4799")
+		(property "Reference" "F3"
+			(at 116.84 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "8A Fuse"
+			(at 127 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.968 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce03a0b-9f6a-442d-969b-7158c2e4c00b")
+		)
+		(pin "2"
+			(uuid "255d1b42-0bf5-4853-b44b-f65f6045e0fa")
+		)
+		(instances
+			(project "ESF_ChargingTS"
+				(path "/19554fd2-0239-4caa-8cb4-b38f2c8d5e09"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
 		(at 165.1 91.44 0)
 		(unit 1)
@@ -3492,10 +3582,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e8fb7dc-5fea-4365-ab40-9115c7a37bab")
 		(property "Reference" "10k"
-			(at 109.22 87.6299 0)
+			(at 108.966 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,10 +3742,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82aa3450-4e3c-48a5-bfd3-2fe11a448f45")
 		(property "Reference" "10k"
-			(at 104.14 91.4399 0)
+			(at 96.266 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,15 +3806,15 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 252.73 78.74 90)
+		(at 120.65 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a5b17e9d-ae80-47f7-bfcf-19d7c9bff9fd")
-		(property "Reference" "F1"
-			(at 252.73 72.39 90)
+		(uuid "a0ec4c5f-26d6-44b9-bdbf-61ad2a4818ac")
+		(property "Reference" "F2"
+			(at 127 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,8 +3822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "200A Fuse"
-			(at 253.238 82.55 90)
+		(property "Value" "8A Fuse"
+			(at 116.84 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +3831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 80.518 90)
+			(at 118.872 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 78.74 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3849,75 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 252.73 78.74 0)
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95b77791-592c-418d-8c7e-ef62f288751a")
+		)
+		(pin "2"
+			(uuid "5d625afa-0599-4c43-b2da-b0f17d6f5cad")
+		)
+		(instances
+			(project "ESF_ChargingTS"
+				(path "/19554fd2-0239-4caa-8cb4-b38f2c8d5e09"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 218.44 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5b17e9d-ae80-47f7-bfcf-19d7c9bff9fd")
+		(property "Reference" "F1"
+			(at 218.44 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "200A Fuse"
+			(at 218.948 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 218.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

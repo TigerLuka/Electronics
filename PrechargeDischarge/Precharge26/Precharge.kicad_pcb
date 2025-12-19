@@ -30674,7 +30674,7 @@
 		(uuid "ee74d3a6-2998-4a3e-a6cb-97676cbfb7f0")
 	)
 	(gr_text "HV OUT \n(IR+,MC+)"
-		(at 100 59.5 0)
+		(at 80.25 54.28 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005e73a439")
 		(effects
@@ -30685,7 +30685,7 @@
 		)
 	)
 	(gr_text "NC"
-		(at 96 54.8 0)
+		(at 95.99 52.71 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005e73a445")
 		(effects
@@ -30896,7 +30896,7 @@
 		)
 	)
 	(gr_text "HV IN\n(IR+,TSB+)"
-		(at 80.5 56 0)
+		(at 98.38 57.12 0)
 		(layer "F.SilkS")
 		(uuid "f12ec284-d5bd-40dd-9b30-37031a868c1d")
 		(effects
