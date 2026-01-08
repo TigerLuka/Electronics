@@ -18484,7 +18484,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ea33f008-76d3-456f-ad03-7140e7c75206")
 	)
-	(gr_text "Charging Shutdown Circuit v3"
+	(gr_text "Charging Shutdown Circuit v4_26"
 		(at 63 56 0)
 		(layer "F.SilkS")
 		(uuid "15b6b3ae-b86b-4d25-acde-0e48a7cb7e9e")
