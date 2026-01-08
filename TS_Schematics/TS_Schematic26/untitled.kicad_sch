@@ -596,7 +596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:G2RL-1"
+		(symbol "Relay:G2RL-1A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -609,7 +609,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "G2RL-1"
+			(property "Value" "G2RL-1A"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -618,7 +618,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1"
+			(property "Footprint" "Relay_THT:Relay_SPST_Omron_G2RL-1A"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -637,7 +637,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "General Purpose Low Profile Relay SPDT Through Hole, Omron G2RL series, 12A 250VAC"
+			(property "Description" "General Purpose Low Profile Relay SPST Through Hole, Omron G2RL series, Normally Open, 12A 250VAC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -646,7 +646,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT Omron"
+			(property "ki_keywords" "Single Pole Relay SPST Omron NO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -655,7 +655,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPDT?Omron?G2RL*"
+			(property "ki_fp_filters" "Relay?SPST?Omron?G2RL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -664,7 +664,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "G2RL-1_0_0"
+			(symbol "G2RL-1A_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -678,7 +678,7 @@
 					)
 				)
 			)
-			(symbol "G2RL-1_0_1"
+			(symbol "G2RL-1A_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -787,18 +787,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
@@ -834,7 +822,7 @@
 					)
 				)
 			)
-			(symbol "G2RL-1_1_1"
+			(symbol "G2RL-1A_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -872,24 +860,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
@@ -899,7 +869,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2540,16 +2510,16 @@
 		(uuid "fcfad30b-ec95-4782-a2d0-4012e95001ed")
 	)
 	(junction
-		(at 284.48 336.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb92c38-4446-4572-a757-80f33ae47130")
-	)
-	(junction
-		(at 207.01 349.25)
+		(at 204.47 349.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fcdce00-a532-477b-83d8-c185662907a6")
+	)
+	(junction
+		(at 229.87 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31749a84-d837-4870-91f1-77b8772d4add")
 	)
 	(junction
 		(at 292.1 336.55)
@@ -2564,16 +2534,10 @@
 		(uuid "4bdd6a99-ac15-47a5-8d13-ff91464d42d5")
 	)
 	(junction
-		(at 232.41 251.46)
+		(at 284.48 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66cecf67-b226-49d5-be76-f1732af444c8")
-	)
-	(junction
-		(at 284.48 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b7a5cc4-0b91-4251-8f5a-4233f2c6e975")
+		(uuid "705dac14-8137-46ed-9772-9f1400b3b3e2")
 	)
 	(junction
 		(at 292.1 259.08)
@@ -2582,22 +2546,80 @@
 		(uuid "824b33aa-0169-4a40-893f-7574425da615")
 	)
 	(junction
-		(at 237.49 356.87)
+		(at 229.87 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8efb49b0-bb84-46f5-92d9-1a59d2bb5983")
+		(uuid "c6e1b4e0-ceea-4ee9-b76b-9e3930ff4a09")
 	)
 	(junction
-		(at 232.41 299.72)
+		(at 261.62 346.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1173764-2115-4dc9-b879-4663631b782d")
+		(uuid "ca53289e-2724-4d7f-bb45-97f7a2d66385")
+	)
+	(junction
+		(at 284.48 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d549ff88-fc0d-43a2-984e-753e0585d449")
+	)
+	(junction
+		(at 220.98 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d64e48df-20ec-4f2e-8db7-59d98a544079")
 	)
 	(junction
 		(at 302.26 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f64876ba-6815-4e81-a53c-5ddcbc3f7cf1")
+	)
+	(junction
+		(at 234.95 356.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f70834e0-9379-4844-8f11-e2d49899fbf4")
+	)
+	(wire
+		(pts
+			(xy 261.62 321.31) (xy 250.19 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000b2cf2-3bfe-49ea-aeb5-7f3b21223294")
+	)
+	(wire
+		(pts
+			(xy 193.04 308.61) (xy 220.98 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004843aa-cba8-4547-bc2b-798c35b3ca4f")
+	)
+	(wire
+		(pts
+			(xy 229.87 251.46) (xy 245.11 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029433de-a43d-40ac-8499-dc1dd2d396ba")
+	)
+	(wire
+		(pts
+			(xy 261.62 346.71) (xy 284.48 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a0fb3a-94d4-4930-8595-bb45dcfda363")
 	)
 	(wire
 		(pts
@@ -2621,16 +2643,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 336.55) (xy 284.48 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8cba7b-77bb-40fb-8642-aca025f0e148")
-	)
-	(wire
-		(pts
 			(xy 261.62 251.46) (xy 261.62 254)
 		)
 		(stroke
@@ -2641,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 351.79) (xy 237.49 351.79)
+			(xy 223.52 351.79) (xy 234.95 351.79)
 		)
 		(stroke
 			(width 0)
@@ -2671,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 339.09) (xy 232.41 339.09)
+			(xy 223.52 339.09) (xy 229.87 339.09)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 312.42) (xy 207.01 318.77)
+			(xy 234.95 303.53) (xy 234.95 309.88)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +2713,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 359.41) (xy 210.82 359.41)
+			(xy 229.87 273.05) (xy 229.87 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f6a145-92de-409b-ae61-ce6c5fa693d1")
+	)
+	(wire
+		(pts
+			(xy 204.47 359.41) (xy 208.28 359.41)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2763,37 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 361.95) (xy 226.06 361.95)
+			(xy 254 290.83) (xy 254 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7af133-d67b-4663-8b01-ed09d9745ea2")
+	)
+	(wire
+		(pts
+			(xy 228.6 264.16) (xy 269.24 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3e0632-9ab5-49ee-abab-4101b35a52c5")
+	)
+	(wire
+		(pts
+			(xy 234.95 356.87) (xy 276.86 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32073490-e972-44f8-b375-f05c1a18141b")
+	)
+	(wire
+		(pts
+			(xy 234.95 361.95) (xy 223.52 361.95)
 		)
 		(stroke
 			(width 0)
@@ -2761,7 +2813,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 356.87) (xy 237.49 361.95)
+			(xy 284.48 346.71) (xy 284.48 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b81ea3-4757-419c-a7fb-ae3fdbe1126d")
+	)
+	(wire
+		(pts
+			(xy 234.95 356.87) (xy 234.95 361.95)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 299.72) (xy 210.82 299.72)
+			(xy 234.95 290.83) (xy 238.76 290.83)
 		)
 		(stroke
 			(width 0)
@@ -2821,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 312.42) (xy 207.01 312.42)
+			(xy 238.76 303.53) (xy 234.95 303.53)
 		)
 		(stroke
 			(width 0)
@@ -2841,17 +2903,17 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 323.85) (xy 271.78 323.85)
+			(xy 242.57 321.31) (xy 238.76 321.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56f71c02-7250-49cc-89da-e7dd5b631bb5")
+		(uuid "54c589db-9c56-40ad-ac49-e409f4f85d8b")
 	)
 	(wire
 		(pts
-			(xy 205.74 339.09) (xy 205.74 341.63)
+			(xy 203.2 339.09) (xy 203.2 341.63)
 		)
 		(stroke
 			(width 0)
@@ -2861,13 +2923,33 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 339.09) (xy 205.74 339.09)
+			(xy 238.76 321.31) (xy 238.76 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637cd73e-11d1-41bc-95d8-addc2b615d19")
+	)
+	(wire
+		(pts
+			(xy 208.28 339.09) (xy 203.2 339.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64128000-9c92-48de-a3d5-0339e2d647e5")
+	)
+	(wire
+		(pts
+			(xy 276.86 334.01) (xy 254 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643025cf-54b3-43bd-8dda-87fb9a16e6e4")
 	)
 	(wire
 		(pts
@@ -2881,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 251.46) (xy 232.41 251.46)
+			(xy 228.6 251.46) (xy 229.87 251.46)
 		)
 		(stroke
 			(width 0)
@@ -2901,6 +2983,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 346.71) (xy 261.62 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708a9319-8959-4b1b-b511-cac8a53329e8")
+	)
+	(wire
+		(pts
 			(xy 111.76 261.62) (xy 130.81 261.62)
 		)
 		(stroke
@@ -2911,13 +3003,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 259.08) (xy 284.48 259.08)
+			(xy 269.24 259.08) (xy 284.48 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "757ef98d-3959-491b-8e51-a23b0042efb3")
+		(uuid "800e59dd-dcf5-4868-9361-94a54d022f2d")
 	)
 	(wire
 		(pts
@@ -2951,7 +3043,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 349.25) (xy 210.82 349.25)
+			(xy 226.06 344.17) (xy 226.06 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e86c0e-5a04-4f65-9bba-7e01e24ad40a")
+	)
+	(wire
+		(pts
+			(xy 204.47 349.25) (xy 208.28 349.25)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 349.25) (xy 207.01 349.25)
+			(xy 194.31 349.25) (xy 204.47 349.25)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 299.72) (xy 205.74 302.26)
+			(xy 234.95 290.83) (xy 234.95 292.1)
 		)
 		(stroke
 			(width 0)
@@ -3001,63 +3103,23 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 339.09) (xy 232.41 299.72)
+			(xy 261.62 321.31) (xy 261.62 346.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f661c48-83dd-4b6c-8b08-7416d5a4ab64")
+		(uuid "9213a051-7988-4fb8-a31e-c22466482505")
 	)
 	(wire
 		(pts
-			(xy 210.82 327.66) (xy 237.49 327.66)
+			(xy 254 273.05) (xy 229.87 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9353604a-5273-4b64-9801-88ba7efb4e31")
-	)
-	(wire
-		(pts
-			(xy 232.41 251.46) (xy 245.11 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "964e82eb-32be-4c8e-b746-db0b748ebb61")
-	)
-	(wire
-		(pts
-			(xy 245.11 334.01) (xy 245.11 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a60e502-53e6-4e24-b02f-d58d40386612")
-	)
-	(wire
-		(pts
-			(xy 210.82 322.58) (xy 210.82 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e3a557-562e-4571-974b-2f5ebb388c21")
-	)
-	(wire
-		(pts
-			(xy 237.49 356.87) (xy 278.13 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62c75ac-2be1-4ec5-904a-d5397e615b97")
+		(uuid "9bb77f4f-550d-46eb-a47e-03093d9df035")
 	)
 	(wire
 		(pts
@@ -3101,13 +3163,23 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 356.87) (xy 278.13 323.85)
+			(xy 238.76 334.01) (xy 236.22 334.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7692a5e-542d-495d-bbb8-d108da46662e")
+		(uuid "b2e2b336-cdb8-412c-91c4-ba0e56c73b1f")
+	)
+	(wire
+		(pts
+			(xy 276.86 356.87) (xy 276.86 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31c666b-97cb-4ce3-b86a-3e5fc26fcb3d")
 	)
 	(wire
 		(pts
@@ -3141,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 299.72) (xy 232.41 251.46)
+			(xy 229.87 251.46) (xy 229.87 273.05)
 		)
 		(stroke
 			(width 0)
@@ -3151,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 347.98) (xy 196.85 349.25)
+			(xy 194.31 347.98) (xy 194.31 349.25)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3233,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 351.79) (xy 237.49 356.87)
+			(xy 234.95 351.79) (xy 234.95 356.87)
 		)
 		(stroke
 			(width 0)
@@ -3171,13 +3243,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 349.25) (xy 207.01 359.41)
+			(xy 220.98 299.72) (xy 238.76 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c19d46-bfe6-4fe0-a75e-90e19501fd04")
+	)
+	(wire
+		(pts
+			(xy 204.47 349.25) (xy 204.47 359.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8353e3d-7a2c-4778-b7ec-730654496171")
+	)
+	(wire
+		(pts
+			(xy 226.06 308.61) (xy 220.98 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bdb7d5-8370-4d70-9414-00e155aa99e0")
 	)
 	(wire
 		(pts
@@ -3201,23 +3293,23 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 299.72) (xy 232.41 299.72)
+			(xy 220.98 308.61) (xy 220.98 299.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3a2aee9-6cab-4875-9cd5-064d5de87fb1")
+		(uuid "ce2f7e3f-4a74-41e4-b8d7-1e4e4e976bff")
 	)
 	(wire
 		(pts
-			(xy 193.04 308.61) (xy 210.82 308.61)
+			(xy 238.76 344.17) (xy 226.06 344.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d991fa7e-d0d6-4a9b-9be6-af3d9172c345")
+		(uuid "d5858976-60be-4651-bf52-482c527ce2b6")
 	)
 	(wire
 		(pts
@@ -3238,6 +3330,16 @@
 			(type default)
 		)
 		(uuid "e1817dbf-1446-461b-bce4-340c94fba8c4")
+	)
+	(wire
+		(pts
+			(xy 236.22 334.01) (xy 236.22 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51c5794-9928-4de6-b83b-c1f84854bece")
 	)
 	(wire
 		(pts
@@ -3271,16 +3373,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 334.01) (xy 245.11 334.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e58886-0cad-4eab-b232-f576f4815067")
-	)
-	(wire
-		(pts
 			(xy 292.1 336.55) (xy 302.26 336.55)
 		)
 		(stroke
@@ -3301,33 +3393,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 323.85) (xy 248.92 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5aee153-7aec-481a-88a8-a15eb6a7954a")
-	)
-	(wire
-		(pts
-			(xy 256.54 323.85) (xy 248.92 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f688823d-438c-46ba-a10c-0963675d0793")
-	)
-	(wire
-		(pts
-			(xy 207.01 318.77) (xy 210.82 318.77)
+			(xy 234.95 309.88) (xy 238.76 309.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbd5baeb-7f2a-4dc3-b2c5-ceb1f333730b")
+	)
+	(wire
+		(pts
+			(xy 269.24 264.16) (xy 269.24 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea1ebbb-eec4-4b19-aca1-44be0a8bc5a2")
 	)
 	(image
 		(at 173.99 109.22)
@@ -5418,17 +5500,6 @@
 		)
 		(uuid "9d7b390c-b5cb-45f2-826e-fcbfb1b7c113")
 	)
-	(label "20 AWG"
-		(at 223.52 327.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3a92750-1681-4e34-9ceb-fb0a75c38bf0")
-	)
 	(label "22 AWG"
 		(at 292.1 336.55 90)
 		(effects
@@ -5496,7 +5567,7 @@
 		(uuid "e6b023ce-fdfb-469a-87fc-e55954435bab")
 	)
 	(label "22 AWG"
-		(at 284.48 336.55 90)
+		(at 283.21 336.55 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5508,15 +5579,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 326.39 0)
+		(at 236.22 337.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "143b188d-8cae-4bc1-a5da-15b3a5006164")
+		(uuid "1de6dfa3-d21c-4993-ac67-01bb73cc515d")
 		(property "Reference" "#PWR09"
-			(at 248.92 332.74 0)
+			(at 236.22 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 330.454 0)
+			(at 236.22 341.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 326.39 0)
+			(at 236.22 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 326.39 0)
+			(at 236.22 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 326.39 0)
+			(at 236.22 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5631,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "afa0a169-45c2-4ca4-bd5d-757ca32b4925")
+			(uuid "2edffd6c-214a-4327-8fc4-01f11c04009f")
 		)
 		(instances
 			(project "TS_Schematic26"
@@ -5573,7 +5644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 341.63 0)
+		(at 203.2 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5581,7 +5652,7 @@
 		(dnp no)
 		(uuid "20fe594c-4bd2-48fa-86c5-d9b5ed338d58")
 		(property "Reference" "#PWR07"
-			(at 205.74 347.98 0)
+			(at 203.2 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 345.694 0)
+			(at 203.2 345.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 341.63 0)
+			(at 203.2 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 341.63 0)
+			(at 203.2 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 341.63 0)
+			(at 203.2 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,6 +5977,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G2RL-1A")
+		(at 220.98 256.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f9b715d-f2f1-4e29-9db6-4eedff884902")
+		(property "Reference" "K1"
+			(at 220.98 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR(-) - TE Connectivity"
+			(at 220.98 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G2RL-1A"
+			(at 219.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 220.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Low Profile Relay SPST Through Hole, Omron G2RL series, Normally Open, 12A 250VAC"
+			(at 220.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "95cae34e-6fd2-4074-87d9-78591db9a32a")
+		)
+		(pin "13"
+			(uuid "d8918e3f-84f2-4764-be6d-58e3c4320f5f")
+		)
+		(pin "A2"
+			(uuid "37b7e458-0446-4288-9c08-3ac6a2dd5a85")
+		)
+		(pin "14"
+			(uuid "753fbe8a-12c4-4eea-b591-f31d362b4e69")
+		)
+		(instances
+			(project ""
+				(path "/e1481e87-6566-4586-87b8-87c6b6e6a1a6/b54d7c79-0a63-48f0-8b4e-38329fd7cf34"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RML/IMD_1")
 		(lib_id "TS:RML/IMD")
 		(at 320.04 288.29 0)
@@ -6041,84 +6187,6 @@
 			(project "TS_Schematic26"
 				(path "/e1481e87-6566-4586-87b8-87c6b6e6a1a6/b54d7c79-0a63-48f0-8b4e-38329fd7cf34"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G2RL-1")
-		(at 264.16 328.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56cca4e0-8f8c-48ca-b3be-44eec47d66dc")
-		(property "Reference" "K3"
-			(at 264.16 313.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IR(+) - G2RL-1"
-			(at 264.16 316.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1"
-			(at 262.89 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-			(at 264.16 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Low Profile Relay SPDT Through Hole, Omron G2RL series, 12A 250VAC"
-			(at 264.16 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "a635bf13-973e-4817-b418-26f7a985efdf")
-		)
-		(pin "12"
-			(uuid "15561548-07bc-4ee9-b032-71db55f2f42c")
-		)
-		(pin "11"
-			(uuid "f785743d-a397-4cb4-b32e-8ef83cb2ebf6")
-		)
-		(pin "14"
-			(uuid "d7199d5b-2034-4dac-8320-654eac75368d")
-		)
-		(pin "A2"
-			(uuid "59ac0ee3-3fe7-4c7d-af2d-bcaaff2498ec")
-		)
-		(instances
-			(project "TS_Schematic26"
-				(path "/e1481e87-6566-4586-87b8-87c6b6e6a1a6/b54d7c79-0a63-48f0-8b4e-38329fd7cf34"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -6685,94 +6753,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G2RL-1")
-		(at 220.98 256.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ec830d2-7fe4-49fe-b55c-0614bbf7455d")
-		(property "Reference" "K2"
-			(at 220.98 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IR(-) - TE Connectivity"
-			(at 220.98 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1"
-			(at 219.71 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-			(at 220.98 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Low Profile Relay SPDT Through Hole, Omron G2RL series, 12A 250VAC"
-			(at 220.98 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "136e25ec-10dd-4f01-924b-5de9d14f3ef4")
-		)
-		(pin "12"
-			(uuid "569fdd40-1715-4d5e-8e68-90f195284b4d")
-		)
-		(pin "11"
-			(uuid "b5d3a98d-8022-4743-90fb-a43c74cbf18f")
-		)
-		(pin "14"
-			(uuid "058c9a06-6ee8-4020-a7a7-527e0346a1df")
-		)
-		(pin "A2"
-			(uuid "d14ba452-31be-42ef-b7df-2d6d3ad16d2d")
-		)
-		(instances
-			(project ""
-				(path "/e1481e87-6566-4586-87b8-87c6b6e6a1a6/b54d7c79-0a63-48f0-8b4e-38329fd7cf34"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TS:Precharge_Relay")
-		(at 217.17 311.15 270)
+		(at 245.11 302.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "82dbc8f3-ba07-4ae1-a33d-e16601ba953c")
-		(property "Reference" "U7"
-			(at 217.424 290.83 90)
+		(property "Reference" "K2"
+			(at 245.364 281.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6770,7 @@
 			)
 		)
 		(property "Value" "Precharge_G2R"
-			(at 217.17 293.116 90)
+			(at 245.11 284.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 311.15 0)
+			(at 245.11 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 311.15 0)
+			(at 245.11 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6796,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 311.15 0)
+			(at 245.11 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6825,7 @@
 		(instances
 			(project ""
 				(path "/e1481e87-6566-4586-87b8-87c6b6e6a1a6/b54d7c79-0a63-48f0-8b4e-38329fd7cf34"
-					(reference "U7")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -7042,8 +7032,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G2RL-1A")
+		(at 246.38 339.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "955ff6df-4ad4-441b-b6f4-ce864dd16ca2")
+		(property "Reference" "K3"
+			(at 246.38 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR(+) - G2RL-1"
+			(at 246.38 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G2RL-1A"
+			(at 245.11 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 246.38 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Low Profile Relay SPST Through Hole, Omron G2RL series, Normally Open, 12A 250VAC"
+			(at 246.38 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "5d60500e-d526-45c2-9f90-32f2a5e2e0cb")
+		)
+		(pin "13"
+			(uuid "0d0ef470-660a-4450-ab16-71741524216d")
+		)
+		(pin "A2"
+			(uuid "e219ed54-3779-48a7-afd6-ec830fc1b8d4")
+		)
+		(pin "14"
+			(uuid "6abbcb46-2b43-4c1c-af50-61db137d61f5")
+		)
+		(instances
+			(project "TS_Schematic26"
+				(path "/e1481e87-6566-4586-87b8-87c6b6e6a1a6/b54d7c79-0a63-48f0-8b4e-38329fd7cf34"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 205.74 302.26 0)
+		(at 234.95 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7051,7 +7116,7 @@
 		(dnp no)
 		(uuid "9be9bf5f-6c1e-47a3-9fa7-bcc3621698fa")
 		(property "Reference" "#PWR04"
-			(at 205.74 308.61 0)
+			(at 234.95 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 306.324 0)
+			(at 234.95 296.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 302.26 0)
+			(at 234.95 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 302.26 0)
+			(at 234.95 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 302.26 0)
+			(at 234.95 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7173,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 196.85 347.98 0)
+		(at 194.31 347.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7116,7 +7181,7 @@
 		(dnp no)
 		(uuid "a0c081c2-f579-4825-8cf2-2aebf08c57b2")
 		(property "Reference" "#PWR08"
-			(at 196.85 351.79 0)
+			(at 194.31 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7190,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 196.85 342.9 0)
+			(at 194.31 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 347.98 0)
+			(at 194.31 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 347.98 0)
+			(at 194.31 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 196.85 347.98 0)
+			(at 194.31 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7445,7 @@
 	)
 	(symbol
 		(lib_id "Relay:G2RL-2")
-		(at 218.44 349.25 270)
+		(at 215.9 349.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7389,7 +7454,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac3392bc-529a-45e4-842e-8330b6304b5b")
 		(property "Reference" "K4"
-			(at 218.44 328.93 90)
+			(at 215.9 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7462,7 @@
 			)
 		)
 		(property "Value" "Precharge_G2RL-2"
-			(at 218.44 331.47 90)
+			(at 215.9 331.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7470,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G2RL-2"
-			(at 217.17 365.76 0)
+			(at 214.63 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7480,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-			(at 218.44 349.25 0)
+			(at 215.9 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,7 +7489,7 @@
 			)
 		)
 		(property "Description" "General Purpose Low Profile Relay DPDT Through Hole, Omron G2RL series, 8A 250VAC"
-			(at 218.44 349.25 0)
+			(at 215.9 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,16 +7946,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 241.3 327.66 270)
+		(at 246.38 321.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e141865b-ca5b-48e2-b54a-9292cbcb2377")
 		(property "Reference" "R7"
-			(at 241.3 321.31 90)
+			(at 242.824 318.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7962,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 241.3 323.85 90)
+			(at 246.634 318.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +7970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.046 328.676 90)
+			(at 246.126 322.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 327.66 0)
+			(at 246.38 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +7988,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 241.3 327.66 0)
+			(at 246.38 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
