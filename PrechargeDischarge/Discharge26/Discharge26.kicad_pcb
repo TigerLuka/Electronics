@@ -3262,8 +3262,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DISCHARGE"
-		(at 130.5 74 90)
+	(gr_text "DISCHARGE_v2_26"
+		(at 129.98 84.12 90)
 		(layer "F.SilkS")
 		(uuid "c4b755d3-89a0-4feb-8c4c-d453c7e8eb1b")
 		(effects
