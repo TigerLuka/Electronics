@@ -5015,6 +5015,12 @@
 		(uuid "7f15eb73-ee36-44ae-adf4-a93b481fe7fa")
 	)
 	(junction
+		(at 398.78 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f2b38a-7a2a-4a16-9577-0ba64a4e4f5c")
+	)
+	(junction
 		(at 328.93 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5467,6 +5473,16 @@
 			(type default)
 		)
 		(uuid "1ec94930-e2b5-4206-b2ca-81c88dbf18db")
+	)
+	(wire
+		(pts
+			(xy 398.78 106.68) (xy 398.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3fbd1e-37fe-4f98-b589-fb2c99dc06a7")
 	)
 	(wire
 		(pts
@@ -6000,16 +6016,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 102.87) (xy 398.78 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6188682a-58c6-4400-8b83-d4be61d1b233")
-	)
-	(wire
-		(pts
 			(xy 71.12 198.12) (xy 69.85 198.12)
 		)
 		(stroke
@@ -6097,16 +6103,6 @@
 			(type default)
 		)
 		(uuid "6afab40a-62e5-4087-adf9-488f1d181d2e")
-	)
-	(wire
-		(pts
-			(xy 398.78 97.79) (xy 398.78 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b298aee-030f-4320-9881-547201c15d32")
 	)
 	(wire
 		(pts
@@ -6330,6 +6326,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 102.87) (xy 398.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ec040a-7ce0-4761-b5fb-996f888bdc3b")
+	)
+	(wire
+		(pts
 			(xy 292.1 97.79) (xy 292.1 93.98)
 		)
 		(stroke
@@ -6367,6 +6373,16 @@
 			(type default)
 		)
 		(uuid "9a7bac54-a152-40e2-9203-a9058a6d5f3e")
+	)
+	(wire
+		(pts
+			(xy 398.78 116.84) (xy 398.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a80f113-e628-4aa1-9525-40344cb168af")
 	)
 	(wire
 		(pts
@@ -6510,23 +6526,23 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 118.11) (xy 414.02 118.11)
+			(xy 398.78 87.63) (xy 398.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07e8282-bf8e-4f60-b78a-7ec1e172a9ea")
+	)
+	(wire
+		(pts
+			(xy 398.78 106.68) (xy 414.02 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1c8c2f6-d0af-4f10-aea7-7eb5bfece8ff")
-	)
-	(wire
-		(pts
-			(xy 398.78 115.57) (xy 398.78 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2893fd7-a255-4faf-88a0-c931bcf01fc7")
 	)
 	(wire
 		(pts
@@ -6907,6 +6923,16 @@
 			(type default)
 		)
 		(uuid "e56a714b-e6be-4211-8153-0616ec1f29fd")
+	)
+	(wire
+		(pts
+			(xy 398.78 64.77) (xy 398.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f0daa8-2b35-4c4b-ae03-a6865b00c2bf")
 	)
 	(wire
 		(pts
@@ -13660,7 +13686,7 @@
 		)
 	)
 	(label "IMD_OKhs"
-		(at 414.02 118.11 0)
+		(at 414.02 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16388,7 +16414,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 398.78 111.76 0)
+		(at 398.78 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16397,7 +16423,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c89f145-50b4-4eb7-9a38-12e3730e550d")
 		(property "Reference" "R5"
-			(at 401.32 110.4899 0)
+			(at 401.32 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16406,7 +16432,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 401.32 113.0299 0)
+			(at 401.32 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16415,7 +16441,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 399.796 112.014 90)
+			(at 399.796 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16424,7 +16450,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706499683172352"
-			(at 398.78 111.76 0)
+			(at 398.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16433,7 +16459,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 398.78 111.76 0)
+			(at 398.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16442,7 +16468,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1001T5E"
-			(at 398.78 111.76 0)
+			(at 398.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16451,7 +16477,7 @@
 			)
 		)
 		(property "Digikey" "1.00KXBK-ND"
-			(at 398.78 111.76 0)
+			(at 398.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16460,7 +16486,7 @@
 			)
 		)
 		(property "JLC#" " C17513"
-			(at 398.78 111.76 0)
+			(at 398.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20880,6 +20906,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 398.78 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2a715c4-539b-4aa8-afee-ee1ed1319b99")
+		(property "Reference" "#PWR019"
+			(at 398.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 394.716 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93df3e34-4bb5-40c7-a95d-f5b77551ab8f")
+		)
+		(instances
+			(project ""
+				(path "/88650a2b-6e67-4b1c-a95e-ec9c4f40b38b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 381 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22121,6 +22212,103 @@
 			(project "ChargingPCB26"
 				(path "/88650a2b-6e67-4b1c-a95e-ec9c4f40b38b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 398.78 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8f1347d-a8e9-42b8-b952-e586cd424c2a")
+		(property "Reference" "R13"
+			(at 401.32 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 401.32 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 399.796 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706499683172352"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1001T5E"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1.00KXBK-ND"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" " C17513"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6588d643-bb08-4a02-8f0c-9382ea493c65")
+		)
+		(pin "1"
+			(uuid "d93e1a95-2a42-42d5-bab6-93748c86977f")
+		)
+		(instances
+			(project "ChargingPCB26"
+				(path "/88650a2b-6e67-4b1c-a95e-ec9c4f40b38b"
+					(reference "R13")
 					(unit 1)
 				)
 			)
